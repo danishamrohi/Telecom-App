@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+.background{
+  background-size: cover;
+  background-position: -250px;
+}
+
+h1{
+  font-family: 'Secular One', sans-serif;
+  padding-top: 50px;
+  text-align: center;
+  color: rgb(56, 52, 52);
+  font-size:50px;
+  background-color: rgb(55, 59, 58);
+  padding-bottom: 25px;
+  color: white;
+  box-shadow: 5px 5px 5px gray;
+
+}
+
+h2{
+  background-color: black;
+  color: white;
+  }
+
+
+p{
+  text-align: center;
+  color: rgba(231, 221, 221, 0.983);
+}
+
+.button{
+  text-align: center;
+  margin-top: 25px;
+}
+
+.para{
+  margin: auto;
+  font-size: larger;
+  margin-top: 30px;
+  text-align: center;
+  background-color: rgb(58, 63, 63);
+  padding: 10px;
+  box-shadow: 5px 5px 5px gray;
+}
+
+body{
+ letter-spacing: 0.1rem;
+ line-height: 1.1rem;
+}
+.img{
+  text-align: center;
+  box-shadow: 5px 5px 5px 5px gray;
+}
+.click{
+  margin-top: 70px;
+
+}
+
+@media (max-width: 800px) {
+
+  img{
+    width: 300px;
+  }
+
+  .para{
+    padding-bottom: 150px;
+    background-color: white;
+  }
+
+  .para p{
+    color: rgb(20, 17, 17);
+  }
+
+  h1{
+    background-color: white;
+    color: black;
+    font-size: 25px;
+  }
+
+
+  .height{
+    min-height: 200px;
+  }
+
+}

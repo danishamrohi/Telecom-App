@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+
+
+
+.h1{
+  margin-bottom: 15px;
+}
+
+h1{
+  font-family: 'Roboto Slab', serif;
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.alert{
+  font-family: 'Roboto Slab', serif;
+  height: 50px;
+}
+
+.clsform-div{
+  font-family: 'Roboto Slab', serif;
+  background-color: white;
+  max-width: 50%;
+  margin: auto;
+  margin-bottom: 25px;
+  padding: 10px;
+}
+
+.container{
+  font-family: 'Roboto Slab', serif;
+  max-width: 80%;
+  margin: auto;
+  background-color: rgb(68, 65, 65);
+  padding: 25px;
+  margin-bottom:25px;
+  padding-top: 25px;
+  border: 5px solid black;
+  border-radius: 5px;
+  box-shadow: 10px 10px 10px gray;
+}
+
+table {
+  font-family: 'Roboto Slab', serif;
+  width: 100%;
+  padding: 5px;
+}
+
+.mat-form-field {
+  font-family: 'Roboto Slab', serif;
+  font-size: 14px;
+  width: 100%;
+}
+
+.matcards{
+  font-family: 'Roboto Slab', serif;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(122, 124, 126);
+  padding: 15px;
+}
+
+.matcard{
+  font-family: 'Roboto Slab', serif;
+  margin-right: 5px;
+  display: flex;
+  flex-direction: column;
+  background-color: lightcyan;
+}
+
+.clsbutton{
+  background-color: orange;
+}
+
+.alert {
+  font-family: 'Roboto Slab', serif;
+  background-color: #c45f58; /* Red */
+  color: white;
+  max-width: 50%;
+  margin-top: 25px;
+  margin: auto;
+  padding: 10px 30px;
+  max-height: 250px;
+  box-shadow: 25px 25px 25px rgb(199, 137, 137);
+}
+
+/* The close button */
+
+.closebtn {
+  font-family: 'Roboto Slab', serif;
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+
+.closebtn:hover {
+  color: black;
+
+}
+
+body{
+  background-size: cover;
+  background-image: url(../../assets/ppt3.jpg);
+}

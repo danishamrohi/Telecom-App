@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+
+.container{
+
+font-family: 'Roboto Slab', serif;
+  background-color: rgb(68, 65, 65);
+  max-width: 30%;
+  min-width: 300px;
+  margin: auto;
+  padding: 25px;
+  padding-bottom: 5rem;
+  text-align: center;
+  box-shadow: 5px 5px 5px  gray;
+  padding-top: 10px;
+}
+
+h1{
+
+font-family: 'Roboto Slab', serif;
+  text-align: center;
+  background-color: rgb(126, 17, 17);
+  color: white;
+  padding : 15px;
+  border: 1px solid rgb(58, 15, 15);
+}
+
+form{
+
+font-family: 'Roboto Slab', serif;
+  margin-top: 50px;
+  text-align: center;
+  font-size: large;
+  padding: 15px;
+}
+
+
+.field{
+
+font-family: 'Roboto Slab', serif;
+  min-width: 300px;
+  margin: auto;
+  font-size: medium;
+  text-align: center;
+  background-color: white;
+  margin-bottom: 50px;
+}
+
+button{
+  font-family: 'Roboto Slab', serif;
+  background-color: rgb(126, 17, 17);
+  color: white;
+  font-size: large;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 25x;
+  margin-right: 10px;
+}
+
+
+.example-form {
+  font-family: 'Roboto Slab', serif;
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.example-full-width {
+  width: 100%;
+}
+
+input{
+  background-color: white;
+}
+
+.wrapper{
+font-family: 'Roboto Slab', serif;
+  max-width: 80%;
+  min-width: 100px;
+  margin: auto;
+  margin-top: 25px;
+}
+
+.mat-elevation-z8{
+font-family: 'Roboto Slab', serif;
+  text-align: center;
+  width: 100%;
+}
+
+
+h2{
+font-family: 'Roboto Slab', serif;
+  background-color: rgb(68, 65, 65);
+  color: white;
+  text-align: center;
+  width: 100%;
+  padding: 15px;
+  padding-top: 20px;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.center{
+font-family: 'Roboto Slab', serif;
+  text-align: center;
+}
+
+.alert {
+font-family: 'Roboto Slab', serif;
+  padding: 20px;
+  background-color: #f44336; /* Red */
+  color: white;
+  margin-bottom: 15px;
+}
+
+/* The close button */
+.closebtn {
+font-family: 'Roboto Slab', serif;
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+  color: black;
+}
+
+body{
+  background-size: cover;
+  background-image: url(../../assets/ppt3.jpg);
+}
+
+/*
+@media (max-width: 800px) {
+
+form{
+  max-width: fit-content;
+  text-align: center;
+  max-width: 300px;
+
+}
+
+.field{
+  max-width: 100px;
+}
+
+} */
+

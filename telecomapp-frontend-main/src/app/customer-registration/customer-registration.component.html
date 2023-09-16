@@ -1,0 +1,62 @@
+<body>
+
+  <div *ngIf="errorState" class="alert">
+    <span class="closebtn" onclick="this.parentElement.style.display='none';" (click)="changeErrorState()">&times;</span>
+    {{ errMessage }}
+  </div>
+
+  <div class="container">
+    <div class="back">
+      <button class="backButton" (click)="openLogin()">Return</button>
+    </div>
+      <h1>Customer Registeration Page</h1>
+
+      <form name="customerForm" (ngSubmit)="f.form.valid && onSubmit()" #f="ngForm">
+
+        <mat-form-field class="field" appearance="fill">
+            <mat-label>Name</mat-label>
+            <input matInput type="text" id="name" type="text"   placeholder="Enter full Name"
+            name="name" required  #name="ngModel" [(ngModel)]="customerForm.name" >
+            <mat-icon matSuffix>person</mat-icon>
+        </mat-form-field>
+
+        <mat-form-field class="field" appearance="fill">
+          <mat-label>Enter your email</mat-label>
+          <mat-icon matSuffix>local_post_office</mat-icon>
+          <input matInput type="text" id="emailId" type="email"
+          placeholder="Enter Valid Email id" name="emailId" required
+          #emailId="ngModel" [(ngModel)]="customerForm.emailId" [email]="true">
+        </mat-form-field>
+
+        <mat-form-field class="field" appearance="fill">
+            <mat-label>UserName</mat-label>
+            <input matInput type="text" id="userName" type="text" placeholder="Enter valid UserName"
+            name="userName" required
+            #userName="ngModel" [(ngModel)]="customerForm.userName">
+            <mat-icon matSuffix>person</mat-icon>
+        </mat-form-field>
+
+        <mat-form-field class="field" appearance="fill">
+            <mat-label>Enter your password</mat-label>
+            <input matInput id="password" [type]="hide ? 'password' : 'text'" name="password"
+            required #password="ngModel" [(ngModel)]="customerForm.password">
+            <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
+              <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+            </button>
+        </mat-form-field>
+
+        <mat-form-field class="field" appearance="fill">
+            <mat-label>Phone Number</mat-label>
+            <input type="number"  matInput placeholder="Enter Phone Number"
+            id="phoneNumber" name="phoneNumber"
+            #phoneNumber="ngModel" [(ngModel)]="customerForm.phoneNumber" required>
+            <mat-icon matSuffix> local_phone</mat-icon>
+        </mat-form-field>
+      <div>
+        <button id="regsubmit" class="submit" mat-raised-button color="primary" type="submit">Submit</button>
+        <button class="submit" mat-raised-button color="primary" type="reset">Reset</button>
+      </div>
+    </form>
+
+  </div>
+</body>

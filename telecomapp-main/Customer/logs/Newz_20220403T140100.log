@@ -1,0 +1,1397 @@
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration boolean -> org.hibernate.type.BooleanType@5112b7
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration boolean -> org.hibernate.type.BooleanType@5112b7
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@5112b7
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@4276ad40
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration true_false -> org.hibernate.type.TrueFalseType@49190ed6
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration yes_no -> org.hibernate.type.YesNoType@2b7774d5
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration byte -> org.hibernate.type.ByteType@d62472f
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration byte -> org.hibernate.type.ByteType@d62472f
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@d62472f
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration character -> org.hibernate.type.CharacterType@6f3b13d0
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration char -> org.hibernate.type.CharacterType@6f3b13d0
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@6f3b13d0
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration short -> org.hibernate.type.ShortType@a826ff8
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration short -> org.hibernate.type.ShortType@a826ff8
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.lang.Short -> org.hibernate.type.ShortType@a826ff8
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration integer -> org.hibernate.type.IntegerType@79ad1774
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration int -> org.hibernate.type.IntegerType@79ad1774
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@79ad1774
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration long -> org.hibernate.type.LongType@1657b017
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration long -> org.hibernate.type.LongType@1657b017
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.lang.Long -> org.hibernate.type.LongType@1657b017
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration float -> org.hibernate.type.FloatType@300bb303
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration float -> org.hibernate.type.FloatType@300bb303
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.lang.Float -> org.hibernate.type.FloatType@300bb303
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration double -> org.hibernate.type.DoubleType@15d65fcf
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration double -> org.hibernate.type.DoubleType@15d65fcf
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@15d65fcf
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@67c21bf
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@67c21bf
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration big_integer -> org.hibernate.type.BigIntegerType@16e195cf
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@16e195cf
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration string -> org.hibernate.type.StringType@6133e20b
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.lang.String -> org.hibernate.type.StringType@6133e20b
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration nstring -> org.hibernate.type.StringNVarcharType@43deba42
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@2a7ebe07
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration url -> org.hibernate.type.UrlType@6fc1a8f6
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.net.URL -> org.hibernate.type.UrlType@6fc1a8f6
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration Duration -> org.hibernate.type.DurationType@33a47707
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.time.Duration -> org.hibernate.type.DurationType@33a47707
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration Instant -> org.hibernate.type.InstantType@acb5508
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.time.Instant -> org.hibernate.type.InstantType@acb5508
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@67a8bcbb
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@67a8bcbb
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration LocalDate -> org.hibernate.type.LocalDateType@6cceb281
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@6cceb281
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@7c3c453b
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@7c3c453b
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@7548e1fb
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@7548e1fb
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@1b475663
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@1b475663
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@4e2cdc51
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@4e2cdc51
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration date -> org.hibernate.type.DateType@e162a35
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.sql.Date -> org.hibernate.type.DateType@e162a35
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration time -> org.hibernate.type.TimeType@1231a1be
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.sql.Time -> org.hibernate.type.TimeType@1231a1be
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration timestamp -> org.hibernate.type.TimestampType@6ad6ae45
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@6ad6ae45
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.util.Date -> org.hibernate.type.TimestampType@6ad6ae45
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@690df641
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration calendar -> org.hibernate.type.CalendarType@595fed99
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@595fed99
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@595fed99
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@3321291a
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration calendar_time -> org.hibernate.type.CalendarTimeType@316d30ad
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration locale -> org.hibernate.type.LocaleType@7910f355
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@7910f355
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration currency -> org.hibernate.type.CurrencyType@5bb7a59
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@5bb7a59
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration timezone -> org.hibernate.type.TimeZoneType@754de353
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@754de353
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration class -> org.hibernate.type.ClassType@5885e231
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.lang.Class -> org.hibernate.type.ClassType@5885e231
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@602298b
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@602298b
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@d49e8c6
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration binary -> org.hibernate.type.BinaryType@74a85515
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration byte[] -> org.hibernate.type.BinaryType@74a85515
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration [B -> org.hibernate.type.BinaryType@74a85515
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@1d3d76b4
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@1d3d76b4
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@1d3d76b4
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration row_version -> org.hibernate.type.RowVersionType@5beb6be2
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration image -> org.hibernate.type.ImageType@31f31b20
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration characters -> org.hibernate.type.CharArrayType@350bbd5d
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration char[] -> org.hibernate.type.CharArrayType@350bbd5d
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration [C -> org.hibernate.type.CharArrayType@350bbd5d
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@7d28cdcd
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@7d28cdcd
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@7d28cdcd
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration text -> org.hibernate.type.TextType@1186374c
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration ntext -> org.hibernate.type.NTextType@9e62fb
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration blob -> org.hibernate.type.BlobType@6eabe718
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@6eabe718
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@4492b393
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration clob -> org.hibernate.type.ClobType@192b472d
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@192b472d
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration nclob -> org.hibernate.type.NClobType@5d92e8e2
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@5d92e8e2
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@374b6e33
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@6003220a
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration serializable -> org.hibernate.type.SerializableType@7dd91ffc
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration object -> org.hibernate.type.ObjectType@2e7bb00e
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@2e7bb00e
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@5b3518e1
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@5fd18419
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@3a88f6fb
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@7b451bf4
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@844e66d
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@5b665a30
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@26a45089
+2022-04-03 14:01:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@75ed7512
+2022-04-03 14:01:04 [main] DEBUG o.h.type.spi.TypeConfiguration$Scope -
+				Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@6febec41] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@3de88f64]
+2022-04-03 14:01:04 [main] DEBUG o.h.type.spi.TypeConfiguration$Scope -
+				Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@6febec41] to SessionFactoryImpl [org.hibernate.internal.SessionFactoryImpl@1a4cbcc6]
+2022-04-03 14:01:04 [main] TRACE o.h.type.spi.TypeConfiguration$Scope -
+				Handling #sessionFactoryCreated from [org.hibernate.internal.SessionFactoryImpl@1a4cbcc6] for TypeConfiguration
+2022-04-03 14:01:05 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -
+				spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-03 14:01:06 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger -
+				Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-04-03 14:01:07 [main] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient -
+				Request execution failed with message: I/O error on GET request for "http://localhost:8761/eureka/apps/": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2022-04-03 14:01:07 [main] WARN  c.netflix.discovery.DiscoveryClient -
+				Using default backup registry implementation which does not do anything.
+2022-04-03 14:01:07 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient -
+				Request execution failed with message: I/O error on POST request for "http://localhost:8761/eureka/apps/CUSTOMERSERVICE": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2022-04-03 14:01:07 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_CUSTOMERSERVICE/host.docker.internal:CustomerService:9094 - registration failed Cannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:876)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-04-03 14:01:07 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.n.discovery.InstanceInfoReplicator -
+				There was a problem with the instance info replicator
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:876)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-04-03 14:01:31 [http-nio-9094-exec-1] DEBUG org.hibernate.SQL -
+				select customer0_.user_name as user_nam1_0_, customer0_.email_id as email_id2_0_, customer0_.name as name3_0_, customer0_.password as password4_0_, customer0_.phone_number as phone_nu5_0_ from customer customer0_ where customer0_.user_name=? and customer0_.password=?
+2022-04-03 14:01:31 [http-nio-9094-exec-1] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [1] as [VARCHAR] - [admin]
+2022-04-03 14:01:31 [http-nio-9094-exec-1] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [2] as [VARCHAR] - [password]
+2022-04-03 14:01:31 [http-nio-9094-exec-1] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([user_nam1_0_] : [VARCHAR]) - [admin]
+2022-04-03 14:01:31 [http-nio-9094-exec-1] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([email_id2_0_] : [VARCHAR]) - [dan@yahoo.com]
+2022-04-03 14:01:31 [http-nio-9094-exec-1] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([name3_0_] : [VARCHAR]) - [dan]
+2022-04-03 14:01:31 [http-nio-9094-exec-1] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([password4_0_] : [VARCHAR]) - [password]
+2022-04-03 14:01:31 [http-nio-9094-exec-1] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([phone_nu5_0_] : [INTEGER]) - [12345678]
+2022-04-03 14:01:31 [http-nio-9094-exec-2] DEBUG org.hibernate.SQL -
+				select customer0_.user_name as user_nam1_0_0_, customer0_.email_id as email_id2_0_0_, customer0_.name as name3_0_0_, customer0_.password as password4_0_0_, customer0_.phone_number as phone_nu5_0_0_ from customer customer0_ where customer0_.user_name=?
+2022-04-03 14:01:31 [http-nio-9094-exec-2] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [1] as [VARCHAR] - [admin]
+2022-04-03 14:01:31 [http-nio-9094-exec-2] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([email_id2_0_0_] : [VARCHAR]) - [dan@yahoo.com]
+2022-04-03 14:01:31 [http-nio-9094-exec-2] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([name3_0_0_] : [VARCHAR]) - [dan]
+2022-04-03 14:01:31 [http-nio-9094-exec-2] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([password4_0_0_] : [VARCHAR]) - [password]
+2022-04-03 14:01:31 [http-nio-9094-exec-2] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([phone_nu5_0_0_] : [INTEGER]) - [12345678]
+2022-04-03 14:01:37 [DiscoveryClient-CacheRefreshExecutor-0] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient -
+				Request execution failed with message: I/O error on GET request for "http://localhost:8761/eureka/apps/": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2022-04-03 14:01:37 [DiscoveryClient-HeartbeatExecutor-0] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient -
+				Request execution failed with message: I/O error on PUT request for "http://localhost:8761/eureka/apps/CUSTOMERSERVICE/host.docker.internal:CustomerService:9094": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2022-04-03 14:01:37 [DiscoveryClient-HeartbeatExecutor-0] ERROR c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_CUSTOMERSERVICE/host.docker.internal:CustomerService:9094 - was unable to send heartbeat!
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:893)
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1457)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-04-03 14:01:37 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient -
+				Request execution failed with message: I/O error on POST request for "http://localhost:8761/eureka/apps/CUSTOMERSERVICE": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2022-04-03 14:01:37 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_CUSTOMERSERVICE/host.docker.internal:CustomerService:9094 - registration failed Cannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:876)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-04-03 14:01:37 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.n.discovery.InstanceInfoReplicator -
+				There was a problem with the instance info replicator
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:876)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-04-03 14:01:43 [http-nio-9094-exec-8] DEBUG org.hibernate.SQL -
+				select customer0_.user_name as user_nam1_0_0_, customer0_.email_id as email_id2_0_0_, customer0_.name as name3_0_0_, customer0_.password as password4_0_0_, customer0_.phone_number as phone_nu5_0_0_ from customer customer0_ where customer0_.user_name=?
+2022-04-03 14:01:43 [http-nio-9094-exec-8] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [1] as [VARCHAR] - [admin]
+2022-04-03 14:01:43 [http-nio-9094-exec-8] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([email_id2_0_0_] : [VARCHAR]) - [dan@yahoo.com]
+2022-04-03 14:01:43 [http-nio-9094-exec-8] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([name3_0_0_] : [VARCHAR]) - [dan]
+2022-04-03 14:01:43 [http-nio-9094-exec-8] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([password4_0_0_] : [VARCHAR]) - [password]
+2022-04-03 14:01:43 [http-nio-9094-exec-8] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([phone_nu5_0_0_] : [INTEGER]) - [12345678]
+2022-04-03 14:02:07 [DiscoveryClient-HeartbeatExecutor-0] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient -
+				Request execution failed with message: I/O error on PUT request for "http://localhost:8761/eureka/apps/CUSTOMERSERVICE/host.docker.internal:CustomerService:9094": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2022-04-03 14:02:07 [DiscoveryClient-CacheRefreshExecutor-0] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient -
+				Request execution failed with message: I/O error on GET request for "http://localhost:8761/eureka/apps/": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2022-04-03 14:02:07 [DiscoveryClient-HeartbeatExecutor-0] ERROR c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_CUSTOMERSERVICE/host.docker.internal:CustomerService:9094 - was unable to send heartbeat!
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:893)
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1457)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-04-03 14:02:07 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient -
+				Request execution failed with message: I/O error on POST request for "http://localhost:8761/eureka/apps/CUSTOMERSERVICE": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2022-04-03 14:02:07 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_CUSTOMERSERVICE/host.docker.internal:CustomerService:9094 - registration failed Cannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:876)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-04-03 14:02:07 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.n.discovery.InstanceInfoReplicator -
+				There was a problem with the instance info replicator
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:876)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-04-03 14:02:11 [http-nio-9094-exec-5] DEBUG org.hibernate.SQL -
+				select customer0_.user_name as user_nam1_0_0_, customer0_.email_id as email_id2_0_0_, customer0_.name as name3_0_0_, customer0_.password as password4_0_0_, customer0_.phone_number as phone_nu5_0_0_ from customer customer0_ where customer0_.user_name=?
+2022-04-03 14:02:11 [http-nio-9094-exec-9] DEBUG org.hibernate.SQL -
+				select customer0_.user_name as user_nam1_0_0_, customer0_.email_id as email_id2_0_0_, customer0_.name as name3_0_0_, customer0_.password as password4_0_0_, customer0_.phone_number as phone_nu5_0_0_ from customer customer0_ where customer0_.user_name=?
+2022-04-03 14:02:11 [http-nio-9094-exec-9] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [1] as [VARCHAR] - [admin]
+2022-04-03 14:02:11 [http-nio-9094-exec-5] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [1] as [VARCHAR] - [admin]
+2022-04-03 14:02:11 [http-nio-9094-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([email_id2_0_0_] : [VARCHAR]) - [dan@yahoo.com]
+2022-04-03 14:02:11 [http-nio-9094-exec-5] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([email_id2_0_0_] : [VARCHAR]) - [dan@yahoo.com]
+2022-04-03 14:02:11 [http-nio-9094-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([name3_0_0_] : [VARCHAR]) - [dan]
+2022-04-03 14:02:11 [http-nio-9094-exec-5] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([name3_0_0_] : [VARCHAR]) - [dan]
+2022-04-03 14:02:11 [http-nio-9094-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([password4_0_0_] : [VARCHAR]) - [password]
+2022-04-03 14:02:11 [http-nio-9094-exec-5] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([password4_0_0_] : [VARCHAR]) - [password]
+2022-04-03 14:02:11 [http-nio-9094-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([phone_nu5_0_0_] : [INTEGER]) - [12345678]
+2022-04-03 14:02:11 [http-nio-9094-exec-5] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([phone_nu5_0_0_] : [INTEGER]) - [12345678]
+2022-04-03 14:02:11 [http-nio-9094-exec-5] DEBUG org.hibernate.SQL -
+				update customer set email_id=?, name=?, password=?, phone_number=? where user_name=?
+2022-04-03 14:02:11 [http-nio-9094-exec-9] DEBUG org.hibernate.SQL -
+				update customer set email_id=?, name=?, password=?, phone_number=? where user_name=?
+2022-04-03 14:02:11 [http-nio-9094-exec-9] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [1] as [VARCHAR] - [Cool@uwo.ca]
+2022-04-03 14:02:11 [http-nio-9094-exec-5] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [1] as [VARCHAR] - [Cool@uwo.ca]
+2022-04-03 14:02:11 [http-nio-9094-exec-5] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [2] as [VARCHAR] - [Danny]
+2022-04-03 14:02:11 [http-nio-9094-exec-9] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [2] as [VARCHAR] - [Danny]
+2022-04-03 14:02:11 [http-nio-9094-exec-5] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [3] as [VARCHAR] - [password]
+2022-04-03 14:02:11 [http-nio-9094-exec-9] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [3] as [VARCHAR] - [password]
+2022-04-03 14:02:11 [http-nio-9094-exec-9] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [4] as [INTEGER] - [987654]
+2022-04-03 14:02:11 [http-nio-9094-exec-5] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [4] as [INTEGER] - [987654]
+2022-04-03 14:02:11 [http-nio-9094-exec-5] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [5] as [VARCHAR] - [admin]
+2022-04-03 14:02:11 [http-nio-9094-exec-9] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [5] as [VARCHAR] - [admin]
+2022-04-03 14:02:14 [http-nio-9094-exec-10] DEBUG org.hibernate.SQL -
+				select customer0_.user_name as user_nam1_0_0_, customer0_.email_id as email_id2_0_0_, customer0_.name as name3_0_0_, customer0_.password as password4_0_0_, customer0_.phone_number as phone_nu5_0_0_ from customer customer0_ where customer0_.user_name=?
+2022-04-03 14:02:14 [http-nio-9094-exec-10] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [1] as [VARCHAR] - [admin]
+2022-04-03 14:02:14 [http-nio-9094-exec-10] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([email_id2_0_0_] : [VARCHAR]) - [Cool@uwo.ca]
+2022-04-03 14:02:14 [http-nio-9094-exec-10] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([name3_0_0_] : [VARCHAR]) - [Danny]
+2022-04-03 14:02:14 [http-nio-9094-exec-10] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([password4_0_0_] : [VARCHAR]) - [password]
+2022-04-03 14:02:14 [http-nio-9094-exec-10] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([phone_nu5_0_0_] : [INTEGER]) - [987654]
+2022-04-03 14:02:37 [DiscoveryClient-CacheRefreshExecutor-0] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient -
+				Request execution failed with message: I/O error on GET request for "http://localhost:8761/eureka/apps/": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2022-04-03 14:02:37 [DiscoveryClient-HeartbeatExecutor-0] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient -
+				Request execution failed with message: I/O error on PUT request for "http://localhost:8761/eureka/apps/CUSTOMERSERVICE/host.docker.internal:CustomerService:9094": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2022-04-03 14:02:37 [DiscoveryClient-HeartbeatExecutor-0] ERROR c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_CUSTOMERSERVICE/host.docker.internal:CustomerService:9094 - was unable to send heartbeat!
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:893)
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1457)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-04-03 14:02:37 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient -
+				Request execution failed with message: I/O error on POST request for "http://localhost:8761/eureka/apps/CUSTOMERSERVICE": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2022-04-03 14:02:37 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_CUSTOMERSERVICE/host.docker.internal:CustomerService:9094 - registration failed Cannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:876)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-04-03 14:02:37 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.n.discovery.InstanceInfoReplicator -
+				There was a problem with the instance info replicator
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:876)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-04-03 14:03:04 [http-nio-9094-exec-3] DEBUG org.hibernate.SQL -
+				select customer0_.user_name as user_nam1_0_0_, customer0_.email_id as email_id2_0_0_, customer0_.name as name3_0_0_, customer0_.password as password4_0_0_, customer0_.phone_number as phone_nu5_0_0_ from customer customer0_ where customer0_.user_name=?
+2022-04-03 14:03:04 [http-nio-9094-exec-3] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [1] as [VARCHAR] - [admin]
+2022-04-03 14:03:04 [http-nio-9094-exec-3] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([email_id2_0_0_] : [VARCHAR]) - [Cool@uwo.ca]
+2022-04-03 14:03:04 [http-nio-9094-exec-3] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([name3_0_0_] : [VARCHAR]) - [Danny]
+2022-04-03 14:03:04 [http-nio-9094-exec-3] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([password4_0_0_] : [VARCHAR]) - [password]
+2022-04-03 14:03:04 [http-nio-9094-exec-3] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([phone_nu5_0_0_] : [INTEGER]) - [987654]
+2022-04-03 14:03:07 [DiscoveryClient-HeartbeatExecutor-0] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient -
+				Request execution failed with message: I/O error on PUT request for "http://localhost:8761/eureka/apps/CUSTOMERSERVICE/host.docker.internal:CustomerService:9094": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2022-04-03 14:03:07 [DiscoveryClient-CacheRefreshExecutor-0] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient -
+				Request execution failed with message: I/O error on GET request for "http://localhost:8761/eureka/apps/": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2022-04-03 14:03:07 [DiscoveryClient-HeartbeatExecutor-0] ERROR c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_CUSTOMERSERVICE/host.docker.internal:CustomerService:9094 - was unable to send heartbeat!
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:893)
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1457)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-04-03 14:03:07 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient -
+				Request execution failed with message: I/O error on POST request for "http://localhost:8761/eureka/apps/CUSTOMERSERVICE": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2022-04-03 14:03:07 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_CUSTOMERSERVICE/host.docker.internal:CustomerService:9094 - registration failed Cannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:876)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-04-03 14:03:07 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.n.discovery.InstanceInfoReplicator -
+				There was a problem with the instance info replicator
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:876)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-04-03 14:03:23 [http-nio-9094-exec-6] DEBUG org.hibernate.SQL -
+				select customer0_.user_name as user_nam1_0_0_, customer0_.email_id as email_id2_0_0_, customer0_.name as name3_0_0_, customer0_.password as password4_0_0_, customer0_.phone_number as phone_nu5_0_0_ from customer customer0_ where customer0_.user_name=?
+2022-04-03 14:03:23 [http-nio-9094-exec-6] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [1] as [VARCHAR] - [admin]
+2022-04-03 14:03:23 [http-nio-9094-exec-6] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([email_id2_0_0_] : [VARCHAR]) - [Cool@uwo.ca]
+2022-04-03 14:03:23 [http-nio-9094-exec-6] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([name3_0_0_] : [VARCHAR]) - [Danny]
+2022-04-03 14:03:23 [http-nio-9094-exec-6] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([password4_0_0_] : [VARCHAR]) - [password]
+2022-04-03 14:03:23 [http-nio-9094-exec-6] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([phone_nu5_0_0_] : [INTEGER]) - [987654]
+2022-04-03 14:03:26 [http-nio-9094-exec-2] DEBUG org.hibernate.SQL -
+				select customer0_.user_name as user_nam1_0_0_, customer0_.email_id as email_id2_0_0_, customer0_.name as name3_0_0_, customer0_.password as password4_0_0_, customer0_.phone_number as phone_nu5_0_0_ from customer customer0_ where customer0_.user_name=?
+2022-04-03 14:03:26 [http-nio-9094-exec-2] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [1] as [VARCHAR] - [admin]
+2022-04-03 14:03:26 [http-nio-9094-exec-2] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([email_id2_0_0_] : [VARCHAR]) - [Cool@uwo.ca]
+2022-04-03 14:03:26 [http-nio-9094-exec-2] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([name3_0_0_] : [VARCHAR]) - [Danny]
+2022-04-03 14:03:26 [http-nio-9094-exec-2] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([password4_0_0_] : [VARCHAR]) - [password]
+2022-04-03 14:03:26 [http-nio-9094-exec-2] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([phone_nu5_0_0_] : [INTEGER]) - [987654]
+2022-04-03 14:03:29 [http-nio-9094-exec-8] DEBUG org.hibernate.SQL -
+				select customer0_.user_name as user_nam1_0_0_, customer0_.email_id as email_id2_0_0_, customer0_.name as name3_0_0_, customer0_.password as password4_0_0_, customer0_.phone_number as phone_nu5_0_0_ from customer customer0_ where customer0_.user_name=?
+2022-04-03 14:03:29 [http-nio-9094-exec-8] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [1] as [VARCHAR] - [admin]
+2022-04-03 14:03:29 [http-nio-9094-exec-8] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([email_id2_0_0_] : [VARCHAR]) - [Cool@uwo.ca]
+2022-04-03 14:03:29 [http-nio-9094-exec-8] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([name3_0_0_] : [VARCHAR]) - [Danny]
+2022-04-03 14:03:29 [http-nio-9094-exec-8] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([password4_0_0_] : [VARCHAR]) - [password]
+2022-04-03 14:03:29 [http-nio-9094-exec-8] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([phone_nu5_0_0_] : [INTEGER]) - [987654]
+2022-04-03 14:03:37 [DiscoveryClient-CacheRefreshExecutor-0] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient -
+				Request execution failed with message: I/O error on GET request for "http://localhost:8761/eureka/apps/": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2022-04-03 14:03:37 [DiscoveryClient-HeartbeatExecutor-0] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient -
+				Request execution failed with message: I/O error on PUT request for "http://localhost:8761/eureka/apps/CUSTOMERSERVICE/host.docker.internal:CustomerService:9094": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2022-04-03 14:03:37 [DiscoveryClient-HeartbeatExecutor-0] ERROR c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_CUSTOMERSERVICE/host.docker.internal:CustomerService:9094 - was unable to send heartbeat!
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:893)
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1457)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-04-03 14:03:37 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient -
+				Request execution failed with message: I/O error on POST request for "http://localhost:8761/eureka/apps/CUSTOMERSERVICE": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2022-04-03 14:03:37 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_CUSTOMERSERVICE/host.docker.internal:CustomerService:9094 - registration failed Cannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:876)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-04-03 14:03:37 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.n.discovery.InstanceInfoReplicator -
+				There was a problem with the instance info replicator
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:876)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-04-03 14:03:57 [http-nio-9094-exec-7] DEBUG org.hibernate.SQL -
+				select customer0_.user_name as user_nam1_0_, customer0_.email_id as email_id2_0_, customer0_.name as name3_0_, customer0_.password as password4_0_, customer0_.phone_number as phone_nu5_0_ from customer customer0_ where customer0_.user_name=? and customer0_.password=?
+2022-04-03 14:03:57 [http-nio-9094-exec-7] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [1] as [VARCHAR] - [ph]
+2022-04-03 14:03:57 [http-nio-9094-exec-7] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [2] as [VARCHAR] - [321]
+2022-04-03 14:03:57 [http-nio-9094-exec-7] DEBUG org.hibernate.SQL -
+				select customer0_.user_name as user_nam1_0_0_, customer0_.email_id as email_id2_0_0_, customer0_.name as name3_0_0_, customer0_.password as password4_0_0_, customer0_.phone_number as phone_nu5_0_0_ from customer customer0_ where customer0_.user_name=?
+2022-04-03 14:03:57 [http-nio-9094-exec-7] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [1] as [VARCHAR] - [ph]
+2022-04-03 14:03:57 [http-nio-9094-exec-7] DEBUG org.hibernate.SQL -
+				insert into customer (email_id, name, password, phone_number, user_name) values (?, ?, ?, ?, ?)
+2022-04-03 14:03:57 [http-nio-9094-exec-7] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [1] as [VARCHAR] - [ljkvsn@kvjn.fg]
+2022-04-03 14:03:57 [http-nio-9094-exec-7] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [2] as [VARCHAR] - [njvdns]
+2022-04-03 14:03:57 [http-nio-9094-exec-7] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [3] as [VARCHAR] - [321]
+2022-04-03 14:03:57 [http-nio-9094-exec-7] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [4] as [INTEGER] - [4312]
+2022-04-03 14:03:57 [http-nio-9094-exec-7] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [5] as [VARCHAR] - [ph]
+2022-04-03 14:04:06 [http-nio-9094-exec-9] DEBUG org.hibernate.SQL -
+				select customer0_.user_name as user_nam1_0_, customer0_.email_id as email_id2_0_, customer0_.name as name3_0_, customer0_.password as password4_0_, customer0_.phone_number as phone_nu5_0_ from customer customer0_ where customer0_.user_name=? and customer0_.password=?
+2022-04-03 14:04:06 [http-nio-9094-exec-9] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [1] as [VARCHAR] - [ph]
+2022-04-03 14:04:06 [http-nio-9094-exec-9] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [2] as [VARCHAR] - [321]
+2022-04-03 14:04:06 [http-nio-9094-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([user_nam1_0_] : [VARCHAR]) - [ph]
+2022-04-03 14:04:06 [http-nio-9094-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([email_id2_0_] : [VARCHAR]) - [ljkvsn@kvjn.fg]
+2022-04-03 14:04:06 [http-nio-9094-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([name3_0_] : [VARCHAR]) - [njvdns]
+2022-04-03 14:04:06 [http-nio-9094-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([password4_0_] : [VARCHAR]) - [321]
+2022-04-03 14:04:06 [http-nio-9094-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([phone_nu5_0_] : [INTEGER]) - [4312]
+2022-04-03 14:04:06 [http-nio-9094-exec-10] DEBUG org.hibernate.SQL -
+				select customer0_.user_name as user_nam1_0_0_, customer0_.email_id as email_id2_0_0_, customer0_.name as name3_0_0_, customer0_.password as password4_0_0_, customer0_.phone_number as phone_nu5_0_0_ from customer customer0_ where customer0_.user_name=?
+2022-04-03 14:04:06 [http-nio-9094-exec-10] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [1] as [VARCHAR] - [ph]
+2022-04-03 14:04:06 [http-nio-9094-exec-10] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([email_id2_0_0_] : [VARCHAR]) - [ljkvsn@kvjn.fg]
+2022-04-03 14:04:06 [http-nio-9094-exec-10] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([name3_0_0_] : [VARCHAR]) - [njvdns]
+2022-04-03 14:04:06 [http-nio-9094-exec-10] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([password4_0_0_] : [VARCHAR]) - [321]
+2022-04-03 14:04:06 [http-nio-9094-exec-10] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([phone_nu5_0_0_] : [INTEGER]) - [4312]
+2022-04-03 14:04:07 [DiscoveryClient-HeartbeatExecutor-0] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient -
+				Request execution failed with message: I/O error on PUT request for "http://localhost:8761/eureka/apps/CUSTOMERSERVICE/host.docker.internal:CustomerService:9094": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2022-04-03 14:04:07 [DiscoveryClient-HeartbeatExecutor-0] ERROR c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_CUSTOMERSERVICE/host.docker.internal:CustomerService:9094 - was unable to send heartbeat!
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:893)
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1457)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-04-03 14:04:07 [DiscoveryClient-CacheRefreshExecutor-0] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient -
+				Request execution failed with message: I/O error on GET request for "http://localhost:8761/eureka/apps/": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2022-04-03 14:04:07 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient -
+				Request execution failed with message: I/O error on POST request for "http://localhost:8761/eureka/apps/CUSTOMERSERVICE": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2022-04-03 14:04:07 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_CUSTOMERSERVICE/host.docker.internal:CustomerService:9094 - registration failed Cannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:876)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-04-03 14:04:07 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.n.discovery.InstanceInfoReplicator -
+				There was a problem with the instance info replicator
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:876)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-04-03 14:04:09 [http-nio-9094-exec-1] DEBUG org.hibernate.SQL -
+				select customer0_.user_name as user_nam1_0_0_, customer0_.email_id as email_id2_0_0_, customer0_.name as name3_0_0_, customer0_.password as password4_0_0_, customer0_.phone_number as phone_nu5_0_0_ from customer customer0_ where customer0_.user_name=?
+2022-04-03 14:04:09 [http-nio-9094-exec-1] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [1] as [VARCHAR] - [ph]
+2022-04-03 14:04:09 [http-nio-9094-exec-1] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([email_id2_0_0_] : [VARCHAR]) - [ljkvsn@kvjn.fg]
+2022-04-03 14:04:09 [http-nio-9094-exec-1] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([name3_0_0_] : [VARCHAR]) - [njvdns]
+2022-04-03 14:04:09 [http-nio-9094-exec-1] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([password4_0_0_] : [VARCHAR]) - [321]
+2022-04-03 14:04:09 [http-nio-9094-exec-1] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([phone_nu5_0_0_] : [INTEGER]) - [4312]
+2022-04-03 14:04:09 [http-nio-9094-exec-1] DEBUG org.hibernate.SQL -
+				delete from customer where user_name=?
+2022-04-03 14:04:09 [http-nio-9094-exec-1] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [1] as [VARCHAR] - [ph]
+2022-04-03 14:04:16 [http-nio-9094-exec-6] DEBUG org.hibernate.SQL -
+				select customer0_.user_name as user_nam1_0_, customer0_.email_id as email_id2_0_, customer0_.name as name3_0_, customer0_.password as password4_0_, customer0_.phone_number as phone_nu5_0_ from customer customer0_ where customer0_.user_name=? and customer0_.password=?
+2022-04-03 14:04:16 [http-nio-9094-exec-6] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [1] as [VARCHAR] - [ph]
+2022-04-03 14:04:16 [http-nio-9094-exec-6] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [2] as [VARCHAR] - [321]
+2022-04-03 14:04:37 [DiscoveryClient-HeartbeatExecutor-0] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient -
+				Request execution failed with message: I/O error on PUT request for "http://localhost:8761/eureka/apps/CUSTOMERSERVICE/host.docker.internal:CustomerService:9094": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2022-04-03 14:04:37 [DiscoveryClient-CacheRefreshExecutor-0] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient -
+				Request execution failed with message: I/O error on GET request for "http://localhost:8761/eureka/apps/": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2022-04-03 14:04:37 [DiscoveryClient-HeartbeatExecutor-0] ERROR c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_CUSTOMERSERVICE/host.docker.internal:CustomerService:9094 - was unable to send heartbeat!
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:893)
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1457)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-04-03 14:04:37 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient -
+				Request execution failed with message: I/O error on POST request for "http://localhost:8761/eureka/apps/CUSTOMERSERVICE": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2022-04-03 14:04:37 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_CUSTOMERSERVICE/host.docker.internal:CustomerService:9094 - registration failed Cannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:876)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-04-03 14:04:37 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.n.discovery.InstanceInfoReplicator -
+				There was a problem with the instance info replicator
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:876)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-04-03 14:05:07 [DiscoveryClient-HeartbeatExecutor-0] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient -
+				Request execution failed with message: I/O error on PUT request for "http://localhost:8761/eureka/apps/CUSTOMERSERVICE/host.docker.internal:CustomerService:9094": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2022-04-03 14:05:07 [DiscoveryClient-HeartbeatExecutor-0] ERROR c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_CUSTOMERSERVICE/host.docker.internal:CustomerService:9094 - was unable to send heartbeat!
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:893)
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1457)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-04-03 14:05:07 [DiscoveryClient-CacheRefreshExecutor-0] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient -
+				Request execution failed with message: I/O error on GET request for "http://localhost:8761/eureka/apps/": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2022-04-03 14:05:07 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient -
+				Request execution failed with message: I/O error on POST request for "http://localhost:8761/eureka/apps/CUSTOMERSERVICE": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2022-04-03 14:05:07 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_CUSTOMERSERVICE/host.docker.internal:CustomerService:9094 - registration failed Cannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:876)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-04-03 14:05:07 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.n.discovery.InstanceInfoReplicator -
+				There was a problem with the instance info replicator
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:876)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-04-03 14:05:37 [DiscoveryClient-HeartbeatExecutor-0] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient -
+				Request execution failed with message: I/O error on PUT request for "http://localhost:8761/eureka/apps/CUSTOMERSERVICE/host.docker.internal:CustomerService:9094": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2022-04-03 14:05:37 [DiscoveryClient-CacheRefreshExecutor-0] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient -
+				Request execution failed with message: I/O error on GET request for "http://localhost:8761/eureka/apps/": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2022-04-03 14:05:37 [DiscoveryClient-HeartbeatExecutor-0] ERROR c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_CUSTOMERSERVICE/host.docker.internal:CustomerService:9094 - was unable to send heartbeat!
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:893)
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1457)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-04-03 14:05:37 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient -
+				Request execution failed with message: I/O error on POST request for "http://localhost:8761/eureka/apps/CUSTOMERSERVICE": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2022-04-03 14:05:37 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_CUSTOMERSERVICE/host.docker.internal:CustomerService:9094 - registration failed Cannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:876)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-04-03 14:05:37 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.n.discovery.InstanceInfoReplicator -
+				There was a problem with the instance info replicator
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:876)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-04-03 14:06:07 [DiscoveryClient-HeartbeatExecutor-0] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient -
+				Request execution failed with message: I/O error on PUT request for "http://localhost:8761/eureka/apps/CUSTOMERSERVICE/host.docker.internal:CustomerService:9094": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2022-04-03 14:06:07 [DiscoveryClient-CacheRefreshExecutor-0] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient -
+				Request execution failed with message: I/O error on GET request for "http://localhost:8761/eureka/apps/": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2022-04-03 14:06:07 [DiscoveryClient-HeartbeatExecutor-0] ERROR c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_CUSTOMERSERVICE/host.docker.internal:CustomerService:9094 - was unable to send heartbeat!
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:893)
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1457)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-04-03 14:06:07 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient -
+				Request execution failed with message: I/O error on POST request for "http://localhost:8761/eureka/apps/CUSTOMERSERVICE": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2022-04-03 14:06:07 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_CUSTOMERSERVICE/host.docker.internal:CustomerService:9094 - registration failed Cannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:876)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-04-03 14:06:07 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.n.discovery.InstanceInfoReplicator -
+				There was a problem with the instance info replicator
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:876)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-04-03 14:06:37 [DiscoveryClient-HeartbeatExecutor-0] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient -
+				Request execution failed with message: I/O error on PUT request for "http://localhost:8761/eureka/apps/CUSTOMERSERVICE/host.docker.internal:CustomerService:9094": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2022-04-03 14:06:37 [DiscoveryClient-CacheRefreshExecutor-0] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient -
+				Request execution failed with message: I/O error on GET request for "http://localhost:8761/eureka/apps/": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2022-04-03 14:06:37 [DiscoveryClient-HeartbeatExecutor-0] ERROR c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_CUSTOMERSERVICE/host.docker.internal:CustomerService:9094 - was unable to send heartbeat!
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:893)
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1457)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-04-03 14:06:37 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient -
+				Request execution failed with message: I/O error on POST request for "http://localhost:8761/eureka/apps/CUSTOMERSERVICE": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2022-04-03 14:06:37 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_CUSTOMERSERVICE/host.docker.internal:CustomerService:9094 - registration failed Cannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:876)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-04-03 14:06:37 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.n.discovery.InstanceInfoReplicator -
+				There was a problem with the instance info replicator
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:876)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-04-03 14:07:07 [DiscoveryClient-HeartbeatExecutor-0] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient -
+				Request execution failed with message: I/O error on PUT request for "http://localhost:8761/eureka/apps/CUSTOMERSERVICE/host.docker.internal:CustomerService:9094": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2022-04-03 14:07:07 [DiscoveryClient-HeartbeatExecutor-0] ERROR c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_CUSTOMERSERVICE/host.docker.internal:CustomerService:9094 - was unable to send heartbeat!
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:893)
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1457)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-04-03 14:07:07 [DiscoveryClient-CacheRefreshExecutor-0] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient -
+				Request execution failed with message: I/O error on GET request for "http://localhost:8761/eureka/apps/": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2022-04-03 14:07:07 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient -
+				Request execution failed with message: I/O error on POST request for "http://localhost:8761/eureka/apps/CUSTOMERSERVICE": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2022-04-03 14:07:07 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_CUSTOMERSERVICE/host.docker.internal:CustomerService:9094 - registration failed Cannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:876)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-04-03 14:07:07 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.n.discovery.InstanceInfoReplicator -
+				There was a problem with the instance info replicator
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:876)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-04-03 14:07:37 [DiscoveryClient-HeartbeatExecutor-0] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient -
+				Request execution failed with message: I/O error on PUT request for "http://localhost:8761/eureka/apps/CUSTOMERSERVICE/host.docker.internal:CustomerService:9094": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2022-04-03 14:07:37 [DiscoveryClient-CacheRefreshExecutor-0] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient -
+				Request execution failed with message: I/O error on GET request for "http://localhost:8761/eureka/apps/": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2022-04-03 14:07:37 [DiscoveryClient-HeartbeatExecutor-0] ERROR c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_CUSTOMERSERVICE/host.docker.internal:CustomerService:9094 - was unable to send heartbeat!
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:893)
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1457)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-04-03 14:07:37 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient -
+				Request execution failed with message: I/O error on POST request for "http://localhost:8761/eureka/apps/CUSTOMERSERVICE": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2022-04-03 14:07:37 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_CUSTOMERSERVICE/host.docker.internal:CustomerService:9094 - registration failed Cannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:876)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-04-03 14:07:37 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.n.discovery.InstanceInfoReplicator -
+				There was a problem with the instance info replicator
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:876)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-04-03 14:08:07 [DiscoveryClient-HeartbeatExecutor-0] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient -
+				Request execution failed with message: I/O error on PUT request for "http://localhost:8761/eureka/apps/CUSTOMERSERVICE/host.docker.internal:CustomerService:9094": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2022-04-03 14:08:07 [DiscoveryClient-CacheRefreshExecutor-0] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient -
+				Request execution failed with message: I/O error on GET request for "http://localhost:8761/eureka/apps/": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2022-04-03 14:08:07 [DiscoveryClient-HeartbeatExecutor-0] ERROR c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_CUSTOMERSERVICE/host.docker.internal:CustomerService:9094 - was unable to send heartbeat!
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:893)
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1457)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-04-03 14:08:07 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient -
+				Request execution failed with message: I/O error on POST request for "http://localhost:8761/eureka/apps/CUSTOMERSERVICE": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2022-04-03 14:08:07 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_CUSTOMERSERVICE/host.docker.internal:CustomerService:9094 - registration failed Cannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:876)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-04-03 14:08:07 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.n.discovery.InstanceInfoReplicator -
+				There was a problem with the instance info replicator
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:876)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-04-03 14:08:37 [DiscoveryClient-HeartbeatExecutor-0] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient -
+				Request execution failed with message: I/O error on PUT request for "http://localhost:8761/eureka/apps/CUSTOMERSERVICE/host.docker.internal:CustomerService:9094": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2022-04-03 14:08:37 [DiscoveryClient-HeartbeatExecutor-0] ERROR c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_CUSTOMERSERVICE/host.docker.internal:CustomerService:9094 - was unable to send heartbeat!
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:893)
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1457)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-04-03 14:08:37 [DiscoveryClient-CacheRefreshExecutor-0] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient -
+				Request execution failed with message: I/O error on GET request for "http://localhost:8761/eureka/apps/": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2022-04-03 14:08:37 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient -
+				Request execution failed with message: I/O error on POST request for "http://localhost:8761/eureka/apps/CUSTOMERSERVICE": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2022-04-03 14:08:37 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_CUSTOMERSERVICE/host.docker.internal:CustomerService:9094 - registration failed Cannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:876)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-04-03 14:08:37 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.n.discovery.InstanceInfoReplicator -
+				There was a problem with the instance info replicator
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:876)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-04-03 14:09:07 [DiscoveryClient-CacheRefreshExecutor-0] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient -
+				Request execution failed with message: I/O error on GET request for "http://localhost:8761/eureka/apps/": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2022-04-03 14:09:07 [DiscoveryClient-HeartbeatExecutor-0] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient -
+				Request execution failed with message: I/O error on PUT request for "http://localhost:8761/eureka/apps/CUSTOMERSERVICE/host.docker.internal:CustomerService:9094": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2022-04-03 14:09:07 [DiscoveryClient-HeartbeatExecutor-0] ERROR c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_CUSTOMERSERVICE/host.docker.internal:CustomerService:9094 - was unable to send heartbeat!
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:893)
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1457)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-04-03 14:09:07 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient -
+				Request execution failed with message: I/O error on POST request for "http://localhost:8761/eureka/apps/CUSTOMERSERVICE": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2022-04-03 14:09:07 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_CUSTOMERSERVICE/host.docker.internal:CustomerService:9094 - registration failed Cannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:876)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-04-03 14:09:07 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.n.discovery.InstanceInfoReplicator -
+				There was a problem with the instance info replicator
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:876)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-04-03 14:09:37 [DiscoveryClient-HeartbeatExecutor-0] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient -
+				Request execution failed with message: I/O error on PUT request for "http://localhost:8761/eureka/apps/CUSTOMERSERVICE/host.docker.internal:CustomerService:9094": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2022-04-03 14:09:37 [DiscoveryClient-HeartbeatExecutor-0] ERROR c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_CUSTOMERSERVICE/host.docker.internal:CustomerService:9094 - was unable to send heartbeat!
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:893)
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1457)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-04-03 14:09:37 [DiscoveryClient-CacheRefreshExecutor-0] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient -
+				Request execution failed with message: I/O error on GET request for "http://localhost:8761/eureka/apps/": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2022-04-03 14:09:37 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient -
+				Request execution failed with message: I/O error on POST request for "http://localhost:8761/eureka/apps/CUSTOMERSERVICE": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2022-04-03 14:09:37 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_CUSTOMERSERVICE/host.docker.internal:CustomerService:9094 - registration failed Cannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:876)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-04-03 14:09:37 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.n.discovery.InstanceInfoReplicator -
+				There was a problem with the instance info replicator
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:876)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)

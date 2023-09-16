@@ -1,0 +1,1086 @@
+2022-03-31 16:20:58 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration boolean -> org.hibernate.type.BooleanType@45cd8607
+2022-03-31 16:20:58 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration boolean -> org.hibernate.type.BooleanType@45cd8607
+2022-03-31 16:20:58 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@45cd8607
+2022-03-31 16:20:58 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@2026fbff
+2022-03-31 16:20:58 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration true_false -> org.hibernate.type.TrueFalseType@15586843
+2022-03-31 16:20:58 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration yes_no -> org.hibernate.type.YesNoType@6ef037e4
+2022-03-31 16:20:58 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration byte -> org.hibernate.type.ByteType@4c2ab536
+2022-03-31 16:20:58 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration byte -> org.hibernate.type.ByteType@4c2ab536
+2022-03-31 16:20:58 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@4c2ab536
+2022-03-31 16:20:58 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration character -> org.hibernate.type.CharacterType@1d8e9d3e
+2022-03-31 16:20:58 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration char -> org.hibernate.type.CharacterType@1d8e9d3e
+2022-03-31 16:20:58 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@1d8e9d3e
+2022-03-31 16:20:58 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration short -> org.hibernate.type.ShortType@46d1b59
+2022-03-31 16:20:58 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration short -> org.hibernate.type.ShortType@46d1b59
+2022-03-31 16:20:58 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.lang.Short -> org.hibernate.type.ShortType@46d1b59
+2022-03-31 16:20:58 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration integer -> org.hibernate.type.IntegerType@49cb5030
+2022-03-31 16:20:58 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration int -> org.hibernate.type.IntegerType@49cb5030
+2022-03-31 16:20:58 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@49cb5030
+2022-03-31 16:20:58 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration long -> org.hibernate.type.LongType@561d88ee
+2022-03-31 16:20:58 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration long -> org.hibernate.type.LongType@561d88ee
+2022-03-31 16:20:58 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.lang.Long -> org.hibernate.type.LongType@561d88ee
+2022-03-31 16:20:58 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration float -> org.hibernate.type.FloatType@7bec8cb0
+2022-03-31 16:20:58 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration float -> org.hibernate.type.FloatType@7bec8cb0
+2022-03-31 16:20:58 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.lang.Float -> org.hibernate.type.FloatType@7bec8cb0
+2022-03-31 16:20:58 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration double -> org.hibernate.type.DoubleType@1805383
+2022-03-31 16:20:58 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration double -> org.hibernate.type.DoubleType@1805383
+2022-03-31 16:20:58 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@1805383
+2022-03-31 16:20:58 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@7e848aea
+2022-03-31 16:20:58 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@7e848aea
+2022-03-31 16:20:58 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration big_integer -> org.hibernate.type.BigIntegerType@3375b118
+2022-03-31 16:20:58 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@3375b118
+2022-03-31 16:20:58 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration string -> org.hibernate.type.StringType@52ca0ad4
+2022-03-31 16:20:58 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.lang.String -> org.hibernate.type.StringType@52ca0ad4
+2022-03-31 16:20:58 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration nstring -> org.hibernate.type.StringNVarcharType@35dcd032
+2022-03-31 16:20:58 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@17b6ad97
+2022-03-31 16:20:58 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration url -> org.hibernate.type.UrlType@32dcfeea
+2022-03-31 16:20:58 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.net.URL -> org.hibernate.type.UrlType@32dcfeea
+2022-03-31 16:20:58 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration Duration -> org.hibernate.type.DurationType@113eed88
+2022-03-31 16:20:58 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.time.Duration -> org.hibernate.type.DurationType@113eed88
+2022-03-31 16:20:58 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration Instant -> org.hibernate.type.InstantType@71e2c6d8
+2022-03-31 16:20:58 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.time.Instant -> org.hibernate.type.InstantType@71e2c6d8
+2022-03-31 16:20:58 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@77ce88c4
+2022-03-31 16:20:58 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@77ce88c4
+2022-03-31 16:20:58 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration LocalDate -> org.hibernate.type.LocalDateType@4ab66127
+2022-03-31 16:20:58 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@4ab66127
+2022-03-31 16:20:58 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@46b5f061
+2022-03-31 16:20:58 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@46b5f061
+2022-03-31 16:20:59 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@5f409872
+2022-03-31 16:20:59 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@5f409872
+2022-03-31 16:20:59 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@2a6fb62f
+2022-03-31 16:20:59 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@2a6fb62f
+2022-03-31 16:20:59 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@1426370c
+2022-03-31 16:20:59 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@1426370c
+2022-03-31 16:20:59 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration date -> org.hibernate.type.DateType@376af784
+2022-03-31 16:20:59 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.sql.Date -> org.hibernate.type.DateType@376af784
+2022-03-31 16:20:59 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration time -> org.hibernate.type.TimeType@4b6b5352
+2022-03-31 16:20:59 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.sql.Time -> org.hibernate.type.TimeType@4b6b5352
+2022-03-31 16:20:59 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration timestamp -> org.hibernate.type.TimestampType@6ef1c3f7
+2022-03-31 16:20:59 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@6ef1c3f7
+2022-03-31 16:20:59 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.util.Date -> org.hibernate.type.TimestampType@6ef1c3f7
+2022-03-31 16:20:59 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@d504137
+2022-03-31 16:20:59 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration calendar -> org.hibernate.type.CalendarType@5ab63a04
+2022-03-31 16:20:59 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@5ab63a04
+2022-03-31 16:20:59 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@5ab63a04
+2022-03-31 16:20:59 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@2b3f7704
+2022-03-31 16:20:59 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration calendar_time -> org.hibernate.type.CalendarTimeType@3b57f915
+2022-03-31 16:20:59 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration locale -> org.hibernate.type.LocaleType@6aad919c
+2022-03-31 16:20:59 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@6aad919c
+2022-03-31 16:20:59 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration currency -> org.hibernate.type.CurrencyType@66298fe9
+2022-03-31 16:20:59 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@66298fe9
+2022-03-31 16:20:59 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration timezone -> org.hibernate.type.TimeZoneType@7bb4ed71
+2022-03-31 16:20:59 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@7bb4ed71
+2022-03-31 16:20:59 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration class -> org.hibernate.type.ClassType@15e08615
+2022-03-31 16:20:59 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.lang.Class -> org.hibernate.type.ClassType@15e08615
+2022-03-31 16:20:59 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@bd4ee01
+2022-03-31 16:20:59 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@bd4ee01
+2022-03-31 16:20:59 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@69e2fe3b
+2022-03-31 16:20:59 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration binary -> org.hibernate.type.BinaryType@467ef400
+2022-03-31 16:20:59 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration byte[] -> org.hibernate.type.BinaryType@467ef400
+2022-03-31 16:20:59 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration [B -> org.hibernate.type.BinaryType@467ef400
+2022-03-31 16:20:59 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@5d717f19
+2022-03-31 16:20:59 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@5d717f19
+2022-03-31 16:20:59 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@5d717f19
+2022-03-31 16:20:59 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration row_version -> org.hibernate.type.RowVersionType@3303e89e
+2022-03-31 16:20:59 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration image -> org.hibernate.type.ImageType@d62472f
+2022-03-31 16:20:59 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration characters -> org.hibernate.type.CharArrayType@6f3b13d0
+2022-03-31 16:20:59 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration char[] -> org.hibernate.type.CharArrayType@6f3b13d0
+2022-03-31 16:20:59 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration [C -> org.hibernate.type.CharArrayType@6f3b13d0
+2022-03-31 16:20:59 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@a826ff8
+2022-03-31 16:20:59 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@a826ff8
+2022-03-31 16:20:59 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@a826ff8
+2022-03-31 16:20:59 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration text -> org.hibernate.type.TextType@45d7495e
+2022-03-31 16:20:59 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration ntext -> org.hibernate.type.NTextType@64f3ca6
+2022-03-31 16:20:59 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration blob -> org.hibernate.type.BlobType@6e239337
+2022-03-31 16:20:59 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@6e239337
+2022-03-31 16:20:59 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@4243341e
+2022-03-31 16:20:59 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration clob -> org.hibernate.type.ClobType@52a67293
+2022-03-31 16:20:59 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@52a67293
+2022-03-31 16:20:59 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration nclob -> org.hibernate.type.NClobType@16e195cf
+2022-03-31 16:20:59 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@16e195cf
+2022-03-31 16:20:59 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@6d17914a
+2022-03-31 16:20:59 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@30ffb2a6
+2022-03-31 16:20:59 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration serializable -> org.hibernate.type.SerializableType@62cd562d
+2022-03-31 16:20:59 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration object -> org.hibernate.type.ObjectType@3ac0a14b
+2022-03-31 16:20:59 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@3ac0a14b
+2022-03-31 16:20:59 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@50ff7063
+2022-03-31 16:20:59 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@67a8bcbb
+2022-03-31 16:20:59 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@1bb96449
+2022-03-31 16:20:59 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@26ffd2c0
+2022-03-31 16:20:59 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@d28c214
+2022-03-31 16:20:59 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@2fc7fa6e
+2022-03-31 16:20:59 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@7f8c48f3
+2022-03-31 16:20:59 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@273dec10
+2022-03-31 16:21:00 [main] DEBUG o.h.type.spi.TypeConfiguration$Scope -
+				Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@4ca970d5] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@dc8b2ff]
+2022-03-31 16:21:00 [main] DEBUG o.h.type.spi.TypeConfiguration$Scope -
+				Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@4ca970d5] to SessionFactoryImpl [org.hibernate.internal.SessionFactoryImpl@1c135f63]
+2022-03-31 16:21:01 [main] TRACE o.h.type.spi.TypeConfiguration$Scope -
+				Handling #sessionFactoryCreated from [org.hibernate.internal.SessionFactoryImpl@1c135f63] for TypeConfiguration
+2022-03-31 16:21:03 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -
+				spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-31 16:21:05 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger -
+				Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-03-31 16:21:18 [http-nio-9092-exec-1] DEBUG org.hibernate.SQL -
+				select csr0_.csr_id as csr_id1_0_, csr0_.details as details2_0_, csr0_.email as email3_0_, csr0_.is_admin as is_admin4_0_, csr0_.is_enabled as is_enabl5_0_, csr0_.name as name6_0_, csr0_.password as password7_0_, csr0_.phone_no as phone_no8_0_, csr0_.user_name as user_nam9_0_ from csr csr0_
+2022-03-31 16:21:18 [http-nio-9092-exec-1] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([csr_id1_0_] : [INTEGER]) - [1]
+2022-03-31 16:21:18 [http-nio-9092-exec-1] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([details2_0_] : [VARCHAR]) - [null]
+2022-03-31 16:21:18 [http-nio-9092-exec-1] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([email3_0_] : [VARCHAR]) - [dan@yahoo.com]
+2022-03-31 16:21:18 [http-nio-9092-exec-1] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([is_admin4_0_] : [BOOLEAN]) - [false]
+2022-03-31 16:21:18 [http-nio-9092-exec-1] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([is_enabl5_0_] : [BOOLEAN]) - [false]
+2022-03-31 16:21:18 [http-nio-9092-exec-1] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([name6_0_] : [VARCHAR]) - [ainz]
+2022-03-31 16:21:18 [http-nio-9092-exec-1] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([password7_0_] : [VARCHAR]) - [ainz]
+2022-03-31 16:21:18 [http-nio-9092-exec-1] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([phone_no8_0_] : [INTEGER]) - [87654321]
+2022-03-31 16:21:18 [http-nio-9092-exec-1] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([user_nam9_0_] : [VARCHAR]) - [ainz]
+2022-03-31 16:21:23 [http-nio-9092-exec-5] DEBUG org.hibernate.SQL -
+				select count(*) as col_0_0_ from csr csr0_ where csr0_.csr_id=?
+2022-03-31 16:21:23 [http-nio-9092-exec-5] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [1] as [INTEGER] - [2]
+2022-03-31 16:21:23 [http-nio-9092-exec-5] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([col_0_0_] : [BIGINT]) - [0]
+2022-03-31 16:21:23 [http-nio-9092-exec-5] DEBUG org.hibernate.SQL -
+				select csr0_.csr_id as csr_id1_0_0_, csr0_.details as details2_0_0_, csr0_.email as email3_0_0_, csr0_.is_admin as is_admin4_0_0_, csr0_.is_enabled as is_enabl5_0_0_, csr0_.name as name6_0_0_, csr0_.password as password7_0_0_, csr0_.phone_no as phone_no8_0_0_, csr0_.user_name as user_nam9_0_0_ from csr csr0_ where csr0_.csr_id=?
+2022-03-31 16:21:23 [http-nio-9092-exec-5] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [1] as [INTEGER] - [2]
+2022-03-31 16:21:23 [http-nio-9092-exec-5] DEBUG org.hibernate.SQL -
+				insert into csr (details, email, is_admin, is_enabled, name, password, phone_no, user_name, csr_id) values (?, ?, ?, ?, ?, ?, ?, ?, ?)
+2022-03-31 16:21:23 [http-nio-9092-exec-5] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [1] as [VARCHAR] - [null]
+2022-03-31 16:21:23 [http-nio-9092-exec-5] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [2] as [VARCHAR] - [dan@yahoo.com]
+2022-03-31 16:21:23 [http-nio-9092-exec-5] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [3] as [BOOLEAN] - [false]
+2022-03-31 16:21:23 [http-nio-9092-exec-5] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [4] as [BOOLEAN] - [false]
+2022-03-31 16:21:23 [http-nio-9092-exec-5] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [5] as [VARCHAR] - [ainz]
+2022-03-31 16:21:23 [http-nio-9092-exec-5] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [6] as [VARCHAR] - [ainz]
+2022-03-31 16:21:23 [http-nio-9092-exec-5] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [7] as [INTEGER] - [87654321]
+2022-03-31 16:21:23 [http-nio-9092-exec-5] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [8] as [VARCHAR] - [ainz]
+2022-03-31 16:21:23 [http-nio-9092-exec-5] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [9] as [INTEGER] - [2]
+2022-03-31 16:21:31 [http-nio-9092-exec-6] DEBUG org.hibernate.SQL -
+				select csr0_.csr_id as csr_id1_0_, csr0_.details as details2_0_, csr0_.email as email3_0_, csr0_.is_admin as is_admin4_0_, csr0_.is_enabled as is_enabl5_0_, csr0_.name as name6_0_, csr0_.password as password7_0_, csr0_.phone_no as phone_no8_0_, csr0_.user_name as user_nam9_0_ from csr csr0_
+2022-03-31 16:21:31 [http-nio-9092-exec-6] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([csr_id1_0_] : [INTEGER]) - [1]
+2022-03-31 16:21:31 [http-nio-9092-exec-6] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([details2_0_] : [VARCHAR]) - [null]
+2022-03-31 16:21:31 [http-nio-9092-exec-6] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([email3_0_] : [VARCHAR]) - [dan@yahoo.com]
+2022-03-31 16:21:31 [http-nio-9092-exec-6] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([is_admin4_0_] : [BOOLEAN]) - [false]
+2022-03-31 16:21:31 [http-nio-9092-exec-6] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([is_enabl5_0_] : [BOOLEAN]) - [false]
+2022-03-31 16:21:31 [http-nio-9092-exec-6] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([name6_0_] : [VARCHAR]) - [ainz]
+2022-03-31 16:21:31 [http-nio-9092-exec-6] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([password7_0_] : [VARCHAR]) - [ainz]
+2022-03-31 16:21:31 [http-nio-9092-exec-6] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([phone_no8_0_] : [INTEGER]) - [87654321]
+2022-03-31 16:21:31 [http-nio-9092-exec-6] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([user_nam9_0_] : [VARCHAR]) - [ainz]
+2022-03-31 16:21:31 [http-nio-9092-exec-6] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([csr_id1_0_] : [INTEGER]) - [2]
+2022-03-31 16:21:31 [http-nio-9092-exec-6] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([details2_0_] : [VARCHAR]) - [null]
+2022-03-31 16:21:31 [http-nio-9092-exec-6] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([email3_0_] : [VARCHAR]) - [dan@yahoo.com]
+2022-03-31 16:21:31 [http-nio-9092-exec-6] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([is_admin4_0_] : [BOOLEAN]) - [false]
+2022-03-31 16:21:31 [http-nio-9092-exec-6] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([is_enabl5_0_] : [BOOLEAN]) - [false]
+2022-03-31 16:21:31 [http-nio-9092-exec-6] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([name6_0_] : [VARCHAR]) - [ainz]
+2022-03-31 16:21:31 [http-nio-9092-exec-6] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([password7_0_] : [VARCHAR]) - [ainz]
+2022-03-31 16:21:31 [http-nio-9092-exec-6] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([phone_no8_0_] : [INTEGER]) - [87654321]
+2022-03-31 16:21:31 [http-nio-9092-exec-6] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([user_nam9_0_] : [VARCHAR]) - [ainz]
+2022-03-31 16:21:36 [http-nio-9092-exec-9] DEBUG org.hibernate.SQL -
+				select csr0_.csr_id as csr_id1_0_0_, csr0_.details as details2_0_0_, csr0_.email as email3_0_0_, csr0_.is_admin as is_admin4_0_0_, csr0_.is_enabled as is_enabl5_0_0_, csr0_.name as name6_0_0_, csr0_.password as password7_0_0_, csr0_.phone_no as phone_no8_0_0_, csr0_.user_name as user_nam9_0_0_ from csr csr0_ where csr0_.csr_id=?
+2022-03-31 16:21:36 [http-nio-9092-exec-9] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [1] as [INTEGER] - [2]
+2022-03-31 16:21:36 [http-nio-9092-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([details2_0_0_] : [VARCHAR]) - [null]
+2022-03-31 16:21:36 [http-nio-9092-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([email3_0_0_] : [VARCHAR]) - [dan@yahoo.com]
+2022-03-31 16:21:36 [http-nio-9092-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([is_admin4_0_0_] : [BOOLEAN]) - [false]
+2022-03-31 16:21:36 [http-nio-9092-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([is_enabl5_0_0_] : [BOOLEAN]) - [false]
+2022-03-31 16:21:36 [http-nio-9092-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([name6_0_0_] : [VARCHAR]) - [ainz]
+2022-03-31 16:21:36 [http-nio-9092-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([password7_0_0_] : [VARCHAR]) - [ainz]
+2022-03-31 16:21:36 [http-nio-9092-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([phone_no8_0_0_] : [INTEGER]) - [87654321]
+2022-03-31 16:21:36 [http-nio-9092-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([user_nam9_0_0_] : [VARCHAR]) - [ainz]
+2022-03-31 16:21:36 [http-nio-9092-exec-9] DEBUG org.hibernate.SQL -
+				delete from csr where csr_id=?
+2022-03-31 16:21:36 [http-nio-9092-exec-9] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [1] as [INTEGER] - [2]
+2022-03-31 16:21:37 [http-nio-9092-exec-4] DEBUG org.hibernate.SQL -
+				select csr0_.csr_id as csr_id1_0_, csr0_.details as details2_0_, csr0_.email as email3_0_, csr0_.is_admin as is_admin4_0_, csr0_.is_enabled as is_enabl5_0_, csr0_.name as name6_0_, csr0_.password as password7_0_, csr0_.phone_no as phone_no8_0_, csr0_.user_name as user_nam9_0_ from csr csr0_
+2022-03-31 16:21:37 [http-nio-9092-exec-4] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([csr_id1_0_] : [INTEGER]) - [1]
+2022-03-31 16:21:37 [http-nio-9092-exec-4] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([details2_0_] : [VARCHAR]) - [null]
+2022-03-31 16:21:37 [http-nio-9092-exec-4] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([email3_0_] : [VARCHAR]) - [dan@yahoo.com]
+2022-03-31 16:21:37 [http-nio-9092-exec-4] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([is_admin4_0_] : [BOOLEAN]) - [false]
+2022-03-31 16:21:37 [http-nio-9092-exec-4] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([is_enabl5_0_] : [BOOLEAN]) - [false]
+2022-03-31 16:21:37 [http-nio-9092-exec-4] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([name6_0_] : [VARCHAR]) - [ainz]
+2022-03-31 16:21:37 [http-nio-9092-exec-4] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([password7_0_] : [VARCHAR]) - [ainz]
+2022-03-31 16:21:37 [http-nio-9092-exec-4] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([phone_no8_0_] : [INTEGER]) - [87654321]
+2022-03-31 16:21:37 [http-nio-9092-exec-4] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([user_nam9_0_] : [VARCHAR]) - [ainz]
+2022-03-31 16:21:49 [http-nio-9092-exec-7] DEBUG org.hibernate.SQL -
+				select count(*) as col_0_0_ from csr csr0_ where csr0_.csr_id=?
+2022-03-31 16:21:49 [http-nio-9092-exec-7] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [1] as [INTEGER] - [2]
+2022-03-31 16:21:49 [http-nio-9092-exec-7] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([col_0_0_] : [BIGINT]) - [0]
+2022-03-31 16:21:49 [http-nio-9092-exec-7] DEBUG org.hibernate.SQL -
+				select csr0_.csr_id as csr_id1_0_0_, csr0_.details as details2_0_0_, csr0_.email as email3_0_0_, csr0_.is_admin as is_admin4_0_0_, csr0_.is_enabled as is_enabl5_0_0_, csr0_.name as name6_0_0_, csr0_.password as password7_0_0_, csr0_.phone_no as phone_no8_0_0_, csr0_.user_name as user_nam9_0_0_ from csr csr0_ where csr0_.csr_id=?
+2022-03-31 16:21:49 [http-nio-9092-exec-7] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [1] as [INTEGER] - [2]
+2022-03-31 16:21:49 [http-nio-9092-exec-7] DEBUG org.hibernate.SQL -
+				insert into csr (details, email, is_admin, is_enabled, name, password, phone_no, user_name, csr_id) values (?, ?, ?, ?, ?, ?, ?, ?, ?)
+2022-03-31 16:21:49 [http-nio-9092-exec-7] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [1] as [VARCHAR] - [null]
+2022-03-31 16:21:49 [http-nio-9092-exec-7] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [2] as [VARCHAR] - [dan@yahoo.com]
+2022-03-31 16:21:49 [http-nio-9092-exec-7] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [3] as [BOOLEAN] - [false]
+2022-03-31 16:21:49 [http-nio-9092-exec-7] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [4] as [BOOLEAN] - [false]
+2022-03-31 16:21:49 [http-nio-9092-exec-7] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [5] as [VARCHAR] - [ainz]
+2022-03-31 16:21:49 [http-nio-9092-exec-7] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [6] as [VARCHAR] - [ainz]
+2022-03-31 16:21:49 [http-nio-9092-exec-7] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [7] as [INTEGER] - [87654321]
+2022-03-31 16:21:49 [http-nio-9092-exec-7] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [8] as [VARCHAR] - [ainz]
+2022-03-31 16:21:49 [http-nio-9092-exec-7] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [9] as [INTEGER] - [2]
+2022-03-31 16:21:51 [http-nio-9092-exec-8] DEBUG org.hibernate.SQL -
+				select csr0_.csr_id as csr_id1_0_, csr0_.details as details2_0_, csr0_.email as email3_0_, csr0_.is_admin as is_admin4_0_, csr0_.is_enabled as is_enabl5_0_, csr0_.name as name6_0_, csr0_.password as password7_0_, csr0_.phone_no as phone_no8_0_, csr0_.user_name as user_nam9_0_ from csr csr0_
+2022-03-31 16:21:51 [http-nio-9092-exec-8] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([csr_id1_0_] : [INTEGER]) - [1]
+2022-03-31 16:21:51 [http-nio-9092-exec-8] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([details2_0_] : [VARCHAR]) - [null]
+2022-03-31 16:21:51 [http-nio-9092-exec-8] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([email3_0_] : [VARCHAR]) - [dan@yahoo.com]
+2022-03-31 16:21:51 [http-nio-9092-exec-8] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([is_admin4_0_] : [BOOLEAN]) - [false]
+2022-03-31 16:21:51 [http-nio-9092-exec-8] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([is_enabl5_0_] : [BOOLEAN]) - [false]
+2022-03-31 16:21:51 [http-nio-9092-exec-8] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([name6_0_] : [VARCHAR]) - [ainz]
+2022-03-31 16:21:51 [http-nio-9092-exec-8] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([password7_0_] : [VARCHAR]) - [ainz]
+2022-03-31 16:21:51 [http-nio-9092-exec-8] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([phone_no8_0_] : [INTEGER]) - [87654321]
+2022-03-31 16:21:51 [http-nio-9092-exec-8] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([user_nam9_0_] : [VARCHAR]) - [ainz]
+2022-03-31 16:21:51 [http-nio-9092-exec-8] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([csr_id1_0_] : [INTEGER]) - [2]
+2022-03-31 16:21:51 [http-nio-9092-exec-8] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([details2_0_] : [VARCHAR]) - [null]
+2022-03-31 16:21:51 [http-nio-9092-exec-8] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([email3_0_] : [VARCHAR]) - [dan@yahoo.com]
+2022-03-31 16:21:51 [http-nio-9092-exec-8] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([is_admin4_0_] : [BOOLEAN]) - [false]
+2022-03-31 16:21:51 [http-nio-9092-exec-8] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([is_enabl5_0_] : [BOOLEAN]) - [false]
+2022-03-31 16:21:51 [http-nio-9092-exec-8] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([name6_0_] : [VARCHAR]) - [ainz]
+2022-03-31 16:21:51 [http-nio-9092-exec-8] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([password7_0_] : [VARCHAR]) - [ainz]
+2022-03-31 16:21:51 [http-nio-9092-exec-8] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([phone_no8_0_] : [INTEGER]) - [87654321]
+2022-03-31 16:21:51 [http-nio-9092-exec-8] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([user_nam9_0_] : [VARCHAR]) - [ainz]
+2022-03-31 16:21:53 [http-nio-9092-exec-10] DEBUG org.hibernate.SQL -
+				select csr0_.csr_id as csr_id1_0_0_, csr0_.details as details2_0_0_, csr0_.email as email3_0_0_, csr0_.is_admin as is_admin4_0_0_, csr0_.is_enabled as is_enabl5_0_0_, csr0_.name as name6_0_0_, csr0_.password as password7_0_0_, csr0_.phone_no as phone_no8_0_0_, csr0_.user_name as user_nam9_0_0_ from csr csr0_ where csr0_.csr_id=?
+2022-03-31 16:21:53 [http-nio-9092-exec-10] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [1] as [INTEGER] - [2]
+2022-03-31 16:21:53 [http-nio-9092-exec-10] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([details2_0_0_] : [VARCHAR]) - [null]
+2022-03-31 16:21:53 [http-nio-9092-exec-10] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([email3_0_0_] : [VARCHAR]) - [dan@yahoo.com]
+2022-03-31 16:21:53 [http-nio-9092-exec-10] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([is_admin4_0_0_] : [BOOLEAN]) - [false]
+2022-03-31 16:21:53 [http-nio-9092-exec-10] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([is_enabl5_0_0_] : [BOOLEAN]) - [false]
+2022-03-31 16:21:53 [http-nio-9092-exec-10] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([name6_0_0_] : [VARCHAR]) - [ainz]
+2022-03-31 16:21:53 [http-nio-9092-exec-10] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([password7_0_0_] : [VARCHAR]) - [ainz]
+2022-03-31 16:21:53 [http-nio-9092-exec-10] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([phone_no8_0_0_] : [INTEGER]) - [87654321]
+2022-03-31 16:21:53 [http-nio-9092-exec-10] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([user_nam9_0_0_] : [VARCHAR]) - [ainz]
+2022-03-31 16:21:53 [http-nio-9092-exec-10] DEBUG org.hibernate.SQL -
+				delete from csr where csr_id=?
+2022-03-31 16:21:53 [http-nio-9092-exec-10] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [1] as [INTEGER] - [2]
+2022-03-31 16:21:53 [http-nio-9092-exec-2] DEBUG org.hibernate.SQL -
+				select csr0_.csr_id as csr_id1_0_, csr0_.details as details2_0_, csr0_.email as email3_0_, csr0_.is_admin as is_admin4_0_, csr0_.is_enabled as is_enabl5_0_, csr0_.name as name6_0_, csr0_.password as password7_0_, csr0_.phone_no as phone_no8_0_, csr0_.user_name as user_nam9_0_ from csr csr0_
+2022-03-31 16:21:53 [http-nio-9092-exec-2] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([csr_id1_0_] : [INTEGER]) - [1]
+2022-03-31 16:21:53 [http-nio-9092-exec-2] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([details2_0_] : [VARCHAR]) - [null]
+2022-03-31 16:21:53 [http-nio-9092-exec-2] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([email3_0_] : [VARCHAR]) - [dan@yahoo.com]
+2022-03-31 16:21:53 [http-nio-9092-exec-2] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([is_admin4_0_] : [BOOLEAN]) - [false]
+2022-03-31 16:21:53 [http-nio-9092-exec-2] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([is_enabl5_0_] : [BOOLEAN]) - [false]
+2022-03-31 16:21:53 [http-nio-9092-exec-2] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([name6_0_] : [VARCHAR]) - [ainz]
+2022-03-31 16:21:53 [http-nio-9092-exec-2] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([password7_0_] : [VARCHAR]) - [ainz]
+2022-03-31 16:21:53 [http-nio-9092-exec-2] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([phone_no8_0_] : [INTEGER]) - [87654321]
+2022-03-31 16:21:53 [http-nio-9092-exec-2] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([user_nam9_0_] : [VARCHAR]) - [ainz]
+2022-03-31 16:21:59 [http-nio-9092-exec-1] DEBUG org.hibernate.SQL -
+				select count(*) as col_0_0_ from csr csr0_ where csr0_.csr_id=?
+2022-03-31 16:21:59 [http-nio-9092-exec-1] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [1] as [INTEGER] - [2]
+2022-03-31 16:21:59 [http-nio-9092-exec-1] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([col_0_0_] : [BIGINT]) - [0]
+2022-03-31 16:21:59 [http-nio-9092-exec-1] DEBUG org.hibernate.SQL -
+				select csr0_.csr_id as csr_id1_0_0_, csr0_.details as details2_0_0_, csr0_.email as email3_0_0_, csr0_.is_admin as is_admin4_0_0_, csr0_.is_enabled as is_enabl5_0_0_, csr0_.name as name6_0_0_, csr0_.password as password7_0_0_, csr0_.phone_no as phone_no8_0_0_, csr0_.user_name as user_nam9_0_0_ from csr csr0_ where csr0_.csr_id=?
+2022-03-31 16:21:59 [http-nio-9092-exec-1] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [1] as [INTEGER] - [2]
+2022-03-31 16:21:59 [http-nio-9092-exec-1] DEBUG org.hibernate.SQL -
+				insert into csr (details, email, is_admin, is_enabled, name, password, phone_no, user_name, csr_id) values (?, ?, ?, ?, ?, ?, ?, ?, ?)
+2022-03-31 16:21:59 [http-nio-9092-exec-1] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [1] as [VARCHAR] - [null]
+2022-03-31 16:21:59 [http-nio-9092-exec-1] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [2] as [VARCHAR] - [dan@yahoo.com]
+2022-03-31 16:21:59 [http-nio-9092-exec-1] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [3] as [BOOLEAN] - [false]
+2022-03-31 16:21:59 [http-nio-9092-exec-1] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [4] as [BOOLEAN] - [false]
+2022-03-31 16:21:59 [http-nio-9092-exec-1] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [5] as [VARCHAR] - [ainz]
+2022-03-31 16:21:59 [http-nio-9092-exec-1] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [6] as [VARCHAR] - [ainz]
+2022-03-31 16:21:59 [http-nio-9092-exec-1] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [7] as [INTEGER] - [87654321]
+2022-03-31 16:21:59 [http-nio-9092-exec-1] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [8] as [VARCHAR] - [ainz]
+2022-03-31 16:21:59 [http-nio-9092-exec-1] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [9] as [INTEGER] - [2]
+2022-03-31 16:22:03 [http-nio-9092-exec-5] DEBUG org.hibernate.SQL -
+				select csr0_.csr_id as csr_id1_0_, csr0_.details as details2_0_, csr0_.email as email3_0_, csr0_.is_admin as is_admin4_0_, csr0_.is_enabled as is_enabl5_0_, csr0_.name as name6_0_, csr0_.password as password7_0_, csr0_.phone_no as phone_no8_0_, csr0_.user_name as user_nam9_0_ from csr csr0_
+2022-03-31 16:22:03 [http-nio-9092-exec-5] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([csr_id1_0_] : [INTEGER]) - [1]
+2022-03-31 16:22:03 [http-nio-9092-exec-5] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([details2_0_] : [VARCHAR]) - [null]
+2022-03-31 16:22:03 [http-nio-9092-exec-5] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([email3_0_] : [VARCHAR]) - [dan@yahoo.com]
+2022-03-31 16:22:03 [http-nio-9092-exec-5] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([is_admin4_0_] : [BOOLEAN]) - [false]
+2022-03-31 16:22:03 [http-nio-9092-exec-5] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([is_enabl5_0_] : [BOOLEAN]) - [false]
+2022-03-31 16:22:03 [http-nio-9092-exec-5] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([name6_0_] : [VARCHAR]) - [ainz]
+2022-03-31 16:22:03 [http-nio-9092-exec-5] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([password7_0_] : [VARCHAR]) - [ainz]
+2022-03-31 16:22:03 [http-nio-9092-exec-5] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([phone_no8_0_] : [INTEGER]) - [87654321]
+2022-03-31 16:22:03 [http-nio-9092-exec-5] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([user_nam9_0_] : [VARCHAR]) - [ainz]
+2022-03-31 16:22:03 [http-nio-9092-exec-5] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([csr_id1_0_] : [INTEGER]) - [2]
+2022-03-31 16:22:03 [http-nio-9092-exec-5] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([details2_0_] : [VARCHAR]) - [null]
+2022-03-31 16:22:03 [http-nio-9092-exec-5] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([email3_0_] : [VARCHAR]) - [dan@yahoo.com]
+2022-03-31 16:22:03 [http-nio-9092-exec-5] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([is_admin4_0_] : [BOOLEAN]) - [false]
+2022-03-31 16:22:03 [http-nio-9092-exec-5] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([is_enabl5_0_] : [BOOLEAN]) - [false]
+2022-03-31 16:22:03 [http-nio-9092-exec-5] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([name6_0_] : [VARCHAR]) - [ainz]
+2022-03-31 16:22:03 [http-nio-9092-exec-5] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([password7_0_] : [VARCHAR]) - [ainz]
+2022-03-31 16:22:03 [http-nio-9092-exec-5] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([phone_no8_0_] : [INTEGER]) - [87654321]
+2022-03-31 16:22:03 [http-nio-9092-exec-5] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([user_nam9_0_] : [VARCHAR]) - [ainz]
+2022-03-31 16:26:24 [http-nio-9092-exec-9] DEBUG org.hibernate.SQL -
+				select csr0_.csr_id as csr_id1_0_, csr0_.details as details2_0_, csr0_.email as email3_0_, csr0_.is_admin as is_admin4_0_, csr0_.is_enabled as is_enabl5_0_, csr0_.name as name6_0_, csr0_.password as password7_0_, csr0_.phone_no as phone_no8_0_, csr0_.user_name as user_nam9_0_ from csr csr0_
+2022-03-31 16:26:24 [http-nio-9092-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([csr_id1_0_] : [INTEGER]) - [1]
+2022-03-31 16:26:24 [http-nio-9092-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([details2_0_] : [VARCHAR]) - [null]
+2022-03-31 16:26:24 [http-nio-9092-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([email3_0_] : [VARCHAR]) - [dan@yahoo.com]
+2022-03-31 16:26:24 [http-nio-9092-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([is_admin4_0_] : [BOOLEAN]) - [false]
+2022-03-31 16:26:24 [http-nio-9092-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([is_enabl5_0_] : [BOOLEAN]) - [false]
+2022-03-31 16:26:24 [http-nio-9092-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([name6_0_] : [VARCHAR]) - [ainz]
+2022-03-31 16:26:24 [http-nio-9092-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([password7_0_] : [VARCHAR]) - [ainz]
+2022-03-31 16:26:24 [http-nio-9092-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([phone_no8_0_] : [INTEGER]) - [87654321]
+2022-03-31 16:26:24 [http-nio-9092-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([user_nam9_0_] : [VARCHAR]) - [ainz]
+2022-03-31 16:26:24 [http-nio-9092-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([csr_id1_0_] : [INTEGER]) - [2]
+2022-03-31 16:26:24 [http-nio-9092-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([details2_0_] : [VARCHAR]) - [null]
+2022-03-31 16:26:24 [http-nio-9092-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([email3_0_] : [VARCHAR]) - [dan@yahoo.com]
+2022-03-31 16:26:24 [http-nio-9092-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([is_admin4_0_] : [BOOLEAN]) - [false]
+2022-03-31 16:26:24 [http-nio-9092-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([is_enabl5_0_] : [BOOLEAN]) - [false]
+2022-03-31 16:26:24 [http-nio-9092-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([name6_0_] : [VARCHAR]) - [ainz]
+2022-03-31 16:26:24 [http-nio-9092-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([password7_0_] : [VARCHAR]) - [ainz]
+2022-03-31 16:26:24 [http-nio-9092-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([phone_no8_0_] : [INTEGER]) - [87654321]
+2022-03-31 16:26:24 [http-nio-9092-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([user_nam9_0_] : [VARCHAR]) - [ainz]
+2022-03-31 16:26:41 [http-nio-9092-exec-4] DEBUG org.hibernate.SQL -
+				select csr0_.csr_id as csr_id1_0_, csr0_.details as details2_0_, csr0_.email as email3_0_, csr0_.is_admin as is_admin4_0_, csr0_.is_enabled as is_enabl5_0_, csr0_.name as name6_0_, csr0_.password as password7_0_, csr0_.phone_no as phone_no8_0_, csr0_.user_name as user_nam9_0_ from csr csr0_
+2022-03-31 16:26:41 [http-nio-9092-exec-4] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([csr_id1_0_] : [INTEGER]) - [1]
+2022-03-31 16:26:41 [http-nio-9092-exec-4] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([details2_0_] : [VARCHAR]) - [null]
+2022-03-31 16:26:41 [http-nio-9092-exec-4] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([email3_0_] : [VARCHAR]) - [dan@yahoo.com]
+2022-03-31 16:26:41 [http-nio-9092-exec-4] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([is_admin4_0_] : [BOOLEAN]) - [false]
+2022-03-31 16:26:41 [http-nio-9092-exec-4] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([is_enabl5_0_] : [BOOLEAN]) - [false]
+2022-03-31 16:26:41 [http-nio-9092-exec-4] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([name6_0_] : [VARCHAR]) - [ainz]
+2022-03-31 16:26:41 [http-nio-9092-exec-4] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([password7_0_] : [VARCHAR]) - [ainz]
+2022-03-31 16:26:41 [http-nio-9092-exec-4] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([phone_no8_0_] : [INTEGER]) - [87654321]
+2022-03-31 16:26:41 [http-nio-9092-exec-4] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([user_nam9_0_] : [VARCHAR]) - [ainz]
+2022-03-31 16:26:41 [http-nio-9092-exec-4] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([csr_id1_0_] : [INTEGER]) - [2]
+2022-03-31 16:26:41 [http-nio-9092-exec-4] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([details2_0_] : [VARCHAR]) - [null]
+2022-03-31 16:26:41 [http-nio-9092-exec-4] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([email3_0_] : [VARCHAR]) - [dan@yahoo.com]
+2022-03-31 16:26:41 [http-nio-9092-exec-4] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([is_admin4_0_] : [BOOLEAN]) - [false]
+2022-03-31 16:26:41 [http-nio-9092-exec-4] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([is_enabl5_0_] : [BOOLEAN]) - [false]
+2022-03-31 16:26:41 [http-nio-9092-exec-4] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([name6_0_] : [VARCHAR]) - [ainz]
+2022-03-31 16:26:41 [http-nio-9092-exec-4] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([password7_0_] : [VARCHAR]) - [ainz]
+2022-03-31 16:26:41 [http-nio-9092-exec-4] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([phone_no8_0_] : [INTEGER]) - [87654321]
+2022-03-31 16:26:41 [http-nio-9092-exec-4] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([user_nam9_0_] : [VARCHAR]) - [ainz]
+2022-03-31 16:26:49 [http-nio-9092-exec-7] DEBUG org.hibernate.SQL -
+				select csr0_.csr_id as csr_id1_0_, csr0_.details as details2_0_, csr0_.email as email3_0_, csr0_.is_admin as is_admin4_0_, csr0_.is_enabled as is_enabl5_0_, csr0_.name as name6_0_, csr0_.password as password7_0_, csr0_.phone_no as phone_no8_0_, csr0_.user_name as user_nam9_0_ from csr csr0_
+2022-03-31 16:26:49 [http-nio-9092-exec-7] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([csr_id1_0_] : [INTEGER]) - [1]
+2022-03-31 16:26:49 [http-nio-9092-exec-7] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([details2_0_] : [VARCHAR]) - [null]
+2022-03-31 16:26:49 [http-nio-9092-exec-7] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([email3_0_] : [VARCHAR]) - [dan@yahoo.com]
+2022-03-31 16:26:49 [http-nio-9092-exec-7] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([is_admin4_0_] : [BOOLEAN]) - [false]
+2022-03-31 16:26:49 [http-nio-9092-exec-7] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([is_enabl5_0_] : [BOOLEAN]) - [false]
+2022-03-31 16:26:49 [http-nio-9092-exec-7] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([name6_0_] : [VARCHAR]) - [ainz]
+2022-03-31 16:26:49 [http-nio-9092-exec-7] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([password7_0_] : [VARCHAR]) - [ainz]
+2022-03-31 16:26:49 [http-nio-9092-exec-7] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([phone_no8_0_] : [INTEGER]) - [87654321]
+2022-03-31 16:26:49 [http-nio-9092-exec-7] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([user_nam9_0_] : [VARCHAR]) - [ainz]
+2022-03-31 16:26:49 [http-nio-9092-exec-7] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([csr_id1_0_] : [INTEGER]) - [2]
+2022-03-31 16:26:49 [http-nio-9092-exec-7] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([details2_0_] : [VARCHAR]) - [null]
+2022-03-31 16:26:49 [http-nio-9092-exec-7] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([email3_0_] : [VARCHAR]) - [dan@yahoo.com]
+2022-03-31 16:26:49 [http-nio-9092-exec-7] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([is_admin4_0_] : [BOOLEAN]) - [false]
+2022-03-31 16:26:49 [http-nio-9092-exec-7] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([is_enabl5_0_] : [BOOLEAN]) - [false]
+2022-03-31 16:26:49 [http-nio-9092-exec-7] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([name6_0_] : [VARCHAR]) - [ainz]
+2022-03-31 16:26:49 [http-nio-9092-exec-7] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([password7_0_] : [VARCHAR]) - [ainz]
+2022-03-31 16:26:49 [http-nio-9092-exec-7] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([phone_no8_0_] : [INTEGER]) - [87654321]
+2022-03-31 16:26:49 [http-nio-9092-exec-7] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([user_nam9_0_] : [VARCHAR]) - [ainz]
+2022-03-31 16:27:12 [http-nio-9092-exec-8] DEBUG org.hibernate.SQL -
+				select csr0_.csr_id as csr_id1_0_, csr0_.details as details2_0_, csr0_.email as email3_0_, csr0_.is_admin as is_admin4_0_, csr0_.is_enabled as is_enabl5_0_, csr0_.name as name6_0_, csr0_.password as password7_0_, csr0_.phone_no as phone_no8_0_, csr0_.user_name as user_nam9_0_ from csr csr0_
+2022-03-31 16:27:12 [http-nio-9092-exec-8] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([csr_id1_0_] : [INTEGER]) - [1]
+2022-03-31 16:27:12 [http-nio-9092-exec-8] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([details2_0_] : [VARCHAR]) - [null]
+2022-03-31 16:27:12 [http-nio-9092-exec-8] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([email3_0_] : [VARCHAR]) - [dan@yahoo.com]
+2022-03-31 16:27:12 [http-nio-9092-exec-8] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([is_admin4_0_] : [BOOLEAN]) - [false]
+2022-03-31 16:27:12 [http-nio-9092-exec-8] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([is_enabl5_0_] : [BOOLEAN]) - [false]
+2022-03-31 16:27:12 [http-nio-9092-exec-8] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([name6_0_] : [VARCHAR]) - [ainz]
+2022-03-31 16:27:12 [http-nio-9092-exec-8] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([password7_0_] : [VARCHAR]) - [ainz]
+2022-03-31 16:27:12 [http-nio-9092-exec-8] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([phone_no8_0_] : [INTEGER]) - [87654321]
+2022-03-31 16:27:12 [http-nio-9092-exec-8] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([user_nam9_0_] : [VARCHAR]) - [ainz]
+2022-03-31 16:27:12 [http-nio-9092-exec-8] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([csr_id1_0_] : [INTEGER]) - [2]
+2022-03-31 16:27:12 [http-nio-9092-exec-8] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([details2_0_] : [VARCHAR]) - [null]
+2022-03-31 16:27:12 [http-nio-9092-exec-8] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([email3_0_] : [VARCHAR]) - [dan@yahoo.com]
+2022-03-31 16:27:12 [http-nio-9092-exec-8] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([is_admin4_0_] : [BOOLEAN]) - [false]
+2022-03-31 16:27:12 [http-nio-9092-exec-8] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([is_enabl5_0_] : [BOOLEAN]) - [false]
+2022-03-31 16:27:12 [http-nio-9092-exec-8] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([name6_0_] : [VARCHAR]) - [ainz]
+2022-03-31 16:27:12 [http-nio-9092-exec-8] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([password7_0_] : [VARCHAR]) - [ainz]
+2022-03-31 16:27:12 [http-nio-9092-exec-8] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([phone_no8_0_] : [INTEGER]) - [87654321]
+2022-03-31 16:27:12 [http-nio-9092-exec-8] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([user_nam9_0_] : [VARCHAR]) - [ainz]
+2022-03-31 16:27:26 [http-nio-9092-exec-10] DEBUG org.hibernate.SQL -
+				select csr0_.csr_id as csr_id1_0_, csr0_.details as details2_0_, csr0_.email as email3_0_, csr0_.is_admin as is_admin4_0_, csr0_.is_enabled as is_enabl5_0_, csr0_.name as name6_0_, csr0_.password as password7_0_, csr0_.phone_no as phone_no8_0_, csr0_.user_name as user_nam9_0_ from csr csr0_
+2022-03-31 16:27:26 [http-nio-9092-exec-10] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([csr_id1_0_] : [INTEGER]) - [1]
+2022-03-31 16:27:26 [http-nio-9092-exec-10] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([details2_0_] : [VARCHAR]) - [null]
+2022-03-31 16:27:26 [http-nio-9092-exec-10] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([email3_0_] : [VARCHAR]) - [dan@yahoo.com]
+2022-03-31 16:27:26 [http-nio-9092-exec-10] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([is_admin4_0_] : [BOOLEAN]) - [false]
+2022-03-31 16:27:26 [http-nio-9092-exec-10] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([is_enabl5_0_] : [BOOLEAN]) - [false]
+2022-03-31 16:27:26 [http-nio-9092-exec-10] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([name6_0_] : [VARCHAR]) - [ainz]
+2022-03-31 16:27:26 [http-nio-9092-exec-10] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([password7_0_] : [VARCHAR]) - [ainz]
+2022-03-31 16:27:26 [http-nio-9092-exec-10] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([phone_no8_0_] : [INTEGER]) - [87654321]
+2022-03-31 16:27:26 [http-nio-9092-exec-10] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([user_nam9_0_] : [VARCHAR]) - [ainz]
+2022-03-31 16:27:26 [http-nio-9092-exec-10] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([csr_id1_0_] : [INTEGER]) - [2]
+2022-03-31 16:27:26 [http-nio-9092-exec-10] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([details2_0_] : [VARCHAR]) - [null]
+2022-03-31 16:27:26 [http-nio-9092-exec-10] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([email3_0_] : [VARCHAR]) - [dan@yahoo.com]
+2022-03-31 16:27:26 [http-nio-9092-exec-10] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([is_admin4_0_] : [BOOLEAN]) - [false]
+2022-03-31 16:27:26 [http-nio-9092-exec-10] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([is_enabl5_0_] : [BOOLEAN]) - [false]
+2022-03-31 16:27:26 [http-nio-9092-exec-10] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([name6_0_] : [VARCHAR]) - [ainz]
+2022-03-31 16:27:26 [http-nio-9092-exec-10] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([password7_0_] : [VARCHAR]) - [ainz]
+2022-03-31 16:27:26 [http-nio-9092-exec-10] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([phone_no8_0_] : [INTEGER]) - [87654321]
+2022-03-31 16:27:26 [http-nio-9092-exec-10] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([user_nam9_0_] : [VARCHAR]) - [ainz]
+2022-03-31 16:27:44 [http-nio-9092-exec-2] DEBUG org.hibernate.SQL -
+				select csr0_.csr_id as csr_id1_0_0_, csr0_.details as details2_0_0_, csr0_.email as email3_0_0_, csr0_.is_admin as is_admin4_0_0_, csr0_.is_enabled as is_enabl5_0_0_, csr0_.name as name6_0_0_, csr0_.password as password7_0_0_, csr0_.phone_no as phone_no8_0_0_, csr0_.user_name as user_nam9_0_0_ from csr csr0_ where csr0_.csr_id=?
+2022-03-31 16:27:44 [http-nio-9092-exec-2] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [1] as [INTEGER] - [2]
+2022-03-31 16:27:44 [http-nio-9092-exec-2] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([details2_0_0_] : [VARCHAR]) - [null]
+2022-03-31 16:27:44 [http-nio-9092-exec-2] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([email3_0_0_] : [VARCHAR]) - [dan@yahoo.com]
+2022-03-31 16:27:44 [http-nio-9092-exec-2] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([is_admin4_0_0_] : [BOOLEAN]) - [false]
+2022-03-31 16:27:44 [http-nio-9092-exec-2] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([is_enabl5_0_0_] : [BOOLEAN]) - [false]
+2022-03-31 16:27:44 [http-nio-9092-exec-2] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([name6_0_0_] : [VARCHAR]) - [ainz]
+2022-03-31 16:27:44 [http-nio-9092-exec-2] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([password7_0_0_] : [VARCHAR]) - [ainz]
+2022-03-31 16:27:44 [http-nio-9092-exec-2] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([phone_no8_0_0_] : [INTEGER]) - [87654321]
+2022-03-31 16:27:44 [http-nio-9092-exec-2] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([user_nam9_0_0_] : [VARCHAR]) - [ainz]
+2022-03-31 16:27:44 [http-nio-9092-exec-2] DEBUG org.hibernate.SQL -
+				delete from csr where csr_id=?
+2022-03-31 16:27:44 [http-nio-9092-exec-2] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [1] as [INTEGER] - [2]
+2022-03-31 16:27:45 [http-nio-9092-exec-1] DEBUG org.hibernate.SQL -
+				select csr0_.csr_id as csr_id1_0_, csr0_.details as details2_0_, csr0_.email as email3_0_, csr0_.is_admin as is_admin4_0_, csr0_.is_enabled as is_enabl5_0_, csr0_.name as name6_0_, csr0_.password as password7_0_, csr0_.phone_no as phone_no8_0_, csr0_.user_name as user_nam9_0_ from csr csr0_
+2022-03-31 16:27:45 [http-nio-9092-exec-1] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([csr_id1_0_] : [INTEGER]) - [1]
+2022-03-31 16:27:45 [http-nio-9092-exec-1] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([details2_0_] : [VARCHAR]) - [null]
+2022-03-31 16:27:45 [http-nio-9092-exec-1] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([email3_0_] : [VARCHAR]) - [dan@yahoo.com]
+2022-03-31 16:27:45 [http-nio-9092-exec-1] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([is_admin4_0_] : [BOOLEAN]) - [false]
+2022-03-31 16:27:45 [http-nio-9092-exec-1] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([is_enabl5_0_] : [BOOLEAN]) - [false]
+2022-03-31 16:27:45 [http-nio-9092-exec-1] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([name6_0_] : [VARCHAR]) - [ainz]
+2022-03-31 16:27:45 [http-nio-9092-exec-1] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([password7_0_] : [VARCHAR]) - [ainz]
+2022-03-31 16:27:45 [http-nio-9092-exec-1] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([phone_no8_0_] : [INTEGER]) - [87654321]
+2022-03-31 16:27:45 [http-nio-9092-exec-1] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([user_nam9_0_] : [VARCHAR]) - [ainz]
+2022-03-31 16:28:03 [http-nio-9092-exec-5] DEBUG org.hibernate.SQL -
+				select csr0_.csr_id as csr_id1_0_, csr0_.details as details2_0_, csr0_.email as email3_0_, csr0_.is_admin as is_admin4_0_, csr0_.is_enabled as is_enabl5_0_, csr0_.name as name6_0_, csr0_.password as password7_0_, csr0_.phone_no as phone_no8_0_, csr0_.user_name as user_nam9_0_ from csr csr0_
+2022-03-31 16:28:03 [http-nio-9092-exec-5] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([csr_id1_0_] : [INTEGER]) - [1]
+2022-03-31 16:28:03 [http-nio-9092-exec-5] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([details2_0_] : [VARCHAR]) - [null]
+2022-03-31 16:28:03 [http-nio-9092-exec-5] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([email3_0_] : [VARCHAR]) - [dan@yahoo.com]
+2022-03-31 16:28:03 [http-nio-9092-exec-5] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([is_admin4_0_] : [BOOLEAN]) - [false]
+2022-03-31 16:28:03 [http-nio-9092-exec-5] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([is_enabl5_0_] : [BOOLEAN]) - [false]
+2022-03-31 16:28:03 [http-nio-9092-exec-5] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([name6_0_] : [VARCHAR]) - [ainz]
+2022-03-31 16:28:03 [http-nio-9092-exec-5] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([password7_0_] : [VARCHAR]) - [ainz]
+2022-03-31 16:28:03 [http-nio-9092-exec-5] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([phone_no8_0_] : [INTEGER]) - [87654321]
+2022-03-31 16:28:03 [http-nio-9092-exec-5] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([user_nam9_0_] : [VARCHAR]) - [ainz]
+2022-03-31 16:28:06 [http-nio-9092-exec-3] DEBUG org.hibernate.SQL -
+				select count(*) as col_0_0_ from csr csr0_ where csr0_.csr_id=?
+2022-03-31 16:28:06 [http-nio-9092-exec-3] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [1] as [INTEGER] - [2]
+2022-03-31 16:28:06 [http-nio-9092-exec-3] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([col_0_0_] : [BIGINT]) - [0]
+2022-03-31 16:28:06 [http-nio-9092-exec-3] DEBUG org.hibernate.SQL -
+				select csr0_.csr_id as csr_id1_0_0_, csr0_.details as details2_0_0_, csr0_.email as email3_0_0_, csr0_.is_admin as is_admin4_0_0_, csr0_.is_enabled as is_enabl5_0_0_, csr0_.name as name6_0_0_, csr0_.password as password7_0_0_, csr0_.phone_no as phone_no8_0_0_, csr0_.user_name as user_nam9_0_0_ from csr csr0_ where csr0_.csr_id=?
+2022-03-31 16:28:06 [http-nio-9092-exec-3] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [1] as [INTEGER] - [2]
+2022-03-31 16:28:06 [http-nio-9092-exec-3] DEBUG org.hibernate.SQL -
+				insert into csr (details, email, is_admin, is_enabled, name, password, phone_no, user_name, csr_id) values (?, ?, ?, ?, ?, ?, ?, ?, ?)
+2022-03-31 16:28:06 [http-nio-9092-exec-3] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [1] as [VARCHAR] - [null]
+2022-03-31 16:28:06 [http-nio-9092-exec-3] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [2] as [VARCHAR] - [dan@yahoo.com]
+2022-03-31 16:28:06 [http-nio-9092-exec-3] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [3] as [BOOLEAN] - [false]
+2022-03-31 16:28:06 [http-nio-9092-exec-3] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [4] as [BOOLEAN] - [false]
+2022-03-31 16:28:06 [http-nio-9092-exec-3] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [5] as [VARCHAR] - [ainz]
+2022-03-31 16:28:06 [http-nio-9092-exec-3] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [6] as [VARCHAR] - [ainz]
+2022-03-31 16:28:06 [http-nio-9092-exec-3] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [7] as [INTEGER] - [87654321]
+2022-03-31 16:28:06 [http-nio-9092-exec-3] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [8] as [VARCHAR] - [ainz]
+2022-03-31 16:28:06 [http-nio-9092-exec-3] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [9] as [INTEGER] - [2]
+2022-03-31 16:28:08 [http-nio-9092-exec-9] DEBUG org.hibernate.SQL -
+				select csr0_.csr_id as csr_id1_0_, csr0_.details as details2_0_, csr0_.email as email3_0_, csr0_.is_admin as is_admin4_0_, csr0_.is_enabled as is_enabl5_0_, csr0_.name as name6_0_, csr0_.password as password7_0_, csr0_.phone_no as phone_no8_0_, csr0_.user_name as user_nam9_0_ from csr csr0_
+2022-03-31 16:28:08 [http-nio-9092-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([csr_id1_0_] : [INTEGER]) - [1]
+2022-03-31 16:28:08 [http-nio-9092-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([details2_0_] : [VARCHAR]) - [null]
+2022-03-31 16:28:08 [http-nio-9092-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([email3_0_] : [VARCHAR]) - [dan@yahoo.com]
+2022-03-31 16:28:08 [http-nio-9092-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([is_admin4_0_] : [BOOLEAN]) - [false]
+2022-03-31 16:28:08 [http-nio-9092-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([is_enabl5_0_] : [BOOLEAN]) - [false]
+2022-03-31 16:28:08 [http-nio-9092-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([name6_0_] : [VARCHAR]) - [ainz]
+2022-03-31 16:28:08 [http-nio-9092-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([password7_0_] : [VARCHAR]) - [ainz]
+2022-03-31 16:28:08 [http-nio-9092-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([phone_no8_0_] : [INTEGER]) - [87654321]
+2022-03-31 16:28:08 [http-nio-9092-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([user_nam9_0_] : [VARCHAR]) - [ainz]
+2022-03-31 16:28:08 [http-nio-9092-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([csr_id1_0_] : [INTEGER]) - [2]
+2022-03-31 16:28:08 [http-nio-9092-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([details2_0_] : [VARCHAR]) - [null]
+2022-03-31 16:28:08 [http-nio-9092-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([email3_0_] : [VARCHAR]) - [dan@yahoo.com]
+2022-03-31 16:28:08 [http-nio-9092-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([is_admin4_0_] : [BOOLEAN]) - [false]
+2022-03-31 16:28:08 [http-nio-9092-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([is_enabl5_0_] : [BOOLEAN]) - [false]
+2022-03-31 16:28:08 [http-nio-9092-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([name6_0_] : [VARCHAR]) - [ainz]
+2022-03-31 16:28:08 [http-nio-9092-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([password7_0_] : [VARCHAR]) - [ainz]
+2022-03-31 16:28:08 [http-nio-9092-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([phone_no8_0_] : [INTEGER]) - [87654321]
+2022-03-31 16:28:08 [http-nio-9092-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([user_nam9_0_] : [VARCHAR]) - [ainz]
+2022-03-31 16:28:09 [http-nio-9092-exec-4] DEBUG org.hibernate.SQL -
+				select csr0_.csr_id as csr_id1_0_0_, csr0_.details as details2_0_0_, csr0_.email as email3_0_0_, csr0_.is_admin as is_admin4_0_0_, csr0_.is_enabled as is_enabl5_0_0_, csr0_.name as name6_0_0_, csr0_.password as password7_0_0_, csr0_.phone_no as phone_no8_0_0_, csr0_.user_name as user_nam9_0_0_ from csr csr0_ where csr0_.csr_id=?
+2022-03-31 16:28:09 [http-nio-9092-exec-4] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [1] as [INTEGER] - [2]
+2022-03-31 16:28:09 [http-nio-9092-exec-4] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([details2_0_0_] : [VARCHAR]) - [null]
+2022-03-31 16:28:09 [http-nio-9092-exec-4] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([email3_0_0_] : [VARCHAR]) - [dan@yahoo.com]
+2022-03-31 16:28:09 [http-nio-9092-exec-4] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([is_admin4_0_0_] : [BOOLEAN]) - [false]
+2022-03-31 16:28:09 [http-nio-9092-exec-4] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([is_enabl5_0_0_] : [BOOLEAN]) - [false]
+2022-03-31 16:28:09 [http-nio-9092-exec-4] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([name6_0_0_] : [VARCHAR]) - [ainz]
+2022-03-31 16:28:09 [http-nio-9092-exec-4] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([password7_0_0_] : [VARCHAR]) - [ainz]
+2022-03-31 16:28:09 [http-nio-9092-exec-4] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([phone_no8_0_0_] : [INTEGER]) - [87654321]
+2022-03-31 16:28:09 [http-nio-9092-exec-4] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([user_nam9_0_0_] : [VARCHAR]) - [ainz]
+2022-03-31 16:28:09 [http-nio-9092-exec-4] DEBUG org.hibernate.SQL -
+				delete from csr where csr_id=?
+2022-03-31 16:28:09 [http-nio-9092-exec-4] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [1] as [INTEGER] - [2]
+2022-03-31 16:28:10 [http-nio-9092-exec-7] DEBUG org.hibernate.SQL -
+				select csr0_.csr_id as csr_id1_0_, csr0_.details as details2_0_, csr0_.email as email3_0_, csr0_.is_admin as is_admin4_0_, csr0_.is_enabled as is_enabl5_0_, csr0_.name as name6_0_, csr0_.password as password7_0_, csr0_.phone_no as phone_no8_0_, csr0_.user_name as user_nam9_0_ from csr csr0_
+2022-03-31 16:28:10 [http-nio-9092-exec-7] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([csr_id1_0_] : [INTEGER]) - [1]
+2022-03-31 16:28:10 [http-nio-9092-exec-7] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([details2_0_] : [VARCHAR]) - [null]
+2022-03-31 16:28:10 [http-nio-9092-exec-7] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([email3_0_] : [VARCHAR]) - [dan@yahoo.com]
+2022-03-31 16:28:10 [http-nio-9092-exec-7] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([is_admin4_0_] : [BOOLEAN]) - [false]
+2022-03-31 16:28:10 [http-nio-9092-exec-7] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([is_enabl5_0_] : [BOOLEAN]) - [false]
+2022-03-31 16:28:10 [http-nio-9092-exec-7] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([name6_0_] : [VARCHAR]) - [ainz]
+2022-03-31 16:28:10 [http-nio-9092-exec-7] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([password7_0_] : [VARCHAR]) - [ainz]
+2022-03-31 16:28:10 [http-nio-9092-exec-7] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([phone_no8_0_] : [INTEGER]) - [87654321]
+2022-03-31 16:28:10 [http-nio-9092-exec-7] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([user_nam9_0_] : [VARCHAR]) - [ainz]
+2022-03-31 16:28:52 [http-nio-9092-exec-8] DEBUG org.hibernate.SQL -
+				select csr0_.csr_id as csr_id1_0_, csr0_.details as details2_0_, csr0_.email as email3_0_, csr0_.is_admin as is_admin4_0_, csr0_.is_enabled as is_enabl5_0_, csr0_.name as name6_0_, csr0_.password as password7_0_, csr0_.phone_no as phone_no8_0_, csr0_.user_name as user_nam9_0_ from csr csr0_
+2022-03-31 16:28:52 [http-nio-9092-exec-8] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([csr_id1_0_] : [INTEGER]) - [1]
+2022-03-31 16:28:52 [http-nio-9092-exec-8] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([details2_0_] : [VARCHAR]) - [null]
+2022-03-31 16:28:52 [http-nio-9092-exec-8] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([email3_0_] : [VARCHAR]) - [dan@yahoo.com]
+2022-03-31 16:28:52 [http-nio-9092-exec-8] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([is_admin4_0_] : [BOOLEAN]) - [false]
+2022-03-31 16:28:52 [http-nio-9092-exec-8] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([is_enabl5_0_] : [BOOLEAN]) - [false]
+2022-03-31 16:28:52 [http-nio-9092-exec-8] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([name6_0_] : [VARCHAR]) - [ainz]
+2022-03-31 16:28:52 [http-nio-9092-exec-8] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([password7_0_] : [VARCHAR]) - [ainz]
+2022-03-31 16:28:52 [http-nio-9092-exec-8] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([phone_no8_0_] : [INTEGER]) - [87654321]
+2022-03-31 16:28:52 [http-nio-9092-exec-8] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([user_nam9_0_] : [VARCHAR]) - [ainz]
+2022-03-31 16:31:51 [http-nio-9092-exec-1] DEBUG org.hibernate.SQL -
+				select csr0_.csr_id as csr_id1_0_, csr0_.details as details2_0_, csr0_.email as email3_0_, csr0_.is_admin as is_admin4_0_, csr0_.is_enabled as is_enabl5_0_, csr0_.name as name6_0_, csr0_.password as password7_0_, csr0_.phone_no as phone_no8_0_, csr0_.user_name as user_nam9_0_ from csr csr0_
+2022-03-31 16:31:51 [http-nio-9092-exec-1] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([csr_id1_0_] : [INTEGER]) - [1]
+2022-03-31 16:31:51 [http-nio-9092-exec-1] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([details2_0_] : [VARCHAR]) - [null]
+2022-03-31 16:31:51 [http-nio-9092-exec-1] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([email3_0_] : [VARCHAR]) - [dan@yahoo.com]
+2022-03-31 16:31:51 [http-nio-9092-exec-1] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([is_admin4_0_] : [BOOLEAN]) - [false]
+2022-03-31 16:31:51 [http-nio-9092-exec-1] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([is_enabl5_0_] : [BOOLEAN]) - [false]
+2022-03-31 16:31:51 [http-nio-9092-exec-1] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([name6_0_] : [VARCHAR]) - [ainz]
+2022-03-31 16:31:51 [http-nio-9092-exec-1] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([password7_0_] : [VARCHAR]) - [ainz]
+2022-03-31 16:31:51 [http-nio-9092-exec-1] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([phone_no8_0_] : [INTEGER]) - [87654321]
+2022-03-31 16:31:51 [http-nio-9092-exec-1] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([user_nam9_0_] : [VARCHAR]) - [ainz]
+2022-03-31 16:32:01 [http-nio-9092-exec-5] DEBUG org.hibernate.SQL -
+				select csr0_.csr_id as csr_id1_0_, csr0_.details as details2_0_, csr0_.email as email3_0_, csr0_.is_admin as is_admin4_0_, csr0_.is_enabled as is_enabl5_0_, csr0_.name as name6_0_, csr0_.password as password7_0_, csr0_.phone_no as phone_no8_0_, csr0_.user_name as user_nam9_0_ from csr csr0_
+2022-03-31 16:32:01 [http-nio-9092-exec-5] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([csr_id1_0_] : [INTEGER]) - [1]
+2022-03-31 16:32:01 [http-nio-9092-exec-5] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([details2_0_] : [VARCHAR]) - [null]
+2022-03-31 16:32:01 [http-nio-9092-exec-5] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([email3_0_] : [VARCHAR]) - [dan@yahoo.com]
+2022-03-31 16:32:01 [http-nio-9092-exec-5] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([is_admin4_0_] : [BOOLEAN]) - [false]
+2022-03-31 16:32:01 [http-nio-9092-exec-5] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([is_enabl5_0_] : [BOOLEAN]) - [false]
+2022-03-31 16:32:01 [http-nio-9092-exec-5] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([name6_0_] : [VARCHAR]) - [ainz]
+2022-03-31 16:32:01 [http-nio-9092-exec-5] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([password7_0_] : [VARCHAR]) - [ainz]
+2022-03-31 16:32:01 [http-nio-9092-exec-5] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([phone_no8_0_] : [INTEGER]) - [87654321]
+2022-03-31 16:32:01 [http-nio-9092-exec-5] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([user_nam9_0_] : [VARCHAR]) - [ainz]
+2022-03-31 16:32:06 [http-nio-9092-exec-3] DEBUG org.hibernate.SQL -
+				select count(*) as col_0_0_ from csr csr0_ where csr0_.csr_id=?
+2022-03-31 16:32:06 [http-nio-9092-exec-3] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [1] as [INTEGER] - [2]
+2022-03-31 16:32:06 [http-nio-9092-exec-3] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([col_0_0_] : [BIGINT]) - [0]
+2022-03-31 16:32:06 [http-nio-9092-exec-3] DEBUG org.hibernate.SQL -
+				select csr0_.csr_id as csr_id1_0_0_, csr0_.details as details2_0_0_, csr0_.email as email3_0_0_, csr0_.is_admin as is_admin4_0_0_, csr0_.is_enabled as is_enabl5_0_0_, csr0_.name as name6_0_0_, csr0_.password as password7_0_0_, csr0_.phone_no as phone_no8_0_0_, csr0_.user_name as user_nam9_0_0_ from csr csr0_ where csr0_.csr_id=?
+2022-03-31 16:32:06 [http-nio-9092-exec-3] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [1] as [INTEGER] - [2]
+2022-03-31 16:32:06 [http-nio-9092-exec-3] DEBUG org.hibernate.SQL -
+				insert into csr (details, email, is_admin, is_enabled, name, password, phone_no, user_name, csr_id) values (?, ?, ?, ?, ?, ?, ?, ?, ?)
+2022-03-31 16:32:06 [http-nio-9092-exec-3] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [1] as [VARCHAR] - [null]
+2022-03-31 16:32:06 [http-nio-9092-exec-3] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [2] as [VARCHAR] - [dan@yahoo.com]
+2022-03-31 16:32:06 [http-nio-9092-exec-3] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [3] as [BOOLEAN] - [false]
+2022-03-31 16:32:06 [http-nio-9092-exec-3] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [4] as [BOOLEAN] - [false]
+2022-03-31 16:32:06 [http-nio-9092-exec-3] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [5] as [VARCHAR] - [ainz]
+2022-03-31 16:32:06 [http-nio-9092-exec-3] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [6] as [VARCHAR] - [ainz]
+2022-03-31 16:32:06 [http-nio-9092-exec-3] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [7] as [INTEGER] - [87654321]
+2022-03-31 16:32:06 [http-nio-9092-exec-3] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [8] as [VARCHAR] - [ainz]
+2022-03-31 16:32:06 [http-nio-9092-exec-3] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [9] as [INTEGER] - [2]
+2022-03-31 16:32:09 [http-nio-9092-exec-9] DEBUG org.hibernate.SQL -
+				select csr0_.csr_id as csr_id1_0_, csr0_.details as details2_0_, csr0_.email as email3_0_, csr0_.is_admin as is_admin4_0_, csr0_.is_enabled as is_enabl5_0_, csr0_.name as name6_0_, csr0_.password as password7_0_, csr0_.phone_no as phone_no8_0_, csr0_.user_name as user_nam9_0_ from csr csr0_
+2022-03-31 16:32:09 [http-nio-9092-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([csr_id1_0_] : [INTEGER]) - [1]
+2022-03-31 16:32:09 [http-nio-9092-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([details2_0_] : [VARCHAR]) - [null]
+2022-03-31 16:32:09 [http-nio-9092-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([email3_0_] : [VARCHAR]) - [dan@yahoo.com]
+2022-03-31 16:32:09 [http-nio-9092-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([is_admin4_0_] : [BOOLEAN]) - [false]
+2022-03-31 16:32:09 [http-nio-9092-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([is_enabl5_0_] : [BOOLEAN]) - [false]
+2022-03-31 16:32:09 [http-nio-9092-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([name6_0_] : [VARCHAR]) - [ainz]
+2022-03-31 16:32:09 [http-nio-9092-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([password7_0_] : [VARCHAR]) - [ainz]
+2022-03-31 16:32:09 [http-nio-9092-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([phone_no8_0_] : [INTEGER]) - [87654321]
+2022-03-31 16:32:09 [http-nio-9092-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([user_nam9_0_] : [VARCHAR]) - [ainz]
+2022-03-31 16:32:09 [http-nio-9092-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([csr_id1_0_] : [INTEGER]) - [2]
+2022-03-31 16:32:09 [http-nio-9092-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([details2_0_] : [VARCHAR]) - [null]
+2022-03-31 16:32:09 [http-nio-9092-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([email3_0_] : [VARCHAR]) - [dan@yahoo.com]
+2022-03-31 16:32:09 [http-nio-9092-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([is_admin4_0_] : [BOOLEAN]) - [false]
+2022-03-31 16:32:09 [http-nio-9092-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([is_enabl5_0_] : [BOOLEAN]) - [false]
+2022-03-31 16:32:09 [http-nio-9092-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([name6_0_] : [VARCHAR]) - [ainz]
+2022-03-31 16:32:09 [http-nio-9092-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([password7_0_] : [VARCHAR]) - [ainz]
+2022-03-31 16:32:09 [http-nio-9092-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([phone_no8_0_] : [INTEGER]) - [87654321]
+2022-03-31 16:32:09 [http-nio-9092-exec-9] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([user_nam9_0_] : [VARCHAR]) - [ainz]
+2022-03-31 16:32:15 [http-nio-9092-exec-4] DEBUG org.hibernate.SQL -
+				select csr0_.csr_id as csr_id1_0_0_, csr0_.details as details2_0_0_, csr0_.email as email3_0_0_, csr0_.is_admin as is_admin4_0_0_, csr0_.is_enabled as is_enabl5_0_0_, csr0_.name as name6_0_0_, csr0_.password as password7_0_0_, csr0_.phone_no as phone_no8_0_0_, csr0_.user_name as user_nam9_0_0_ from csr csr0_ where csr0_.csr_id=?
+2022-03-31 16:32:15 [http-nio-9092-exec-4] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [1] as [INTEGER] - [2]
+2022-03-31 16:32:15 [http-nio-9092-exec-4] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([details2_0_0_] : [VARCHAR]) - [null]
+2022-03-31 16:32:15 [http-nio-9092-exec-4] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([email3_0_0_] : [VARCHAR]) - [dan@yahoo.com]
+2022-03-31 16:32:15 [http-nio-9092-exec-4] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([is_admin4_0_0_] : [BOOLEAN]) - [false]
+2022-03-31 16:32:15 [http-nio-9092-exec-4] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([is_enabl5_0_0_] : [BOOLEAN]) - [false]
+2022-03-31 16:32:15 [http-nio-9092-exec-4] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([name6_0_0_] : [VARCHAR]) - [ainz]
+2022-03-31 16:32:15 [http-nio-9092-exec-4] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([password7_0_0_] : [VARCHAR]) - [ainz]
+2022-03-31 16:32:15 [http-nio-9092-exec-4] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([phone_no8_0_0_] : [INTEGER]) - [87654321]
+2022-03-31 16:32:15 [http-nio-9092-exec-4] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([user_nam9_0_0_] : [VARCHAR]) - [ainz]
+2022-03-31 16:32:15 [http-nio-9092-exec-4] DEBUG org.hibernate.SQL -
+				delete from csr where csr_id=?
+2022-03-31 16:32:15 [http-nio-9092-exec-4] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [1] as [INTEGER] - [2]
+2022-03-31 16:32:15 [http-nio-9092-exec-7] DEBUG org.hibernate.SQL -
+				select csr0_.csr_id as csr_id1_0_, csr0_.details as details2_0_, csr0_.email as email3_0_, csr0_.is_admin as is_admin4_0_, csr0_.is_enabled as is_enabl5_0_, csr0_.name as name6_0_, csr0_.password as password7_0_, csr0_.phone_no as phone_no8_0_, csr0_.user_name as user_nam9_0_ from csr csr0_
+2022-03-31 16:32:15 [http-nio-9092-exec-7] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([csr_id1_0_] : [INTEGER]) - [1]
+2022-03-31 16:32:15 [http-nio-9092-exec-7] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([details2_0_] : [VARCHAR]) - [null]
+2022-03-31 16:32:15 [http-nio-9092-exec-7] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([email3_0_] : [VARCHAR]) - [dan@yahoo.com]
+2022-03-31 16:32:15 [http-nio-9092-exec-7] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([is_admin4_0_] : [BOOLEAN]) - [false]
+2022-03-31 16:32:15 [http-nio-9092-exec-7] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([is_enabl5_0_] : [BOOLEAN]) - [false]
+2022-03-31 16:32:15 [http-nio-9092-exec-7] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([name6_0_] : [VARCHAR]) - [ainz]
+2022-03-31 16:32:15 [http-nio-9092-exec-7] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([password7_0_] : [VARCHAR]) - [ainz]
+2022-03-31 16:32:15 [http-nio-9092-exec-7] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([phone_no8_0_] : [INTEGER]) - [87654321]
+2022-03-31 16:32:15 [http-nio-9092-exec-7] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([user_nam9_0_] : [VARCHAR]) - [ainz]

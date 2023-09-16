@@ -1,0 +1,26 @@
+
+image: 'maven:3-jdk-11'
+stages:
+  - test
+  - build
+services:
+  - 'mysql:5.5'
+  - 'mongo:3.4-jessie'
+variables:
+  MYSQL_URL_ADMINSERVICE_DB: jdbc:mysql://mysql/AdminServiceDB?createDatabaseIfNotExist=true&useSSL=false&serverTimezone=UTC&useLegacyDatetimeCode=false&allowPublicKeyRetrieval=true&user=app_root&password=root
+  MYSQL_URL_CUSTOMERSERVICE_DB: jdbc:mysql://mysql/customerDb?createDatabaseIfNotExist=true&useSSL=false&serverTimezone=UTC&useLegacyDatetimeCode=false&allowPublicKeyRetrieval=true&user=app_root&password=root
+  MYSQL_ROOT_PASSWORD: "root"
+  MONGO_URL: "mongodb://mongo/Call_DB"
+cache:
+  paths:
+    - .m2/repository
+    - target
+maven-test:
+  stage: test
+  script: "mvn test -e"
+maven-build:
+  stage: build
+  script: "mvn package"
+  artifacts:
+    paths:
+      - target/*.jar

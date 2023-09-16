@@ -1,0 +1,15 @@
+  <mat-toolbar  >
+    <p routerLink="/home">telecom app</p>
+    <span class="example-spacer"></span>
+
+
+    <div class="ul">
+        <button id="csrdash" routerLink="/csr/dashboard" mat-raised-button color="accent" *ngIf="checkIfIsCSR()">CSR Dashboard</button>
+        <button id="customerdash" routerLink="/customer/dashboard" mat-raised-button color="accent" *ngIf="checkIfIsCustomer()">Customer Dashboard</button>
+        <button id="admindash" routerLink="/admin/dashboard" mat-raised-button color="accent" *ngIf="checkIfIsAdmin()">Admin Dashboard</button>
+        <button id="home" routerLink="/home" mat-raised-button color="accent">Home</button>
+        <button id="login" routerLink="/login" mat-raised-button color="accent" *ngIf="!IsLoggedIn()">Log In</button>
+        <button id="logout" routerLink="/login" mat-raised-button color="accent" *ngIf="IsLoggedIn()" (click)="logout()" >Log Out</button>
+    </div>
+
+  </mat-toolbar>

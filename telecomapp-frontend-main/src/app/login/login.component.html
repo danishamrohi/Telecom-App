@@ -1,0 +1,51 @@
+
+<body>
+
+<div *ngIf="state" class="alert">
+  <span class="closebtn" onclick="this.parentElement.style.display='none';" (click)="changeErrorState()" >&times;</span>
+  {{ errMessage }}
+</div>
+
+<div class="container">
+
+  <h1 id="logintitle">Please Login Here</h1>
+
+  <form class="example-form" name="loginForm" (ngSubmit)="f.form.valid && onSubmit()" #f="ngForm">
+
+        <mat-form-field class="example-full-width" appearance="fill">
+          <mat-label>Select A UserType</mat-label>
+          <mat-select id="usertype" name="usertype" #userType="ngModel" [(ngModel)]="loginForm.userType">
+            <mat-option value="admin">Admin </mat-option>
+            <mat-option value="csr">CSR</mat-option>
+            <mat-option value="customer">Customer</mat-option>
+          </mat-select>
+        </mat-form-field>
+
+        <mat-form-field class="example-full-width" appearance="fill">
+          <mat-label>Username</mat-label>
+          <input type="text" matInput placeholder="enter your userName"
+          id="userName" name="userName"
+          #username="ngModel" [(ngModel)]="loginForm.userName" >
+        </mat-form-field>
+
+        <mat-form-field class="example-full-width" appearance="fill">
+          <mat-label>Password</mat-label>
+          <input type="password" matInput placeholder="enter your password"
+          id="password" name="password"
+          #password="ngModel" [(ngModel)]="loginForm.password">
+        </mat-form-field>
+
+      <button mat-raised-button class="button" color="primary" type="submit" id="loginbutton">Login</button>
+      <button mat-raised-button class="button" color="primary" type="reset">Reset</button>
+  </form>
+
+</div>
+
+
+<div class="container">
+<h1>Not a customer yet?</h1>
+<div>
+  <button id="customerreg" mat-raised-button class="button regButton" (click)="routeToRegisterCustomer()">Register As Customer</button>
+</div>
+</div>
+</body>

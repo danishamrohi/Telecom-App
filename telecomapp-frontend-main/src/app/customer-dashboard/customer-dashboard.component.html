@@ -1,0 +1,48 @@
+<body>
+<!--
+  <div class="button-div logoutalign">
+    <input class="logout" type="submit" value="Logout">
+   </div> -->
+<body background="../../assets/download.jfif">
+   <div *ngIf="state" class="alert">
+    <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+    {{ errMessage }}
+  </div>
+
+<div class="container">
+   <h1 class="name">Hi {{customer.name}}</h1>
+   <h1>Welcome to Your Dashboard</h1>
+   <h2>Given below are your profile details</h2>
+
+    <mat-card class="example-card">
+      <mat-card-header>
+        <mat-card-title class="title left">Name: </mat-card-title>
+        <mat-card-title class="title">{{customer.name}} </mat-card-title>
+      </mat-card-header>
+      <mat-card-header>
+        <mat-card-title class="title left">Phone Number: </mat-card-title>
+        <mat-card-title class="title">{{customer.phoneNumber}} </mat-card-title>
+      </mat-card-header>
+      <mat-card-header>
+        <mat-card-title class="title left">Email: </mat-card-title>
+        <mat-card-title class="title">{{customer.emailId}} </mat-card-title>
+      </mat-card-header>
+      <mat-card-header>
+        <mat-card-title class="title left">Username: </mat-card-title>
+        <mat-card-title class="title">{{customer.userName}} </mat-card-title>
+      </mat-card-header>
+      <mat-card-header>
+        <mat-card-title class="title left">Password: </mat-card-title>
+        <mat-card-title class="title">{{customer.password}} </mat-card-title>
+      </mat-card-header>
+    </mat-card>
+
+
+  <div class="button-div">
+    <button id="custupdatebtn" class="logout" (click)="updateCustomer()">Update Profile</button>
+    <button id="custdeletebtn" class="logout"(click)="deleteConfirm()">Delete profile</button>
+  </div>
+
+  <div class="height"></div>
+</div>
+</body>

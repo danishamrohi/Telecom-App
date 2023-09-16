@@ -1,0 +1,127 @@
+body{
+  background-size: cover;
+  background-image: url(../../assets/ppt3.jpg);
+}
+.container{
+  
+font-family: 'Roboto Slab', serif;
+  max-width: 50%;
+  min-width: 300px;
+  margin: auto;
+  background-color: rgb(68, 65, 65);;
+  padding: 25px;
+  border: 5px rgb(71, 68, 75) solid;
+  color: white;
+  box-shadow: 5px 5px 5px  gray;
+  padding-top: 25px;
+}
+
+.button-div{
+  
+font-family: 'Roboto Slab', serif;
+    text-align: right;
+    border: none;
+    padding: 25px 45px;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.logoutalign{
+  
+font-family: 'Roboto Slab', serif;
+  max-width: 70%;
+  margin-top: 0;
+}
+
+.logout{
+  
+font-family: 'Roboto Slab', serif;
+    font-weight: 600;
+    padding: 10px;
+    font-size: large;
+    color: white;
+    border-radius:5px ;
+    background-color: rgb(65, 17, 121);
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.title{
+  
+font-family: 'Roboto Slab', serif;
+  display: inline-block
+}
+
+.left{
+  
+font-family: 'Roboto Slab', serif;
+  width: 170px;
+}
+
+.name{
+  
+font-family: 'Roboto Slab', serif;
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+
+
+
+/* Error */
+
+.alert {
+  
+font-family: 'Roboto Slab', serif;
+  background-color: #c45f58; /* Red */
+  color: white;
+  max-width: 50%;
+  margin-top: 25px;
+  margin: auto;
+  padding: 10px 30px;
+  max-height: 250px;
+  box-shadow: 25px 25px 25px rgb(199, 137, 137);
+}
+
+/* The close button */
+
+.closebtn {
+  
+font-family: 'Roboto Slab', serif;
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+
+
+/* When moving the mouse over the close button */
+
+.closebtn:hover {
+  color: black;
+
+}
+
+body{
+  background-size: cover;
+}
+
+
+@media (max-width: 800px) {
+
+  .name{
+    font-size: 25px;
+  }
+
+  .height{
+    min-height: 200px;
+  }
+
+  .button-div{
+    text-align: center;
+  }
+}

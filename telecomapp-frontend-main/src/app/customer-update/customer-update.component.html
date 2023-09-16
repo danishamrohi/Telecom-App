@@ -1,0 +1,64 @@
+<body>
+
+<div *ngIf="state" class="alert">
+  <span class="closebtn" onclick="this.parentElement.style.display='none';" (click)="changeErrorState()">&times;</span>
+  {{ errMessage }}
+</div>
+
+<div class="container">
+
+  <div class="back">
+    <button id="backtocustdash" class="backButton" (click)="openCustomerProfile()">Back To Profile</button>
+  </div>
+
+  <h1>Update Your Profile</h1>
+
+  <form name="customerForm" (ngSubmit)="f.form.valid && onSubmit()" #f="ngForm">
+
+    <mat-form-field class="field" appearance="fill">
+        <mat-label>Name</mat-label>
+        <input matInput type="text" id="name" type="text"   placeholder={{this.customer.name}}
+        name="name" required  #name="ngModel" [(ngModel)]="customer.name">
+        <mat-icon matSuffix>person</mat-icon>
+    </mat-form-field>
+
+    <mat-form-field class="field" appearance="fill">
+      <mat-label>Enter your email</mat-label>
+      <mat-icon matSuffix>local_post_office</mat-icon>
+      <input matInput type="text" id="emailId" type="email"
+       placeholder={{this.customer.emailId}} name="emailId" required
+       #emailId="ngModel" [(ngModel)]="customer.emailId" [email]="true">
+    </mat-form-field>
+
+    <mat-form-field class="field" appearance="fill">
+        <mat-label>UserName</mat-label>
+        <input matInput type="text" id="userName" type="text" placeholder={{this.customer.userName}}
+        name="userName" required
+        #userName="ngModel" [(ngModel)]="customer.userName">
+        <mat-icon matSuffix>person</mat-icon>
+    </mat-form-field>
+
+    <mat-form-field class="field" appearance="fill">
+        <mat-label>Enter your password</mat-label>
+        <input matInput id="password" [type]="hide ? 'password' : 'text'" placeholder={{this.customer.password}} name="password"
+        required #password="ngModel" [(ngModel)]="customer.password">
+        <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
+          <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+        </button>
+    </mat-form-field>
+
+    <mat-form-field class="field" appearance="fill">
+        <mat-label>Phone Number</mat-label>
+        <input type="number"  matInput placeholder={{customer.phoneNumber}}
+        id="phoneNumber" name="phoneNumber"
+        #phoneNumber="ngModel" [(ngModel)]="customer.phoneNumber">
+        <mat-icon matSuffix> local_phone</mat-icon>
+    </mat-form-field>
+  <div>
+    <button id="submitupdate" class="submit" mat-raised-button color="primary" type="submit" (click)="onSubmit()">Submit</button>
+    <button class="submit" mat-raised-button color="primary" type="reset">Reset</button>
+  </div>
+</form>
+
+</div>
+</body>

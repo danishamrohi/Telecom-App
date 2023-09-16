@@ -1,0 +1,75 @@
+version: '3'
+
+services:
+
+  mysqldb:
+    image: mysql
+    ports:
+      - 3306:3306
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+#      MYSQL_HOST: localhost
+#      MYSQL_URL_ADMINSERVICE_DB: jdbc:mysql://localhost:3306/cgisampleadmin?createDatabaseIfNotExist=true&user=root&password=root
+#      MYSQL_URL_CUSTOMERSERVICE_DB: jdbc:mysql://localhost:3306/cgisamplecustomer?createDatabaseIfNotExist=true&user=root&password=root
+
+  mongodb:
+    image: mongo
+    ports:
+      - 27017:27017
+    environment:
+      MONGO_URL: mongodb://localhost:27017/Call_DB
+
+  adminapp:
+    image: portretrieve/admin-image
+#    network_mode: host
+    depends_on:
+      - mysqldb
+#    restart: always
+    ports:
+      - 9092:9092
+    environment:
+#      MYSQL_HOST: localhost
+      MYSQL_URL_ADMINSERVICE_DB: jdbc:mysql://mysqldb:3306/cgisampleadmin?createDatabaseIfNotExist=true&user=root&password=root
+
+
+  customerapp:
+    image: portretrieve/customer-image
+#    network_mode: host
+    depends_on:
+      - mysqldb
+#    restart: always
+    ports:
+      - 9094:9094
+    environment:
+#      MYSQL_HOST: localhost
+      MYSQL_URL_CUSTOMERSERVICE_DB: jdbc:mysql://mysqldb:3306/cgisamplecustomer?createDatabaseIfNotExist=true&user=root&password=root
+
+  callapp:
+    image: portretrieve/call-image
+#    network_mode: host
+    depends_on:
+      - mongodb
+#    restart: always
+    ports:
+      - 9093:9093
+    environment:
+      MONGO_URL: "mongodb://mongodb/Call_DB"
+
+  eurekaapp:
+    image: portretrieve/eureka-image
+#    network_mode: host
+#    restart: always
+    ports:
+      - 8761:8761
+
+  gatewayapp:
+    image: portretrieve/telecom-gateway
+#    network_mode: host
+#    restart: always
+    ports:
+      - 9010:9010
+
+  telecomfrontend:
+    image: portretrieve/angular-image
+    ports:
+      - 4200:4200

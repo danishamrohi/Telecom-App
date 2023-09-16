@@ -1,0 +1,139 @@
+admin.txt
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+
+.container{
+  align-self: center;
+  /* width: 80%;
+  min-width: 300px;
+  margin: auto; */
+  background-color: #f44336;
+  /* margin-top: 25px;
+  padding: 25px; */
+
+  }
+
+
+table {
+  font-family: 'Fugaz One', cursive;
+    width: 90%;
+    align-content: center;
+    background-color: aliceblue;
+    align-self: auto;
+    align-items: center;
+    vertical-align: middle;
+    margin :auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+.clsform{
+  font-family: 'Fugaz One', cursive;
+  width: 90%;
+  padding-left: 80px;
+  align-content: center;
+  align-self: auto;
+  align-items: center;
+  vertical-align: middle;
+  margin :auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  border: 10px;
+}
+.clsfoot
+{
+  position: absolute;
+}
+
+.matcard{
+  font-family: 'Fugaz One', cursive;
+  background-color: aliceblue;
+  border: 10px;
+  padding-block: auto;
+  border-color: black;
+  margin :auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: 90%;
+}
+.example-form {
+  min-width: 300px;
+  max-width: 100%;
+  margin: auto;
+  font-size: large;
+  background-color: white;
+  padding: 15px;
+  font-weight: 600;
+}
+.clsbutton{
+  font-family: 'Fugaz One', cursive;
+  position: absolute;
+    z-index: 2;
+    right: 100px;
+    top: 7px;
+    bottom: 7px;
+}
+.clsbutton0{
+  font-family: 'Fugaz One', cursive;
+  position: absolute;
+    z-index: 2;
+    right: 90px;
+    top: 7px;
+    bottom: 7px;
+}
+.clsbutton1{
+  font-family: 'Fugaz One', cursive;
+  position: absolute;
+    z-index: 2;
+    right: 100px;
+    top: 7px;
+    bottom: 7px;
+}
+.clsbutton2{
+  font-family: 'Fugaz One', cursive;
+  position: absolute;
+    z-index: 2;
+    right: 200px;
+    top: 7px;
+    bottom: 7px;
+}
+.clsbutton3{
+  font-family: 'Fugaz One', cursive;
+  position: absolute;
+    z-index: 2;
+    right:  7px;
+    top: 7px;
+    bottom: 7px;
+}
+
+.alert {
+  padding: 20px;
+  background-color: #f44336; /* Red */
+  color: white;
+  margin-bottom: 15px;
+}
+
+/* The close button */
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+  color: black;
+}
+
+/* Structure */
+table {
+  width: 100%;
+}
+
+.mat-form-field {
+  font-size: 14px;
+  width: 100%;
+}

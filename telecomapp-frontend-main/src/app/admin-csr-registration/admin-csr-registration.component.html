@@ -1,0 +1,77 @@
+<body >
+
+<!-- Label to display any error messages -->
+<div *ngIf="state" class="alert">
+  <span class="closebtn" onclick="this.parentElement.style.display='none';" (click)="changeErrorState()">&times;</span>
+  {{ errMessage }}
+</div>
+
+<div class="container">
+
+  <div class="back">
+    <button id="backtodash" (click)="goBack()">Back To Admin Dashboard</button>
+  </div>
+
+  <h1>Register CSR Agent</h1>
+
+    <form class="example-form" name="callForm" (ngSubmit)="f.form.valid && addCsr()" #f="ngForm">
+
+      <mat-form-field class="example-full-width" appearance="fill">
+        <mat-label class="labels">Enter CSR Id</mat-label>
+        <input matInput id="csrId" type="number" name="csrId" required placeholder="0" required
+        #csrId="ngModel" [(ngModel)]="csrform.csrId">
+        <mat-icon matSuffix>fingerprint</mat-icon>
+      </mat-form-field>
+
+      <mat-form-field class="example-full-width" appearance="fill">
+        <mat-label class="labels">Enter Full Name</mat-label>
+        <input matInput id="name" type="text" name="name" required placeholder="Bob Smith" required
+        #name="ngModel" [(ngModel)]="csrform.name">
+        <mat-icon matSuffix>face</mat-icon>
+      </mat-form-field>
+
+      <mat-form-field class="example-full-width" appearance="fill">
+        <mat-label class="labels">Enter Email</mat-label>
+        <input  matInput id="email" type="email" name="email" required placeholder="bob.smith@cgi.com" required
+        #email="ngModel" [(ngModel)]="csrform.email" [email]="true">
+        <mat-icon matSuffix>email</mat-icon>
+      </mat-form-field>
+
+      <mat-form-field class="example-full-width" appearance="fill">
+        <mat-label class="labels">Enter Phone No</mat-label>
+        <input  matInput id="phoneNo" type="number" name="phoneNo" required placeholder="123-456(7890)" required
+        #phoneNo="ngModel" [(ngModel)]="csrform.phoneNo">
+        <mat-icon matSuffix>phone</mat-icon>
+      </mat-form-field>
+
+      <mat-form-field class="example-full-width" appearance="fill">
+        <mat-label class="labels">Enter UserName</mat-label>
+        <input  matInput id="userName" type="text" name="userName" required placeholder="Smith123" required
+        #userName="ngModel" [(ngModel)]="csrform.userName">
+        <mat-icon matSuffix>person</mat-icon>
+      </mat-form-field>
+
+      <mat-form-field class="example-full-width" appearance="fill">
+        <mat-label class="labels">Enter Password</mat-label>
+        <input  matInput id="password" [type]="hide ? 'password' : 'text'" name="password" required placeholder="*******" required
+        #password="ngModel" [(ngModel)]="csrform.password">
+        <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
+          <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+        </button>
+      </mat-form-field>
+
+      <mat-form-field class="example-full-width" appearance="fill">
+        <mat-label class="labels">Is Admin</mat-label>
+        <mat-select id="admin" name="admin" #admin="ngModel" [(ngModel)]="csrform.admin">
+          <mat-option [value]="true">Yes</mat-option>
+          <mat-option [value]="false">No</mat-option>
+        </mat-select>
+      </mat-form-field>
+
+      <button id="regsubmit" mat-raised-button class="button" color="primary" type="submit">Submit</button>
+      <button mat-raised-button class="button" color="warn" type="reset">Reset</button>
+    </form>
+    <div class="height"></div>
+</div>
+
+</body>

@@ -1,0 +1,91 @@
+<body>
+<!-- Label to display any error messages -->
+<div *ngIf="state" class="alert">
+  <span class="closebtn" onclick="this.parentElement.style.display='none';" (click)="changeErrorState()">&times;</span>
+  {{ errMessage }}
+</div>
+
+<div class="container">
+
+  <div class="back">
+    <button (click)="goBack()">Back To Admin Dashboard</button>
+  </div>
+
+  <h1>Update CSR Agent</h1>
+
+    <form class="example-form" name="callForm" (ngSubmit)="f.form.valid && updateCsr()" #f="ngForm">
+      <mat-form-field class="example-full-width" appearance="fill">
+        <mat-label class="labels">Enter CSR Id</mat-label>
+        <input matInput id="csrId" type="number" name="csrId" required placeholder="{{this.csrinfo.csrId}}" required
+        #csrId="ngModel" [(ngModel)]="csrinfo.csrId" value="{{this.csrinfo.csrId}}">
+        <mat-icon matSuffix>fingerprint</mat-icon>
+      </mat-form-field>
+
+      <mat-form-field class="example-full-width" appearance="fill">
+        <mat-label class="labels">Enter Full Name</mat-label>
+        <input matInput id="name" type="text" name="name" required placeholder="{{this.csrinfo.name}}" required
+        #name="ngModel" [(ngModel)]="csrinfo.name" value="{{this.csrinfo.name}}">
+        <mat-icon matSuffix>face</mat-icon>
+      </mat-form-field>
+
+      <mat-form-field class="example-full-width" appearance="fill">
+        <mat-label class="labels">Enter Email</mat-label>
+        <input  matInput id="email" type="email" name="email" required placeholder="{{this.csrinfo.email}}" required
+        #email="ngModel" [(ngModel)]="csrinfo.email" value="{{this.csrinfo.email}}" [email]="true">
+        <mat-icon matSuffix>email</mat-icon>
+      </mat-form-field>
+
+      <mat-form-field class="example-full-width" appearance="fill">
+        <mat-label class="labels">Enter Phone No</mat-label>
+        <input  matInput id="phoneNo" type="number" name="phoneNo" required placeholder="{{this.csrinfo.phoneNo}}" required
+        #phoneNo="ngModel" [(ngModel)]="csrinfo.phoneNo" value="{{this.csrinfo.phoneNo}}">
+        <mat-icon matSuffix>phone</mat-icon>
+      </mat-form-field>
+
+      <mat-form-field class="example-full-width" appearance="fill">
+        <mat-label class="labels">Enter UserName</mat-label>
+        <input  matInput id="userName" type="text" name="userName" required placeholder="{{this.csrinfo.userName}}" required
+        #userName="ngModel" [(ngModel)]="csrinfo.userName" value="{{this.csrinfo.userName}}">
+        <mat-icon matSuffix>person</mat-icon>
+      </mat-form-field>
+
+      <mat-form-field class="example-full-width" appearance="fill">
+        <mat-label class="labels">Enter Password</mat-label>
+        <input  matInput id="password" [type]="hide ? 'password' : 'text'" name="password" required placeholder="{{this.csrinfo.password}}" required
+        #password="ngModel" [(ngModel)]="csrinfo.password" value="{{this.csrinfo.password}}">
+        <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
+          <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+        </button>
+      </mat-form-field>
+
+      <mat-form-field class="example-full-width" appearance="fill">
+        <mat-label class="labels">Enter Details</mat-label>
+        <input  matInput id="details" type="text" name="details" required placeholder="Reasons for disabling" required
+        #details="ngModel" [(ngModel)]="csrinfo.details">
+        <mat-icon matSuffix>info</mat-icon>
+      </mat-form-field>
+
+      <mat-form-field class="example-full-width" appearance="fill">
+        <mat-label class="labels">Is Admin</mat-label>
+        <mat-select id="admin" name="admin" #admin="ngModel" [(ngModel)]="csrinfo.admin">
+          <mat-option [value]="true">Yes</mat-option>
+          <mat-option [value]="false">No</mat-option>
+        </mat-select>
+      </mat-form-field>
+
+      <mat-form-field class="example-full-width" appearance="fill">
+        <mat-label class="labels">Is Enabled</mat-label>
+        <mat-select id="enabled" name="enabled" #enabled="ngModel" [(ngModel)]="csrinfo.enabled">
+          <mat-option [value]="true">Yes</mat-option>
+          <mat-option [value]="false">No</mat-option>
+        </mat-select>
+      </mat-form-field>
+
+      <button mat-raised-button class="button" color="primary" type="submit">Submit</button>
+      <button mat-raised-button class="button" color="warn" type="reset">Reset</button>
+    </form>
+    <div class="height"></div>
+</div>
+
+
+</body>

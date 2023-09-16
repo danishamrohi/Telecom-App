@@ -1,0 +1,164 @@
+<body>
+<div class="container">
+  <div *ngIf="state" class="alert">
+    <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+    {{ errMessage }}
+  </div>
+  <div class="back-button-div"><button id="returndash" mat-raised-button matTooltip="Go back to Dashboard"
+      class="back-button" (click)="goBack()">Back To Admin DashBoard</button>
+  </div>
+</div>
+
+<div class="container" >
+    <div>
+      <mat-expansion-panel hideToggle>
+        <mat-expansion-panel-header>
+            <h2>Click Here To Check List of All Calls</h2>
+        </mat-expansion-panel-header>
+        <div class="clsform-div">
+          <mat-form-field  appearance="standard">
+            <mat-label>Filter</mat-label>
+            <input matInput (keyup)="applyFilter($event)" placeholder="Name or Username" #input>
+          </mat-form-field>
+        </div>
+    <hr>
+        <table mat-table [dataSource]="myinfo" class="mat-elevation-z8">
+
+          <!-- Customer UserName Column -->
+          <ng-container matColumnDef="Username">
+            <th mat-header-cell *matHeaderCellDef> Username </th>
+            <td mat-cell *matCellDef="let element"> {{element.customerUserName}} </td>
+          </ng-container>
+
+          <!-- PhoneNumber Column -->
+          <ng-container matColumnDef="PhoneNumber">
+            <th mat-header-cell *matHeaderCellDef> Phone No </th>
+            <td mat-cell *matCellDef="let element"> {{element.customerPhoneNumber}} </td>
+          </ng-container>
+
+          <!-- CsrId Column -->
+          <ng-container matColumnDef="CsrId">
+            <th mat-header-cell *matHeaderCellDef> Csr ID </th>
+            <td mat-cell *matCellDef="let element"> {{element.csrId}} </td>
+          </ng-container>
+
+          <!-- Behaviour Column -->
+          <ng-container matColumnDef="Behaviour">
+            <th mat-header-cell *matHeaderCellDef> Behaviour </th>
+            <td mat-cell *matCellDef="let element"> {{element.customerBehaviour}} </td>
+          </ng-container>
+
+          <!-- Details Column -->
+          <ng-container matColumnDef="Details">
+            <th mat-header-cell *matHeaderCellDef> Details </th>
+            <td mat-cell *matCellDef="let element"> {{element.callDetails}} </td>
+          </ng-container>
+
+          <!-- Duration Column -->
+          <ng-container matColumnDef="Duration">
+            <th mat-header-cell *matHeaderCellDef> Duration </th>
+            <td mat-cell *matCellDef="let element"> {{element.callDuration}} </td>
+          </ng-container>
+
+          <!-- Rating Column -->
+          <ng-container matColumnDef="Rating">
+            <th mat-header-cell *matHeaderCellDef> Rating </th>
+            <td mat-cell *matCellDef="let element"> {{element.callRating}} </td>
+          </ng-container>
+
+          <!-- Date Column -->
+          <ng-container matColumnDef="Date">
+            <th mat-header-cell *matHeaderCellDef> Date </th>
+            <td mat-cell *matCellDef="let element"> {{element.dateAdded}} </td>
+          </ng-container>
+
+          <!-- Source Column -->
+          <ng-container matColumnDef="Source">
+            <th mat-header-cell *matHeaderCellDef> Source </th>
+            <td mat-cell *matCellDef="let element"> {{element.callSource}} </td>
+          </ng-container>
+
+          <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+          <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+        </table>
+    </mat-expansion-panel>
+    </div>
+
+    <div class="all-calls-pdf">
+      <form class="all-calls-form" name="csrform" (ngSubmit)="f.form.valid && getAllCalls()" #f="ngForm">
+        <mat-label class="calls-level">Export All Existing Call Data</mat-label>
+        <div class="all-calls-button-container">
+          <button id="allcalls" mat-raised-button color="primary">
+            Export PDF
+          </button>
+        </div>
+      </form>
+    </div>
+
+    <div class="flex container">
+      <div class="flex-content">
+        <mat-label class="all-calls-level">Export Data By Id</mat-label>
+        <form class="example-form" name="csrform" (ngSubmit)="f.form.valid && getById()" #f="ngForm">
+          <mat-form-field appearance="fill">
+            <input matInput id="csrId" type="number" name="csrId" required placeholder="0" required
+            #csrId="ngModel" [(ngModel)]="tempCsrId">
+          </mat-form-field>
+          <div class="example-button-container">
+            <button id="idcalls" mat-raised-button color="primary">
+              Export PDF
+            </button>
+          </div>
+        </form>
+      </div>
+
+      <div class="flex-content">
+        <mat-label class="all-calls-level">Export Data By Source</mat-label>
+        <form class="example-form" name="csrform" (ngSubmit)="f.form.valid && getByType()" #f="ngForm">
+          <mat-form-field appearance="fill">
+            <mat-select id="source" name="source" #source="ngModel" [(ngModel)]="tempType">
+              <mat-option value="subscription">Subscription </mat-option>
+              <mat-option value="billing">Billing</mat-option>
+              <mat-option value="technical support">Technical Support</mat-option>
+              <mat-option value="renewal">Renewal</mat-option>
+            </mat-select>
+          </mat-form-field>
+          <div class="example-button-container">
+            <button id="sourcecalls" mat-raised-button color="primary">
+              Export PDF
+            </button>
+          </div>
+        </form>
+      </div>
+
+      <div class="flex-content">
+        <mat-label class="all-calls-level">Export Data By Date</mat-label>
+        <form class="example-form" name="csrform" (ngSubmit)="f.form.valid && getByDate()" #f="ngForm">
+          <mat-form-field appearance="fill">
+            <input matInput id="date" type="text" name="date" required placeholder="yyyy-mm-dd" required
+            #date="ngModel" [(ngModel)]="tempDate">
+          </mat-form-field>
+          <div class="example-button-container">
+            <button id="datecalls" mat-raised-button color="primary">
+              Export PDF
+            </button>
+          </div>
+        </form>
+      </div>
+
+      <div class="flex-content">
+        <mat-label class="all-calls-level">Export Data By Phone No</mat-label>
+        <form class="example-form" name="csrform" (ngSubmit)="f.form.valid && getByPhoneNo()" #f="ngForm">
+          <mat-form-field appearance="fill">
+            <input matInput id="phoneNo" type="number" name="phoneNo" required placeholder="0" required
+            #phoneNo="ngModel" [(ngModel)]="tempPhoneNo">
+          </mat-form-field>
+          <div class="example-button-container">
+            <button id="phonecalls" mat-raised-button color="primary">
+              Export PDF
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+</div>
+</body>

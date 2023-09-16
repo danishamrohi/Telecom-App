@@ -1,0 +1,26 @@
+server:
+  port: 9010
+  
+spring:
+
+  application:
+    name: cloud-gateway
+     
+  cloud:
+    gateway:
+      routes:
+      
+        - id: AdminService
+          uri: http://localhost:9092
+          predicates:
+            - Path=/api/v1/csr/**
+      
+        - id: CallService
+          uri: http://localhost:9093
+          predicates:
+            - Path=/call/**
+                  
+        - id: CustomerService
+          uri: http://localhost:9094
+          predicates:
+            - Path=/api/v1/customer/**

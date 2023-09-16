@@ -1,0 +1,86 @@
+<body>
+
+<div *ngIf="state" class="alert">
+  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+  {{ errMessage }}
+</div>
+
+<div class="container">
+  <h1>Enter the Customer Phone Number To Start Recording Call Details</h1>
+  <form>
+      <mat-form-field class="field" appearance="fill">
+        <mat-label class="labels">Enter Phone Number</mat-label>
+        <input matInput type="number" id="tel" name="tel" placeholder="Customer Phone Number"
+        [formControl]="customerPhoneNumber">
+      </mat-form-field>
+    <div>
+      <button id="csrdashsubmit" (click)="getRegistrationPage()">Submit</button>
+      <button type="reset">Reset</button>
+    </div>
+  </form>
+</div>
+<!-- <div class="divider"></div> -->
+
+<div class="wrapper">
+ <mat-expansion-panel hideToggle>
+    <mat-expansion-panel-header>
+        <h2 id="expansionclick">Click Here to check the List of Calls Taken by you</h2>
+    </mat-expansion-panel-header>
+<hr>
+    <div>
+      <table mat-table [dataSource]="calls" class="mat-elevation-z8">
+
+        <!--- Note that these columns can be defined in any order.
+              The actual rendered columns are set as a property on the row definition" -->
+
+        <ng-container matColumnDef="date">
+          <th mat-header-cell *matHeaderCellDef class="center"> Date Added</th>
+          <td mat-cell *matCellDef="let element" class="center"> {{element.dateAdded}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="UserName">
+          <th mat-header-cell *matHeaderCellDef class="center"> Customer UserName </th>
+          <td mat-cell *matCellDef="let element" class="center"> {{element.customerUserName}}</td>
+        </ng-container>
+
+        <ng-container matColumnDef="phone">
+          <th mat-header-cell *matHeaderCellDef class="center"> Customer Phone Number</th>
+          <td mat-cell *matCellDef="let element" class="center"> {{element.customerPhoneNumber}} </td>
+        </ng-container>
+
+        <ng-container matColumnDef="callSource">
+          <th mat-header-cell *matHeaderCellDef class="center"> Call Source</th>
+          <td mat-cell *matCellDef="let element" class="center"> {{element.callSource}} </td>
+        </ng-container>
+
+               <ng-container matColumnDef="callSource1">
+                <th mat-header-cell *matHeaderCellDef class="center"> Customer Behaviour</th>
+                <td mat-cell *matCellDef="let element" class="center"> {{element.customerBehaviour}} </td>
+              </ng-container>
+
+
+                 <ng-container matColumnDef="callSource2">
+                  <th mat-header-cell *matHeaderCellDef class="center"> Call Rating</th>
+                  <td mat-cell *matCellDef="let element" class="center"> {{element.callRating}} </td>
+                </ng-container>
+
+               <ng-container matColumnDef="callSource3">
+                <th mat-header-cell *matHeaderCellDef class="center"> Call Duration </th>
+                <td mat-cell *matCellDef="let element" class="center"> {{element.callDuration}} </td>
+              </ng-container>
+
+                 <ng-container matColumnDef="callSource4" >
+                  <th mat-header-cell *matHeaderCellDef class="center"> Call Details</th>
+                  <td mat-cell *matCellDef="let element" class="center"> {{element.callDetails}} </td>
+                </ng-container>
+
+        <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+        <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+      </table>
+
+    </div>
+  </mat-expansion-panel>
+
+</div>
+
+</body>

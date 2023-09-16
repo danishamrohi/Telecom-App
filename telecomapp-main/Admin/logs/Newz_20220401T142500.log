@@ -1,0 +1,610 @@
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration boolean -> org.hibernate.type.BooleanType@743bb39a
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration boolean -> org.hibernate.type.BooleanType@743bb39a
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@743bb39a
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@729cd862
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration true_false -> org.hibernate.type.TrueFalseType@589dfa6f
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration yes_no -> org.hibernate.type.YesNoType@2774dcf4
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration byte -> org.hibernate.type.ByteType@7757025d
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration byte -> org.hibernate.type.ByteType@7757025d
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@7757025d
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration character -> org.hibernate.type.CharacterType@54567b05
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration char -> org.hibernate.type.CharacterType@54567b05
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@54567b05
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration short -> org.hibernate.type.ShortType@25de8898
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration short -> org.hibernate.type.ShortType@25de8898
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.lang.Short -> org.hibernate.type.ShortType@25de8898
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration integer -> org.hibernate.type.IntegerType@27bb4dc5
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration int -> org.hibernate.type.IntegerType@27bb4dc5
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@27bb4dc5
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration long -> org.hibernate.type.LongType@1f179f51
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration long -> org.hibernate.type.LongType@1f179f51
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.lang.Long -> org.hibernate.type.LongType@1f179f51
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration float -> org.hibernate.type.FloatType@2fac80a8
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration float -> org.hibernate.type.FloatType@2fac80a8
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.lang.Float -> org.hibernate.type.FloatType@2fac80a8
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration double -> org.hibernate.type.DoubleType@69ffdaa8
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration double -> org.hibernate.type.DoubleType@69ffdaa8
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@69ffdaa8
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@22b7ef2b
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@22b7ef2b
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration big_integer -> org.hibernate.type.BigIntegerType@6ce15112
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@6ce15112
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration string -> org.hibernate.type.StringType@6684f7f2
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.lang.String -> org.hibernate.type.StringType@6684f7f2
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration nstring -> org.hibernate.type.StringNVarcharType@d969452
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@67b560fe
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration url -> org.hibernate.type.UrlType@ca546a1
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.net.URL -> org.hibernate.type.UrlType@ca546a1
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration Duration -> org.hibernate.type.DurationType@3ea48c37
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.time.Duration -> org.hibernate.type.DurationType@3ea48c37
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration Instant -> org.hibernate.type.InstantType@3d0352
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.time.Instant -> org.hibernate.type.InstantType@3d0352
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@38732372
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@38732372
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration LocalDate -> org.hibernate.type.LocalDateType@54329480
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@54329480
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@6c9bf3b5
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@6c9bf3b5
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@5d7f1e59
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@5d7f1e59
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@559d19c
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@559d19c
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@44d43cc9
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@44d43cc9
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration date -> org.hibernate.type.DateType@5dc7841c
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.sql.Date -> org.hibernate.type.DateType@5dc7841c
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration time -> org.hibernate.type.TimeType@71dd4624
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.sql.Time -> org.hibernate.type.TimeType@71dd4624
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration timestamp -> org.hibernate.type.TimestampType@66f2ec1c
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@66f2ec1c
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.util.Date -> org.hibernate.type.TimestampType@66f2ec1c
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@2fb082ff
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration calendar -> org.hibernate.type.CalendarType@4fbb1144
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@4fbb1144
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@4fbb1144
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@2e2b9f53
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration calendar_time -> org.hibernate.type.CalendarTimeType@22fb9a2c
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration locale -> org.hibernate.type.LocaleType@360d41d0
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@360d41d0
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration currency -> org.hibernate.type.CurrencyType@61d2f267
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@61d2f267
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration timezone -> org.hibernate.type.TimeZoneType@23c7cb18
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@23c7cb18
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration class -> org.hibernate.type.ClassType@2c34402
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.lang.Class -> org.hibernate.type.ClassType@2c34402
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@7d88fa9c
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@7d88fa9c
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@10dfa7ef
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration binary -> org.hibernate.type.BinaryType@1b4a3a1
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration byte[] -> org.hibernate.type.BinaryType@1b4a3a1
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration [B -> org.hibernate.type.BinaryType@1b4a3a1
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@14b95942
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@14b95942
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@14b95942
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration row_version -> org.hibernate.type.RowVersionType@47f2c722
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration image -> org.hibernate.type.ImageType@37c2f0b4
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration characters -> org.hibernate.type.CharArrayType@5da57a64
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration char[] -> org.hibernate.type.CharArrayType@5da57a64
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration [C -> org.hibernate.type.CharArrayType@5da57a64
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@2565a7d0
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@2565a7d0
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@2565a7d0
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration text -> org.hibernate.type.TextType@7e77678c
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration ntext -> org.hibernate.type.NTextType@4cd7d5e1
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration blob -> org.hibernate.type.BlobType@78318ac2
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@78318ac2
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@7608a838
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration clob -> org.hibernate.type.ClobType@7534785a
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@7534785a
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration nclob -> org.hibernate.type.NClobType@472c9f88
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@472c9f88
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@7afbf2a0
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@5e0f2c82
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration serializable -> org.hibernate.type.SerializableType@54be6213
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration object -> org.hibernate.type.ObjectType@506aa618
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@506aa618
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@3ee6dc82
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@2f86f9cf
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@adafe19
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@7e2bd5e6
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@76a1146d
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@6ef1c3f7
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@3386c206
+2022-04-01 14:25:04 [main] DEBUG org.hibernate.type.BasicTypeRegistry -
+				Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@1322b575
+2022-04-01 14:25:04 [main] DEBUG o.h.type.spi.TypeConfiguration$Scope -
+				Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@2976ca51] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@6b091a92]
+2022-04-01 14:25:04 [main] DEBUG o.h.type.spi.TypeConfiguration$Scope -
+				Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@2976ca51] to SessionFactoryImpl [org.hibernate.internal.SessionFactoryImpl@2b1d1a5]
+2022-04-01 14:25:05 [main] TRACE o.h.type.spi.TypeConfiguration$Scope -
+				Handling #sessionFactoryCreated from [org.hibernate.internal.SessionFactoryImpl@2b1d1a5] for TypeConfiguration
+2022-04-01 14:25:06 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration -
+				spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-01 14:25:07 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger -
+				Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-04-01 14:25:08 [main] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient -
+				Request execution failed with message: I/O error on GET request for "http://localhost:8761/eureka/apps/": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2022-04-01 14:25:08 [main] WARN  c.netflix.discovery.DiscoveryClient -
+				Using default backup registry implementation which does not do anything.
+2022-04-01 14:25:08 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient -
+				Request execution failed with message: I/O error on POST request for "http://localhost:8761/eureka/apps/ADMINSERVICE": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2022-04-01 14:25:08 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_ADMINSERVICE/host.docker.internal:AdminService:9092 - registration failed Cannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:876)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-04-01 14:25:08 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.n.discovery.InstanceInfoReplicator -
+				There was a problem with the instance info replicator
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:876)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-04-01 14:25:12 [http-nio-9092-exec-2] DEBUG org.hibernate.SQL -
+				select csr0_.csr_id as csr_id1_0_, csr0_.details as details2_0_, csr0_.email as email3_0_, csr0_.is_admin as is_admin4_0_, csr0_.is_enabled as is_enabl5_0_, csr0_.name as name6_0_, csr0_.password as password7_0_, csr0_.phone_no as phone_no8_0_, csr0_.user_name as user_nam9_0_ from csr csr0_
+2022-04-01 14:25:12 [http-nio-9092-exec-2] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([csr_id1_0_] : [INTEGER]) - [1]
+2022-04-01 14:25:12 [http-nio-9092-exec-2] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([details2_0_] : [VARCHAR]) - [null]
+2022-04-01 14:25:12 [http-nio-9092-exec-2] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([email3_0_] : [VARCHAR]) - [dan@yahoo.com]
+2022-04-01 14:25:12 [http-nio-9092-exec-2] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([is_admin4_0_] : [BOOLEAN]) - [false]
+2022-04-01 14:25:12 [http-nio-9092-exec-2] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([is_enabl5_0_] : [BOOLEAN]) - [false]
+2022-04-01 14:25:12 [http-nio-9092-exec-2] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([name6_0_] : [VARCHAR]) - [ainz]
+2022-04-01 14:25:12 [http-nio-9092-exec-2] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([password7_0_] : [VARCHAR]) - [ainz]
+2022-04-01 14:25:12 [http-nio-9092-exec-2] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([phone_no8_0_] : [BIGINT]) - [87654321]
+2022-04-01 14:25:12 [http-nio-9092-exec-2] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([user_nam9_0_] : [VARCHAR]) - [ainz]
+2022-04-01 14:25:12 [http-nio-9092-exec-2] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([csr_id1_0_] : [INTEGER]) - [2]
+2022-04-01 14:25:12 [http-nio-9092-exec-2] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([details2_0_] : [VARCHAR]) - []
+2022-04-01 14:25:12 [http-nio-9092-exec-2] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([email3_0_] : [VARCHAR]) - [bob@cgi.com]
+2022-04-01 14:25:12 [http-nio-9092-exec-2] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([is_admin4_0_] : [BOOLEAN]) - [false]
+2022-04-01 14:25:12 [http-nio-9092-exec-2] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([is_enabl5_0_] : [BOOLEAN]) - [true]
+2022-04-01 14:25:12 [http-nio-9092-exec-2] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([name6_0_] : [VARCHAR]) - [bob]
+2022-04-01 14:25:12 [http-nio-9092-exec-2] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([password7_0_] : [VARCHAR]) - [jhgfds]
+2022-04-01 14:25:12 [http-nio-9092-exec-2] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([phone_no8_0_] : [BIGINT]) - [2345096]
+2022-04-01 14:25:12 [http-nio-9092-exec-2] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([user_nam9_0_] : [VARCHAR]) - [danneil]
+2022-04-01 14:25:12 [http-nio-9092-exec-2] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([csr_id1_0_] : [INTEGER]) - [3]
+2022-04-01 14:25:12 [http-nio-9092-exec-2] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([details2_0_] : [VARCHAR]) - []
+2022-04-01 14:25:12 [http-nio-9092-exec-2] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([email3_0_] : [VARCHAR]) - [decesh@yahoo.com]
+2022-04-01 14:25:12 [http-nio-9092-exec-2] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([is_admin4_0_] : [BOOLEAN]) - [false]
+2022-04-01 14:25:12 [http-nio-9092-exec-2] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([is_enabl5_0_] : [BOOLEAN]) - [true]
+2022-04-01 14:25:12 [http-nio-9092-exec-2] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([name6_0_] : [VARCHAR]) - [devesh]
+2022-04-01 14:25:12 [http-nio-9092-exec-2] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([password7_0_] : [VARCHAR]) - [pmkaebtpm]
+2022-04-01 14:25:12 [http-nio-9092-exec-2] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([phone_no8_0_] : [BIGINT]) - [1234567890]
+2022-04-01 14:25:12 [http-nio-9092-exec-2] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([user_nam9_0_] : [VARCHAR]) - [desh234]
+2022-04-01 14:25:38 [DiscoveryClient-CacheRefreshExecutor-0] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient -
+				Request execution failed with message: I/O error on GET request for "http://localhost:8761/eureka/apps/": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2022-04-01 14:25:38 [DiscoveryClient-HeartbeatExecutor-0] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient -
+				Request execution failed with message: I/O error on PUT request for "http://localhost:8761/eureka/apps/ADMINSERVICE/host.docker.internal:AdminService:9092": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2022-04-01 14:25:38 [DiscoveryClient-HeartbeatExecutor-0] ERROR c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_ADMINSERVICE/host.docker.internal:AdminService:9092 - was unable to send heartbeat!
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:893)
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1457)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-04-01 14:25:38 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient -
+				Request execution failed with message: I/O error on POST request for "http://localhost:8761/eureka/apps/ADMINSERVICE": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2022-04-01 14:25:38 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_ADMINSERVICE/host.docker.internal:AdminService:9092 - registration failed Cannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:876)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-04-01 14:25:38 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.n.discovery.InstanceInfoReplicator -
+				There was a problem with the instance info replicator
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:876)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-04-01 14:25:55 [http-nio-9092-exec-3] DEBUG org.hibernate.SQL -
+				select count(*) as col_0_0_ from csr csr0_ where csr0_.csr_id=?
+2022-04-01 14:25:55 [http-nio-9092-exec-3] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [1] as [INTEGER] - [2]
+2022-04-01 14:25:55 [http-nio-9092-exec-3] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([col_0_0_] : [BIGINT]) - [1]
+2022-04-01 14:26:00 [http-nio-9092-exec-4] DEBUG org.hibernate.SQL -
+				select csr0_.csr_id as csr_id1_0_, csr0_.details as details2_0_, csr0_.email as email3_0_, csr0_.is_admin as is_admin4_0_, csr0_.is_enabled as is_enabl5_0_, csr0_.name as name6_0_, csr0_.password as password7_0_, csr0_.phone_no as phone_no8_0_, csr0_.user_name as user_nam9_0_ from csr csr0_
+2022-04-01 14:26:00 [http-nio-9092-exec-4] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([csr_id1_0_] : [INTEGER]) - [1]
+2022-04-01 14:26:00 [http-nio-9092-exec-4] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([details2_0_] : [VARCHAR]) - [null]
+2022-04-01 14:26:00 [http-nio-9092-exec-4] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([email3_0_] : [VARCHAR]) - [dan@yahoo.com]
+2022-04-01 14:26:00 [http-nio-9092-exec-4] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([is_admin4_0_] : [BOOLEAN]) - [false]
+2022-04-01 14:26:00 [http-nio-9092-exec-4] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([is_enabl5_0_] : [BOOLEAN]) - [false]
+2022-04-01 14:26:00 [http-nio-9092-exec-4] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([name6_0_] : [VARCHAR]) - [ainz]
+2022-04-01 14:26:00 [http-nio-9092-exec-4] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([password7_0_] : [VARCHAR]) - [ainz]
+2022-04-01 14:26:00 [http-nio-9092-exec-4] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([phone_no8_0_] : [BIGINT]) - [87654321]
+2022-04-01 14:26:00 [http-nio-9092-exec-4] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([user_nam9_0_] : [VARCHAR]) - [ainz]
+2022-04-01 14:26:00 [http-nio-9092-exec-4] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([csr_id1_0_] : [INTEGER]) - [2]
+2022-04-01 14:26:00 [http-nio-9092-exec-4] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([details2_0_] : [VARCHAR]) - []
+2022-04-01 14:26:00 [http-nio-9092-exec-4] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([email3_0_] : [VARCHAR]) - [bob@cgi.com]
+2022-04-01 14:26:00 [http-nio-9092-exec-4] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([is_admin4_0_] : [BOOLEAN]) - [false]
+2022-04-01 14:26:00 [http-nio-9092-exec-4] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([is_enabl5_0_] : [BOOLEAN]) - [true]
+2022-04-01 14:26:00 [http-nio-9092-exec-4] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([name6_0_] : [VARCHAR]) - [bob]
+2022-04-01 14:26:00 [http-nio-9092-exec-4] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([password7_0_] : [VARCHAR]) - [jhgfds]
+2022-04-01 14:26:00 [http-nio-9092-exec-4] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([phone_no8_0_] : [BIGINT]) - [2345096]
+2022-04-01 14:26:00 [http-nio-9092-exec-4] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([user_nam9_0_] : [VARCHAR]) - [danneil]
+2022-04-01 14:26:00 [http-nio-9092-exec-4] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([csr_id1_0_] : [INTEGER]) - [3]
+2022-04-01 14:26:00 [http-nio-9092-exec-4] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([details2_0_] : [VARCHAR]) - []
+2022-04-01 14:26:00 [http-nio-9092-exec-4] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([email3_0_] : [VARCHAR]) - [decesh@yahoo.com]
+2022-04-01 14:26:00 [http-nio-9092-exec-4] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([is_admin4_0_] : [BOOLEAN]) - [false]
+2022-04-01 14:26:00 [http-nio-9092-exec-4] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([is_enabl5_0_] : [BOOLEAN]) - [true]
+2022-04-01 14:26:00 [http-nio-9092-exec-4] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([name6_0_] : [VARCHAR]) - [devesh]
+2022-04-01 14:26:00 [http-nio-9092-exec-4] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([password7_0_] : [VARCHAR]) - [pmkaebtpm]
+2022-04-01 14:26:00 [http-nio-9092-exec-4] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([phone_no8_0_] : [BIGINT]) - [1234567890]
+2022-04-01 14:26:00 [http-nio-9092-exec-4] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([user_nam9_0_] : [VARCHAR]) - [desh234]
+2022-04-01 14:26:06 [http-nio-9092-exec-5] DEBUG org.hibernate.SQL -
+				select count(*) as col_0_0_ from csr csr0_ where csr0_.csr_id=?
+2022-04-01 14:26:06 [http-nio-9092-exec-5] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [1] as [INTEGER] - [2]
+2022-04-01 14:26:06 [http-nio-9092-exec-5] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([col_0_0_] : [BIGINT]) - [1]
+2022-04-01 14:26:08 [DiscoveryClient-HeartbeatExecutor-0] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient -
+				Request execution failed with message: I/O error on PUT request for "http://localhost:8761/eureka/apps/ADMINSERVICE/host.docker.internal:AdminService:9092": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2022-04-01 14:26:08 [DiscoveryClient-HeartbeatExecutor-0] ERROR c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_ADMINSERVICE/host.docker.internal:AdminService:9092 - was unable to send heartbeat!
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:893)
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1457)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-04-01 14:26:08 [DiscoveryClient-CacheRefreshExecutor-0] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient -
+				Request execution failed with message: I/O error on GET request for "http://localhost:8761/eureka/apps/": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2022-04-01 14:26:08 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.n.d.s.t.d.RetryableEurekaHttpClient -
+				Request execution failed with message: I/O error on POST request for "http://localhost:8761/eureka/apps/ADMINSERVICE": Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect; nested exception is org.apache.http.conn.HttpHostConnectException: Connect to localhost:8761 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+2022-04-01 14:26:08 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.netflix.discovery.DiscoveryClient -
+				DiscoveryClient_ADMINSERVICE/host.docker.internal:AdminService:9092 - registration failed Cannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:876)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-04-01 14:26:08 [DiscoveryClient-InstanceInfoReplicator-0] WARN  c.n.discovery.InstanceInfoReplicator -
+				There was a problem with the instance info replicator
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:876)
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-04-01 14:26:11 [http-nio-9092-exec-6] DEBUG org.hibernate.SQL -
+				select count(*) as col_0_0_ from csr csr0_ where csr0_.csr_id=?
+2022-04-01 14:26:11 [http-nio-9092-exec-6] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [1] as [INTEGER] - [100]
+2022-04-01 14:26:11 [http-nio-9092-exec-6] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([col_0_0_] : [BIGINT]) - [0]
+2022-04-01 14:26:11 [http-nio-9092-exec-6] DEBUG org.hibernate.SQL -
+				select csr0_.csr_id as csr_id1_0_0_, csr0_.details as details2_0_0_, csr0_.email as email3_0_0_, csr0_.is_admin as is_admin4_0_0_, csr0_.is_enabled as is_enabl5_0_0_, csr0_.name as name6_0_0_, csr0_.password as password7_0_0_, csr0_.phone_no as phone_no8_0_0_, csr0_.user_name as user_nam9_0_0_ from csr csr0_ where csr0_.csr_id=?
+2022-04-01 14:26:11 [http-nio-9092-exec-6] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [1] as [INTEGER] - [100]
+2022-04-01 14:26:12 [http-nio-9092-exec-6] DEBUG org.hibernate.SQL -
+				insert into csr (details, email, is_admin, is_enabled, name, password, phone_no, user_name, csr_id) values (?, ?, ?, ?, ?, ?, ?, ?, ?)
+2022-04-01 14:26:12 [http-nio-9092-exec-6] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [1] as [VARCHAR] - []
+2022-04-01 14:26:12 [http-nio-9092-exec-6] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [2] as [VARCHAR] - [admin@yahoo.com]
+2022-04-01 14:26:12 [http-nio-9092-exec-6] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [3] as [BOOLEAN] - [true]
+2022-04-01 14:26:12 [http-nio-9092-exec-6] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [4] as [BOOLEAN] - [true]
+2022-04-01 14:26:12 [http-nio-9092-exec-6] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [5] as [VARCHAR] - [admin]
+2022-04-01 14:26:12 [http-nio-9092-exec-6] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [6] as [VARCHAR] - [password]
+2022-04-01 14:26:12 [http-nio-9092-exec-6] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [7] as [BIGINT] - [5149261]
+2022-04-01 14:26:12 [http-nio-9092-exec-6] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [8] as [VARCHAR] - [admin]
+2022-04-01 14:26:12 [http-nio-9092-exec-6] TRACE o.h.type.descriptor.sql.BasicBinder -
+				binding parameter [9] as [INTEGER] - [100]
+2022-04-01 14:26:16 [http-nio-9092-exec-7] DEBUG org.hibernate.SQL -
+				select csr0_.csr_id as csr_id1_0_, csr0_.details as details2_0_, csr0_.email as email3_0_, csr0_.is_admin as is_admin4_0_, csr0_.is_enabled as is_enabl5_0_, csr0_.name as name6_0_, csr0_.password as password7_0_, csr0_.phone_no as phone_no8_0_, csr0_.user_name as user_nam9_0_ from csr csr0_
+2022-04-01 14:26:16 [http-nio-9092-exec-7] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([csr_id1_0_] : [INTEGER]) - [1]
+2022-04-01 14:26:16 [http-nio-9092-exec-7] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([details2_0_] : [VARCHAR]) - [null]
+2022-04-01 14:26:16 [http-nio-9092-exec-7] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([email3_0_] : [VARCHAR]) - [dan@yahoo.com]
+2022-04-01 14:26:16 [http-nio-9092-exec-7] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([is_admin4_0_] : [BOOLEAN]) - [false]
+2022-04-01 14:26:16 [http-nio-9092-exec-7] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([is_enabl5_0_] : [BOOLEAN]) - [false]
+2022-04-01 14:26:16 [http-nio-9092-exec-7] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([name6_0_] : [VARCHAR]) - [ainz]
+2022-04-01 14:26:16 [http-nio-9092-exec-7] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([password7_0_] : [VARCHAR]) - [ainz]
+2022-04-01 14:26:16 [http-nio-9092-exec-7] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([phone_no8_0_] : [BIGINT]) - [87654321]
+2022-04-01 14:26:16 [http-nio-9092-exec-7] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([user_nam9_0_] : [VARCHAR]) - [ainz]
+2022-04-01 14:26:16 [http-nio-9092-exec-7] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([csr_id1_0_] : [INTEGER]) - [2]
+2022-04-01 14:26:16 [http-nio-9092-exec-7] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([details2_0_] : [VARCHAR]) - []
+2022-04-01 14:26:16 [http-nio-9092-exec-7] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([email3_0_] : [VARCHAR]) - [bob@cgi.com]
+2022-04-01 14:26:16 [http-nio-9092-exec-7] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([is_admin4_0_] : [BOOLEAN]) - [false]
+2022-04-01 14:26:16 [http-nio-9092-exec-7] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([is_enabl5_0_] : [BOOLEAN]) - [true]
+2022-04-01 14:26:16 [http-nio-9092-exec-7] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([name6_0_] : [VARCHAR]) - [bob]
+2022-04-01 14:26:16 [http-nio-9092-exec-7] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([password7_0_] : [VARCHAR]) - [jhgfds]
+2022-04-01 14:26:16 [http-nio-9092-exec-7] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([phone_no8_0_] : [BIGINT]) - [2345096]
+2022-04-01 14:26:16 [http-nio-9092-exec-7] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([user_nam9_0_] : [VARCHAR]) - [danneil]
+2022-04-01 14:26:16 [http-nio-9092-exec-7] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([csr_id1_0_] : [INTEGER]) - [3]
+2022-04-01 14:26:16 [http-nio-9092-exec-7] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([details2_0_] : [VARCHAR]) - []
+2022-04-01 14:26:16 [http-nio-9092-exec-7] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([email3_0_] : [VARCHAR]) - [decesh@yahoo.com]
+2022-04-01 14:26:16 [http-nio-9092-exec-7] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([is_admin4_0_] : [BOOLEAN]) - [false]
+2022-04-01 14:26:16 [http-nio-9092-exec-7] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([is_enabl5_0_] : [BOOLEAN]) - [true]
+2022-04-01 14:26:16 [http-nio-9092-exec-7] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([name6_0_] : [VARCHAR]) - [devesh]
+2022-04-01 14:26:16 [http-nio-9092-exec-7] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([password7_0_] : [VARCHAR]) - [pmkaebtpm]
+2022-04-01 14:26:16 [http-nio-9092-exec-7] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([phone_no8_0_] : [BIGINT]) - [1234567890]
+2022-04-01 14:26:16 [http-nio-9092-exec-7] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([user_nam9_0_] : [VARCHAR]) - [desh234]
+2022-04-01 14:26:16 [http-nio-9092-exec-7] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([csr_id1_0_] : [INTEGER]) - [100]
+2022-04-01 14:26:16 [http-nio-9092-exec-7] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([details2_0_] : [VARCHAR]) - []
+2022-04-01 14:26:16 [http-nio-9092-exec-7] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([email3_0_] : [VARCHAR]) - [admin@yahoo.com]
+2022-04-01 14:26:16 [http-nio-9092-exec-7] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([is_admin4_0_] : [BOOLEAN]) - [true]
+2022-04-01 14:26:16 [http-nio-9092-exec-7] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([is_enabl5_0_] : [BOOLEAN]) - [true]
+2022-04-01 14:26:16 [http-nio-9092-exec-7] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([name6_0_] : [VARCHAR]) - [admin]
+2022-04-01 14:26:16 [http-nio-9092-exec-7] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([password7_0_] : [VARCHAR]) - [password]
+2022-04-01 14:26:16 [http-nio-9092-exec-7] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([phone_no8_0_] : [BIGINT]) - [5149261]
+2022-04-01 14:26:16 [http-nio-9092-exec-7] TRACE o.h.t.descriptor.sql.BasicExtractor -
+				extracted value ([user_nam9_0_] : [VARCHAR]) - [admin]

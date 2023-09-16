@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+
+
+.container{
+  font-family: 'Roboto Slab', serif;
+  max-width: 50%;
+  min-width: 300px;
+  margin: auto;
+  background-color: rgb(68, 65, 65);
+  text-align: center;
+  padding: 10px;
+  padding-bottom: 30px;
+  box-shadow: 5px 5px 5px  gray;
+  padding-top: 5px;
+}
+
+.example-form {
+  font-family: 'Roboto Slab', serif;
+  min-width: 300px;
+  max-width: 95%;
+  margin: auto;
+  font-size: large;
+  background-color: white;
+  padding: 5px;
+  padding-bottom: 15px;
+}
+
+.example-full-width {
+  width: 100%;
+}
+
+button{
+  font-family: 'Roboto Slab', serif;
+  margin-right: 5px;
+}
+
+h1{
+  font-family: 'Roboto Slab', serif;
+  color: white;
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+
+.back{
+  font-family: 'Roboto Slab', serif;
+  text-align: right;
+}
+
+.back button{
+  font-family: 'Roboto Slab', serif;
+  padding: 5px 15px;
+  background-color: rgb(238, 220, 220);
+  color: black;
+  border-radius: 5px;
+  font-weight: 600;
+  margin-right: 5px;
+  margin-top: 5px;
+}
+
+.button{
+  font-family: 'Roboto Slab', serif;
+  font-size: large;
+  padding: 5px 25px;
+  background-color: rgb(126, 17, 17);
+}
+
+.labels{
+  font-family: 'Roboto Slab', serif;
+  color: rgb(50, 50, 50);
+}
+
+.section{
+  font-family: 'Roboto Slab', serif;
+  color: white;
+  font-size: 20px;
+}
+
+.sect{
+  font-family: 'Roboto Slab', serif;
+  margin: 10px;
+  padding: 10px;
+  background-color: rgb(132, 132, 155);
+  display: flex;
+}
+
+.left{
+  font-family: 'Roboto Slab', serif;
+  text-align: left;
+  color: white;
+  display: inline-block;
+  width: 50%;
+}
+
+.right{
+  font-family: 'Roboto Slab', serif;
+  display: inline-block;
+  color: white;
+  margin-left: 10px;
+}
+
+body{
+  background-size: cover;
+  background-image: url(../../assets/ppt3.jpg);
+}
+
+
+.height{
+  min-height: 100px;
+}
+
+
+@media (max-width: 800px) {
+
+  h1{
+    font-size: 25px;
+  }
+  .height{
+    min-height: 500px;
+  }
+
+
+}

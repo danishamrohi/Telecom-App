@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+
+
+
+
+
+.container{
+font-family: 'Roboto Slab', serif;
+max-width: 80%;
+margin: auto;
+background-color: rgb(44, 56, 56);
+padding: 10px;
+padding-top: 5px;
+box-shadow: 5px 5px 5px gray;
+}
+
+.back-button-div{
+  font-family: 'Roboto Slab', serif;
+  text-align: right;
+  padding: 5px;
+}
+
+.back-button{
+  font-family: 'Roboto Slab', serif;
+  background-color: #be2e23;
+  color: white;
+}
+
+.clsform-div{
+  font-family: 'Roboto Slab', serif;
+  max-width: 80%;
+  margin: auto;
+  margin-bottom: 50px;
+  background-color: rgb(216, 203, 203);
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+table {
+    font-family: 'Roboto Slab', serif;
+    width: 100%;
+    padding: 5px;
+  }
+
+  .all-calls-pdf{
+    font-family: 'Roboto Slab', serif;
+    min-height: 50px;
+    margin-top: 25px;
+    background-color: rgb(44, 56, 56);
+    text-align: center;
+  }
+
+  .all-calls-form{
+    font-family: 'Roboto Slab', serif;
+    background-color: aliceblue;
+    display: inline-block;
+    padding: 10px;
+    border: 5px solid rgb(34, 90, 76);
+  }
+
+  .calls-level{
+    font-family: 'Roboto Slab', serif;
+    font-size: medium;
+    text-align: center;
+  }
+
+  .all-calls-level{
+    font-family: 'Roboto Slab', serif;
+    font-size: large;
+    text-align: center;
+  }
+
+  .all-calls-button-container{
+    font-family: 'Roboto Slab', serif;
+    margin-top: 10px;
+  }
+
+.flex{
+  font-family: 'Roboto Slab', serif;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 25px;
+}
+
+.flex-content{
+  font-family: 'Roboto Slab', serif;
+  background-color: rgb(24, 77, 77);
+  padding: 5px;
+  margin-top: 5px;
+  color: white;
+}
+
+input{
+  font-family: 'Roboto Slab', serif;
+  color: black;
+}
+
+.example-form {
+  font-family: 'Roboto Slab', serif;
+  background-color: white;
+  padding: 5px;
+}
+
+.alert {
+  font-family: 'Roboto Slab', serif;
+  background-color: #c45f58; /* Red */
+  color: white;
+  max-width: 50%;
+  margin-top: 25px;
+  margin: auto;
+  padding: 10px 30px;
+  max-height: 250px;
+  box-shadow: 25px 25px 25px rgb(199, 137, 137);
+}
+
+/* The close button */
+
+.closebtn {
+  font-family: 'Roboto Slab', serif;
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+
+.closebtn:hover {
+  color: black;
+
+}
+
+body{
+
+  background-size: cover;
+  background-image: url(../../assets/ppt3.jpg);
+
+}

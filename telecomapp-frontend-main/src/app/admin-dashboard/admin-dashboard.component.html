@@ -1,0 +1,105 @@
+  <body >
+
+  <div class="container h1">
+    <h1>Admin Dashboard</h1>
+  </div>
+
+  <div *ngIf="state" class="alert">
+    <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+    {{ errMessage }}
+  </div>
+
+  <div class="container">
+
+    <div class="clsform-div">
+      <mat-form-field appearance="standard">
+        <mat-label>Filter CSR List</mat-label>
+        <input matInput (keyup)="applyFilter($event)" placeholder="Name or Username" #input>
+      </mat-form-field>
+      </div>
+
+  <table mat-table [dataSource]="myinfo" class="mat-elevation-z8">
+
+    <!-- Csr Id Column -->
+    <ng-container matColumnDef="csrId">
+      <th mat-header-cell *matHeaderCellDef> Csr Id </th>
+      <td mat-cell *matCellDef="let element"> {{element.csrId}} </td>
+    </ng-container>
+
+    <!-- Name Column -->
+    <ng-container matColumnDef="name">
+      <th mat-header-cell *matHeaderCellDef> Name </th>
+      <td mat-cell *matCellDef="let element"> {{element.name}} </td>
+    </ng-container>
+
+    <!-- UserName Column -->
+    <ng-container matColumnDef="userName">
+      <th mat-header-cell *matHeaderCellDef> UserName </th>
+      <td mat-cell *matCellDef="let element"> {{element.userName}} </td>
+    </ng-container>
+
+    <!-- Email Column -->
+    <ng-container matColumnDef="email">
+      <th mat-header-cell *matHeaderCellDef> Email </th>
+      <td mat-cell *matCellDef="let element"> {{element.email}} </td>
+    </ng-container>
+
+    <!-- Phone No Column -->
+    <ng-container matColumnDef="phoneNo">
+      <th mat-header-cell *matHeaderCellDef> Phone No </th>
+      <td mat-cell *matCellDef="let element"> {{element.phoneNo}} </td>
+    </ng-container>
+
+    <!-- Enabled Column -->
+    <ng-container matColumnDef="enabled">
+      <th mat-header-cell *matHeaderCellDef> Enabled </th>
+      <td mat-cell *matCellDef="let element"> {{element.enabled}} </td>
+    </ng-container>
+
+    <!-- Admin Column -->
+    <ng-container matColumnDef="admin">
+      <th mat-header-cell *matHeaderCellDef> Admin </th>
+      <td mat-cell *matCellDef="let element"> {{element.admin}} </td>
+    </ng-container>
+
+    <!-- Update Column -->
+    <ng-container matColumnDef="Update">
+      <th mat-header-cell *matHeaderCellDef> Update </th>
+      <td mat-cell *matCellDef="let element"> <button mat-mini-fab color="primary" (click)="updateCsr(element.csrId)"><mat-icon>update</mat-icon></button> </td>
+    </ng-container>
+
+    <!-- Delete Column -->
+    <ng-container matColumnDef="Delete">
+      <th mat-header-cell *matHeaderCellDef> Delete </th>
+      <td mat-cell *matCellDef="let element"> <button mat-mini-fab color="warn" (click)="deleteConfirm(element.csrId)"><mat-icon>delete</mat-icon></button> </td>
+    </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+  </table>
+
+  <div class="matcards">
+    <mat-card class="matcard">
+      <h3>Register a new Csr Agent into the system</h3>
+      <button id="csrregister" class='clsbutton' mat-raised-button
+      matTooltip="Manually add a Csr"
+      aria-label="Button that displays a tooltip when focused or hovered over"
+      (click)="goRegister()">
+      Add CSR
+      </button>
+    </mat-card>
+
+    <mat-card class="matcard">
+      <h3>Get Call reports and Export Call data</h3>
+      <button id="exportcall" class='clsbutton' mat-raised-button
+      matTooltip="Manually add a Csr"
+      aria-label="Button that displays a tooltip when focused or hovered over"
+      (click)="goToCallReports()">
+      Export now
+      </button>
+    </mat-card>
+  </div>
+
+  </div>
+
+</body>

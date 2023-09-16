@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+.container{
+  font-family: 'Roboto Slab', serif;
+  max-width: 25%;
+  min-width: 300px;
+  margin: auto;
+  background-color: rgb(68, 65, 65);
+  text-align: center;
+  padding: 15px;
+  padding-bottom: 25px;
+  box-shadow: 5px 5px 5px  gray;
+  padding-top: 20px;
+}
+
+.example-form {
+  font-family: 'Roboto Slab', serif;
+  min-width: 300px;
+  max-width: 95%;
+  margin: auto;
+  font-size: medium;
+  background-color: aliceblue;
+  padding: 5px;
+  padding-bottom: 10px;
+}
+
+.example-full-width {
+  min-width: 300px;
+  max-width: 100%;
+  width: 100%;
+  margin: auto;
+  font-size: medium;
+}
+
+
+button{
+  margin-right: 5px;
+}
+
+.button{
+  font-family: 'Roboto Slab', serif;
+  font-size: large;
+  padding: 5px 35px;
+}
+
+
+h1{
+  font-family: 'Roboto Slab', serif;
+  max-width: 50%;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.back{
+  text-align: right;
+}
+
+.backButton{
+  font-family: 'Roboto Slab', serif;
+  padding: 5px 15px;
+  background-color: rgb(238, 220, 220);
+  color: black;
+  border-radius: 5px;
+  font-weight: 600;
+  margin-right: 5px;
+}
+
+.regButton{
+  font-family: 'Roboto Slab', serif;
+  background-color: orange;
+  color: black;
+}
+
+/* Error */
+
+.alert {
+  background-color: #c45f58; /* Red */
+  color: white;
+  max-width: 50%;
+  margin-top: 25px;
+  margin: auto;
+  padding: 10px 30px;
+  max-height: 250px;
+  box-shadow: 25px 25px 25px rgb(199, 137, 137);
+}
+
+/* The close button */
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+
+/* When moving the mouse over the close button */
+
+.closebtn:hover {
+  color: black;
+}
+
+body{
+  background-size: cover;
+  background-image: url(../../assets/CGI_LinkedIn_banner_pride_flag.jpg);
+}

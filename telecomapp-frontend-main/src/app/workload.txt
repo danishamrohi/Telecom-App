@@ -1,0 +1,47 @@
+1 - admin-call-report component
+  a-add a table with call details
+  b-filter the table
+  c-export by 5 parameters - cust phone/all calls
+  d-Add Date pipe for export by date                       -- Done
+
+
+3 - Admin-DashBoard - update/delete Icons instead of buttons - Done
+
+
+3- CSR Dashboard - add expansion panel to display calls by csr-id -- Done
+
+4 - CSR-call-form  --- CSS (Icons, Stars, Labels) -- Done
+
+
+
+5- Customer-DashBoard -- fetch data from backend
+
+6- Customer-Update -- Prifile the data in fields - connect to backend
+
+
+2 - Admin-call-report / admin-dashboard - css
+
+
+7- Implement Login for all three / Routing to relevent dashboards
+
+8- Use routes to protect the pages
+
+call form retype
+
+call form on submit error 500 sometime
+
+admin dashboard not centers 
+
+guards
+
+login/logout button
+
+ui overhaul
+
+front end test
+
+back end test
+
+ci Implement
+
+docker images upload

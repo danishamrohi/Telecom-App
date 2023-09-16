@@ -1,0 +1,95 @@
+<body>
+
+<div class="container section">
+  <div class="back">
+    <button id="returncsrdash" (click)="goBack()">Back To CSR Dashboard</button>
+  </div>
+  <div class="sect">
+    <div class="left">
+      <mat-icon matSuffix>person</mat-icon>Customer Username:
+    </div>
+    <div class="right">
+      {{this.customer.userName}}
+    </div>
+  </div>
+  <div class="sect">
+    <div class="left"> <mat-icon matSuffix>phone</mat-icon> Customer Phone Number:</div>
+    <div class="right">{{this.customer.phoneNumber}}</div>
+  </div>
+  <div class="sect">
+    <div class="left"><mat-icon matSuffix>fingerprint</mat-icon> CSR Id:</div>
+    <div class="right">{{this.csrId}}</div>
+   </div>
+</div>
+
+
+<div class="container">
+
+  <h1>Call Details Form</h1>
+
+    <form class="example-form" name="callForm" (ngSubmit)="f.form.valid && onSubmit()" #f="ngForm">
+
+        <mat-form-field class="example-full-width" appearance="fill">
+          <mat-label class="labels">Select A Call Source</mat-label>
+          <mat-select id="callDetails" name="callDetails" #callSource="ngModel" [(ngModel)]="callForm.callSource">
+            <mat-option value="subscription">Subscription </mat-option>
+            <mat-option value="billing">Billing</mat-option>
+            <mat-option value="technical support">Technical Support</mat-option>
+            <mat-option value="renewal">Renewal</mat-option>
+          </mat-select>
+        </mat-form-field>
+
+      <mat-form-field class="example-full-width" appearance="fill">
+        <mat-label class="labels">Customer Behaviour</mat-label>
+        <input matInput type="text" id="customerBehaviour" type="text" placeholder="Polite or Rude" name="customerBehaviour" required #customerBehaviour="ngModel" [(ngModel)]="callForm.customerBehaviour">
+        <mat-icon matSuffix>tag_faces</mat-icon>
+      </mat-form-field>
+
+      <mat-form-field class="example-full-width" appearance="fill">
+        <mat-label class="labels">Call Duration</mat-label>
+        <input matInput type="number" id="callDuration" placeholder="In Minutes" name="callDuration" required
+        #callDuration="ngModel" [(ngModel)]="callForm.callDuration">
+        <mat-icon matSuffix>access_time</mat-icon>
+      </mat-form-field>
+
+      <mat-form-field class="example-full-width" appearance="fill">
+        <mat-label class="labels">Call Rating</mat-label>
+        <mat-select type="number" id="callRating" name="callRating" #callRating="ngModel" [(ngModel)]="callForm.callRating">
+          <mat-option value=1><mat-icon>star_border</mat-icon></mat-option>
+          <mat-option value=2><mat-icon>star_border&nbsp;star_border</mat-icon></mat-option>
+          <mat-option value=3><mat-icon>star_border&nbsp;star_border&nbsp;star_border</mat-icon></mat-option>
+          <mat-option value=4><mat-icon>star_border&nbsp;star_border&nbsp;star_border&nbsp;star_border</mat-icon></mat-option>
+          <mat-option value=5><mat-icon>star_border&nbsp;star_border&nbsp;star_border&nbsp;star_border&nbsp;star_border</mat-icon></mat-option>
+          <mat-select-trigger *ngIf="callRating.value==1">
+            <mat-icon>star_border</mat-icon>&nbsp;
+         </mat-select-trigger>
+         <mat-select-trigger *ngIf="callRating.value==2">
+          <mat-icon>star_border&nbsp;star_border</mat-icon>&nbsp;
+         </mat-select-trigger>
+         <mat-select-trigger *ngIf="callRating.value==3">
+          <mat-icon>star_border&nbsp;star_border&nbsp;star_border</mat-icon>&nbsp;
+         </mat-select-trigger>
+         <mat-select-trigger *ngIf="callRating.value==4">
+          <mat-icon>star_border&nbsp;star_border&nbsp;star_border&nbsp;star_border</mat-icon>&nbsp;
+         </mat-select-trigger>
+         <mat-select-trigger *ngIf="callRating.value==5">
+          <mat-icon>star_border&nbsp;star_border&nbsp;star_border&nbsp;star_border&nbsp;star_border</mat-icon>&nbsp;
+         </mat-select-trigger>
+        </mat-select>
+      </mat-form-field>
+
+      <mat-form-field class="example-full-width" appearance="fill">
+        <mat-label class="labels">Enter Call Details</mat-label>
+        <textarea matInput placeholder="Ex. This call was..." type="text"
+        id="callDetails" name="callDetails" #callDetails="ngModel" [(ngModel)]="callForm.callDetails"
+        ></textarea>
+        <mat-icon matSuffix>info</mat-icon>
+      </mat-form-field>
+
+      <button id="submitcalldetail" mat-raised-button class="button" color="primary" type="submit">Submit</button>
+      <button mat-raised-button class="button" color="warn" type="reset">Reset</button>
+    </form>
+    <div class="height"></div>
+</div>
+
+</body>
